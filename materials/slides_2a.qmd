@@ -7,7 +7,7 @@ format:
   revealjs: 
     slide-number: c/t
     controls-layout: bottom-right
-    embed-resources: true
+    embed-resources: false
     scrollable: true
     code-overflow: wrap
     code-line-numbers: true

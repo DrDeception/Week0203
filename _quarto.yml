@@ -1,0 +1,86 @@
+project:
+  type: website
+  execute-dir: project
+  output-dir: docs
+
+website:
+  title: "PS51020A"
+  navbar:
+    right:
+      - text: "General Info"
+        href: index.qmd
+      - text: "Instructors"
+        menu:
+          - text: "Gordon Wright"
+            href: https://www.littlemonkeylab.com/
+  sidebar:
+    style: "docked"
+    alignment: left
+    border: true
+    collapse-level: 2
+    contents:
+      - section: "Course Overview"
+        contents:
+          - text: "Index"
+            href: index.qmd
+      #     - text: "Example Data"
+      #       href: data.qmd
+      #     - text: "Readings"
+      #       href: readings.qmd
+      #     - text: "Answer Keys"
+      #       href: keys.qmd
+      # - section: "Assignment Rubrics"
+        # contents:
+        #   - text: "Muddiest Point"
+        #     href: rubrics/rubric_muddiest-point.qmd
+        #   - text: "Homework"
+        #     href: rubrics/rubric_homework.qmd
+        #   - text: "GitHub Presence"
+        #     href: rubrics/rubric_github.qmd
+        #   - text: "Function Tutorials"
+        #     href: rubrics/rubric_tutorials.qmd
+      - section: "Course Content"
+        contents:
+          - text: "Week 2 Content"
+            href: materials/home_week02.qmd
+          - text: "Week 3 Content"
+            href: materials/home_week03.qmd
+          # - text: "Week 2 Content"
+          #   href: materials/home_week2.qmd
+          # - text: "Week 3 Content"
+          #   href: materials/home_week3.qmd
+          # - text: "Week 4 Content"
+          #   href: materials/home_week4.qmd
+          # - text: "Week 5 Content"
+          #   href: materials/home_week5.qmd
+          # - text: "Week 6 Content"
+          #   href: materials/home_week6.qmd
+          # - text: "Week 7 Content"
+          #   href: materials/home_week7.qmd
+          # - text: "Week 8 Content"
+          #   href: materials/home_week8.qmd
+      # - section: "Continuing Education"
+      #   contents:
+      #     - text: "Additional Resources"
+      #       href: resources.qmd
+  page-footer:
+    center: "Copyright 2024, Gordon Wright"
+
+execute:
+  freeze: auto
+
+format:
+  html:
+    code-overflow: wrap
+    code-line-numbers: true
+    code-copy: hover
+    theme: simplex
+
+    mainfont: Atkinson Hyperlegible
+    toc: true
+    link-external-newwindow: true
+    link-external-icon: true
+
+# Attach webR to every page
+filters:
+  - webr

@@ -1,0 +1,375 @@
+---
+title: "Intro to Data Visualisation"
+author: "Lecture 1 -- More than Graphs"
+engine: knitr
+
+format: 
+  revealjs: 
+    slide-number: c/t
+    controls-layout: bottom-right
+    embed-resources: true
+    scrollable: true
+    code-overflow: wrap
+    code-line-numbers: true
+    code-copy: true
+    theme: [simple, slides.scss]
+    preview-links: true
+    reference-location: document
+    footer: "[Data Visualisation I](https:www.bbc.co.uk)"
+webr:
+  packages: ['ggplot2', 'dplyr', 'hrbrthemes'] # Install R packages on document open
+# autoload-packages: false       # Disable automatic loading of packages
+# show-startup-message: false    # Disable displaying status of webR initialization
+filters:
+- webr
+---
+```{webr-r}
+1 + 1 
+```
+
+```{webr-r}
+fit = lm(mpg ~ am, data = mtcars)
+summary(fit)
+```
+
+```{webr-r}
+plot(pressure)
+```
+## [Today's Schedule]{.blue}
+
+1.  Introduction to Research Methods
+2.  Wellbeing and Data Visualization
+3.  Effective Communication Strategies
+4.  The Power of Data Visualization
+5.  Standing on the Shoulders of Giants
+6.  Understanding Your Audience
+7.  The Art and Science of Visualization
+
+------------------------------------------------------------------------
+## [The Big Picture]{.pink}
+
+::::: columns
+::: {.column width="50%"}
+### Week/Block Structure
+
+-   Lectures
+-   Independent activities
+-   Seminars
+:::
+
+::: {.column width="50%"}
+### Research Methods Integration
+-   Research Methods Lectures
+-   Research Methods Labs
+-   DataSkills
+-   Research during your time here
+:::
+:::::
+
+::: callout-note
+All components tie together, building on your growing psychological knowledge and incorporating research methods. But Research Methods WILL still feature in your other lectures and seminars.
+:::
+
+------------------------------------------------------------------------
+
+## [You Only Get One Chance]{.purple}
+
+::: callout-important
+This is the first real research methods lecture:
+
+• An opportunity to illustrate concepts in practical terms
+
+• Building on your week of wellbeing and positive psychology
+
+• Discussing research methods in context
+:::
+
+------------------------------------------------------------------------
+
+## [Effective Communication Strategies]{.orange .small}
+
+::: {.callout-tip}
+## How can we communicate ideas effectively?
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.incremental}
+- Include examples and demos?
+- Call on experts?
+- Use case studies?
+- Use pictures, videos, music?
+:::
+:::
+
+::: {.column width="50%"}
+::: {.incremental}
+- Be serious or funny?
+- Be honest?
+- Be intellectual, geeky, or flippant?
+- Be aspirational, motivational, or inspirational?
+:::
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## [What is Data Visualization?]{.gold}
+
+::: incremental
+-   Turning numbers into pictures?
+-   Helping yourself understand the numbers?
+-   Helping others understand the numbers?
+-   Drawing emergent properties from the numbers?
+-   Interpolating, extrapolating, predicting the future?
+-   Capturing the audience's imagination and telling a story?
+:::
+
+------------------------------------------------------------------------
+
+## [Standing on the Shoulders of Giants]{.blue}
+
+::: {.callout-tip}
+## Have a think about...
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.incremental}
+-   Song lyrics you can't forget
+-   Your favorite comedian
+-   A non-verbal behaviour that's powerful
+-   Your favorite psychologist
+:::
+:::
+
+::: {.column width="50%"}
+::: {.incremental}
+-   Your favourite teacher
+-   The best communicator you know
+-   Someone you consider a genius
+-   A piece of 'art' that captivates you
+:::
+:::
+:::
+:::
+------------------------------------------------------------------------
+
+## [Am I going to be brave?]{.gold}
+
+------------------------------------------------------------------------
+
+## [Rule #1! Know Your Audience]{.purple}
+
+### "First seek to understand, then be understood"
+
+::: {.incremental}
+- Stephen Covey's 5th Habit of Highly Effective People
+- Crucial in academia and research
+- Applies to various fields: Sales and marketing, Education, Leadership
+:::
+
+### Why it matters in research
+
+::: {.incremental}
+- Tailors your communication effectively
+- Increases impact of your research
+- Helps bridge knowledge gaps
+- Facilitates interdisciplinary collaboration
+- Improves public engagement with science
+:::
+
+::: {.callout-important}
+## Reflection
+::: {.incremental}
+- Who is your audience?
+- What do they already know?
+- What do they need to know?
+- How can you best reach them?
+:::
+:::
+
+---
+
+## [The Power of Visualization]{.orange}
+
+### Data visualization:
+
+::: {.incremental}
+- Draws on philosophy, arts, and design
+  - Color theory
+  - Gestalt principles
+  - Information architecture
+- Uses technology
+  - Interactive dashboards
+  - Virtual/Augmented reality
+  - AI-assisted visualization
+- Aims to illustrate and animate the future
+  - Predictive modeling
+  - Trend forecasting
+  - Scenario planning
+:::
+
+### Combining art and science:
+
+::: {.incremental}
+- Bridges quantitative and qualitative data
+- Enhances pattern recognition
+- Facilitates decision-making
+- Improves data accessibility
+- Drives engagement with complex topics
+- Supports storytelling with data
+:::
+
+::: {.callout-note}
+## Key Principle
+"Form and content must work together to give rise to beauty and truth." - Plato
+:::
+
+::: {.callout-tip}
+## Reflection
+::: {.incremental}
+- How can visualization enhance your research?
+- What ethical considerations arise in data visualization?
+- How might different audiences interpret the same visualization?
+:::
+:::
+
+---
+
+## [The Truth in Beauty, The Beauty in Truth]{.pink}
+
+::: incremental
+- Yes, there are lies in statistics
+- Yes, beauty is used to peddle falsehoods
+- But being able to generate novel data...
+- Analysing, interpreting and presenting those data well...
+- In a way to capture the hearts and minds of an audience...
+- These are powers that will last you forever and repay your efforts now.
+:::
+
+::: callout-important
+The alchemy of solid evidence and effective presentation is a powerful, enduring skill.
+:::
+
+---
+
+## [Technical Overview of Research Methods]{.gold}
+
+### R Programming
+
+::: {.incremental}
+- Primary tool for data analysis
+- Powerful statistical capabilities
+- Extensive libraries for data manipulation
+- Create publication-quality graphics
+- [Learn more about R](https://www.r-project.org/about.html){preview-link="https://www.r-project.org/about.html"}
+:::
+
+---
+
+### Quarto for Publishing
+
+::: {.incremental}
+- Create dynamic documents
+- Publish websites, blogs, presentations
+- Seamless integration with R
+- [Explore Quarto](https://quarto.org/){preview-link="https://quarto.org/"}
+:::
+
+---
+
+### Excel
+
+::: {.incremental}
+- Widely used in various industries
+- Familiar interface for many users
+- Useful for initial data exploration
+- Complementary to R for certain tasks
+:::
+
+::: {.callout-note}
+## Why learn Excel?
+- Universal tool in business and research
+- Quick for small datasets and simple analyses
+- Valuable skill for future employment
+:::
+
+## Course Approach
+::: {.callout-important}
+
+::: {.incremental}
+- Combine programming power with spreadsheet familiarity
+- Learn to choose the right tool for each task
+- Develop a versatile skillset for data analysis and presentation
+:::
+:::
+
+---
+
+## [Let's start looking at some examples]{.gold}
+
+The first question is "What do you want to show?"
+
+![](/images/What_to_show.png){.absolute top=150 left=50 width="500" height="400"}
+
+## Histograms
+Histograms are used to study the distribution of one or a few variables. Checking the distribution of your variables one by one is probably the first task you should do when you get a new dataset. It delivers a good quantity of information. Several distribution shapes exist, here is an illustration of the 6 most common ones:
+
+## Histogrma
+```{r}
+#| echo: false
+
+# Build dataset with different distributions
+data <- data.frame(
+  type = c(rep("edge peak", 1000), rep("comb", 1000), rep("normal", 1000), rep("uniform", 1000), rep("bimodal", 1000), rep("skewed", 1000)),
+  value = c(
+    rnorm(900), rep(3, 100),  # edge peak
+    rnorm(360, sd=0.5), rep(c(-1,-0.75,-0.5,-0.25,0,0.25,0.5,0.75), 80),  # comb
+    rnorm(1000),  # normal
+    runif(1000),  # uniform
+    c(rnorm(500, mean=-2), rnorm(500, mean=2)),  # bimodal
+    rlnorm(1000, meanlog=0, sdlog=1)  # skewed (log-normal)
+  )
+)
+
+# Represent it
+library(ggplot2)
+library(dplyr)
+library(hrbrthemes)
+
+ggplot(data, aes(x=value)) +
+  geom_histogram(fill="#69b3a2", color="#e9ecef", alpha=0.9) +
+  facet_wrap(~type, scales="free") +
+  theme_ipsum() +
+  theme(
+    panel.spacing = unit(0.1, "lines"),
+    axis.title.x=element_blank(),
+    axis.text.x=element_blank(),
+    axis.ticks.x=element_blank()
+  ) +
+  geom_histogram(data = ~ .x[.x$type == "edge peak",], binwidth = 0.2) +
+  geom_histogram(data = ~ .x[.x$type == "comb",], binwidth = 0.1) +
+  geom_histogram(data = ~ .x[.x$type == "normal",], binwidth = 0.3) +
+  geom_histogram(data = ~ .x[.x$type == "uniform",], binwidth = 0.05) +
+  geom_histogram(data = ~ .x[.x$type == "bimodal",], binwidth = 0.3) +
+  geom_histogram(data = ~ .x[.x$type == "skewed",], binwidth = 0.2)
+```
+
+```{r}
+#| echo: false
+
+# Build dataset with different distributions
+data <- data.frame(
+  type = c( rep("variable 1", 1000), rep("variable 2", 1000) ),
+  value = c( rnorm(1000), rnorm(1000, mean=4) )
+)
+
+# Represent it
+p <- data %>%
+  ggplot( aes(x=value, fill=type)) +
+    geom_histogram( color="#e9ecef", alpha=0.6, position = 'identity') +
+    scale_fill_manual(values=c("#69b3a2", "#404080")) +
+    theme_ipsum() +
+    labs(fill="")
+```
+

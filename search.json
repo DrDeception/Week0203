@@ -1492,7 +1492,14 @@
     "href": "materials/slides_2a.html#i-didnt-really-give-the-title-much-effort",
     "title": "Intro to Data Visualisation",
     "section": "I didn’t really give the title much effort",
-    "text": "I didn’t really give the title much effort\n\nDid I inspire wonder?\n\nWhat if I had chosen a different title?\n\nTruth, Beauty, and Power\nSeeing is Believing: The Power of Data Visualization in Psychology\nFrom Data to Drama: The Art of Psychological Storytelling\n\n\n\n/ˈdeɪtə vɪʒuəlɪˈzeɪʃən/ [noun]\n\n\nTurning numbers into pictures?\nHelping yourself understand the numbers?\nHelping others understand the numbers?\nDrawing emergent properties from the numbers?\nInterpolating, extrapolating, predicting the future?\nCapturing the audience’s imagination and telling a story?"
+    "text": "I didn’t really give the title much effort\n\n\nDid I inspire wonder?\n\nWhat if I had chosen a different title?\n\nTruth, Beauty, and Power\nSeeing is Believing: The Power of Data Visualization in Psychology\nFrom Data to Drama: The Art of Psychological Storytelling"
+  },
+  {
+    "objectID": "materials/slides_2a.html#ˈdeɪtə-vɪʒuəlɪˈzeɪʃən-noun",
+    "href": "materials/slides_2a.html#ˈdeɪtə-vɪʒuəlɪˈzeɪʃən-noun",
+    "title": "Intro to Data Visualisation",
+    "section": "/ˈdeɪtə vɪʒuəlɪˈzeɪʃən/ [noun]",
+    "text": "/ˈdeɪtə vɪʒuəlɪˈzeɪʃən/ [noun]\n\n\nTurning numbers into pictures?\nHelping yourself understand the numbers?\nHelping others understand the numbers?\nDrawing emergent properties from the numbers?\nInterpolating, extrapolating, predicting the future?\nCapturing the audience’s imagination and telling a story?"
   },
   {
     "objectID": "materials/slides_2a.html#standing-on-the-shoulders-of-giants",
@@ -1506,77 +1513,91 @@
     "href": "materials/slides_2a.html#platos-triad-the-true-the-good-and-the-beautiful",
     "title": "Intro to Data Visualisation",
     "section": "Plato’s Triad: The True, The Good, and The Beautiful",
-    "text": "Plato’s Triad: The True, The Good, and The Beautiful\nPlato believed in the intrinsic connection between truth, goodness, and beauty — a concept that has influenced Western thought for centuries.\nFor Plato, these three qualities are inseparable in the realm of Forms.\nThe truth is inherently good, and what is good is also inherently beautiful.\nThus, if something is false, it cannot be truly beautiful or good.\n\n\n\n\n\n\nKey Principle\n\n\n“Form and content must work together to give rise to beauty and truth.” - Plato"
+    "text": "Plato’s Triad: The True, The Good, and The Beautiful\n\nPlato believed in the intrinsic connection between truth, goodness, and beauty — a concept that has influenced Western thought for centuries.\nFor Plato, these three qualities are inseparable in the realm of Forms.\nThe truth is inherently good, and what is good is also inherently beautiful.\nThus, if something is false, it cannot be truly beautiful or good."
+  },
+  {
+    "objectID": "materials/slides_2a.html#obligatory-plato-quote",
+    "href": "materials/slides_2a.html#obligatory-plato-quote",
+    "title": "Intro to Data Visualisation",
+    "section": "Obligatory Plato Quote",
+    "text": "Obligatory Plato Quote\n\n\n\n\n\n\nKey Principle\n\n\n“Form and content must work together to give rise to beauty and truth.” - Plato"
   },
   {
     "objectID": "materials/slides_2a.html#rule-1-know-your-audience",
     "href": "materials/slides_2a.html#rule-1-know-your-audience",
     "title": "Intro to Data Visualisation",
     "section": "Rule #1! Know Your Audience",
-    "text": "Rule #1! Know Your Audience\n“First seek to understand, then be understood”\n\n\nStephen Covey’s 5th Habit of Highly Effective People\nCrucial in academia and research\nApplies to various fields: Sales and marketing, Education, Leadership\n\n\nWhy it matters in research\n\n\nTailors your communication effectively\nIncreases impact of your research\nHelps bridge knowledge gaps\nFacilitates interdisciplinary collaboration\nImproves public engagement with science"
+    "text": "Rule #1! Know Your Audience\n“First seek to understand, then be understood”\n\n\nStephen Covey’s 5th Habit of Highly Effective People\nCrucial in academia and research\nApplies to various fields: Sales and marketing, Education, Leadership"
+  },
+  {
+    "objectID": "materials/slides_2a.html#why-it-matters-in-research",
+    "href": "materials/slides_2a.html#why-it-matters-in-research",
+    "title": "Intro to Data Visualisation",
+    "section": "Why it matters in research",
+    "text": "Why it matters in research\n\n\nTailors your communication effectively\nIncreases impact of your research\nHelps bridge knowledge gaps\nFacilitates interdisciplinary collaboration\nImproves public engagement with science"
   },
   {
     "objectID": "materials/slides_2a.html#financial-times",
     "href": "materials/slides_2a.html#financial-times",
     "title": "Intro to Data Visualisation",
     "section": "Financial Times",
-    "text": "Financial Times\nVisual Vocabulary"
+    "text": "Financial Times\nVisual Vocabulary (best to right-click and open in a new window)\n\n\n\n\n\n\nAvailable as pdf on VLE\n\n\nFind in Week 02 Content as a pdf which is perhaps more user-friendly"
   },
   {
     "objectID": "materials/slides_2a.html#data-as-stories",
     "href": "materials/slides_2a.html#data-as-stories",
     "title": "Intro to Data Visualisation",
     "section": "1. Data as Stories",
-    "text": "1. Data as Stories\nConcept:\nData visualization isn’t just about numbers; it’s about telling a compelling story. The visual elements should guide the viewer through a narrative—showing change over time, revealing relationships, or highlighting key insights.\nApplication:\nCase studies or reports where data unfolds in a logical, easy-to-follow sequence, such as telling the story of a community’s health or an individual’s progress.\nExample:\nAn interactive webpage showing the impact of social media on mental health through a narrative of personal experiences and trends."
+    "text": "1. Data as Stories\n\nConcept:\nData visualization isn’t just about numbers; it’s about telling a compelling story. The visual elements should guide the viewer through a narrative—showing change over time, revealing relationships, or highlighting key insights.\nApplication:\nCase studies or reports where data unfolds in a logical, easy-to-follow sequence, such as telling the story of a community’s health or an individual’s progress.\nExample:\nAn interactive webpage showing the impact of social media on mental health through a narrative of personal experiences and trends."
   },
   {
     "objectID": "materials/slides_2a.html#infographics",
     "href": "materials/slides_2a.html#infographics",
     "title": "Intro to Data Visualisation",
     "section": "2. Infographics",
-    "text": "2. Infographics\nConcept:\nInfographics combine text, visuals, and data to create a highly accessible, single-view communication tool. They are visually engaging, often using illustrations, icons, and small amounts of data to convey key points at a glance.\nApplication:\nIdeal for social media, brochures, or posters where quick digestion of information is needed. Frequently used in public campaigns, marketing, and education.\nExample:\nAn infographic explaining the psychology of sleep, showing how sleep cycles work and tips to improve sleep habits."
+    "text": "2. Infographics\n\nConcept:\nInfographics combine text, visuals, and data to create a highly accessible, single-view communication tool. They are visually engaging, often using illustrations, icons, and small amounts of data to convey key points at a glance.\nApplication:\nIdeal for social media, brochures, or posters where quick digestion of information is needed. Frequently used in public campaigns, marketing, and education.\nExample:\nAn infographic explaining the psychology of sleep, showing how sleep cycles work and tips to improve sleep habits."
   },
   {
     "objectID": "materials/slides_2a.html#animations",
     "href": "materials/slides_2a.html#animations",
     "title": "Intro to Data Visualisation",
     "section": "3. Animations",
-    "text": "3. Animations\nConcept:\nAnimations bring data to life by adding movement, showing how data evolves over time or revealing complex processes step-by-step. They are effective in capturing attention and illustrating dynamic changes.\nApplication:\nExcellent for presentations, video content, or interactive dashboards. Can be used in education to break down complex processes (e.g., brain activity) or in marketing to show trends over time.\nExample:\nAn animated chart showing the rise of global temperatures over decades, or an animation walking through the steps of a psychological experiment."
+    "text": "3. Animations\n\nConcept:\nAnimations bring data to life by adding movement, showing how data evolves over time or revealing complex processes step-by-step. They are effective in capturing attention and illustrating dynamic changes.\nApplication:\nExcellent for presentations, video content, or interactive dashboards. Can be used in education to break down complex processes (e.g., brain activity) or in marketing to show trends over time.\nExample:\nAn animated chart showing the rise of global temperatures over decades, or an animation walking through the steps of a psychological experiment."
   },
   {
     "objectID": "materials/slides_2a.html#dashboards",
     "href": "materials/slides_2a.html#dashboards",
     "title": "Intro to Data Visualisation",
     "section": "4. Dashboards",
-    "text": "4. Dashboards\nConcept:\nDashboards provide a comprehensive, real-time view of data, often integrating multiple graphs and charts into one interface. They allow users to interact with the data, filter information, and explore different aspects on demand.\nApplication:\nUseful in business, healthcare, or education where decision-makers need up-to-date, actionable insights. Dashboards can provide an overview of research data, employee performance, or patient metrics.\nExample:\nA live dashboard tracking the results of a clinical trial, showing participant progress, side effects, and key outcome measures."
+    "text": "4. Dashboards\n\nConcept:\nDashboards provide a comprehensive, real-time view of data, often integrating multiple graphs and charts into one interface. They allow users to interact with the data, filter information, and explore different aspects on demand.\nApplication:\nUseful in business, healthcare, or education where decision-makers need up-to-date, actionable insights. Dashboards can provide an overview of research data, employee performance, or patient metrics.\nExample:\nA live dashboard tracking the results of a clinical trial, showing participant progress, side effects, and key outcome measures."
   },
   {
     "objectID": "materials/slides_2a.html#data-driven-art",
     "href": "materials/slides_2a.html#data-driven-art",
     "title": "Intro to Data Visualisation",
     "section": "5. Data-Driven Art",
-    "text": "5. Data-Driven Art\nConcept:\nData-driven art turns data into creative visual expressions, where aesthetics and meaning are equally important. It communicates complex ideas through artistic mediums, helping people emotionally connect with the data.\nApplication:\nUseful in public exhibitions, museums, or campaigns designed to evoke emotional responses. Can be particularly impactful when the goal is to inspire action or reflection.\nExample:\nA visual installation representing the world’s most polluted cities, where the intensity of color and shape corresponds to pollution levels."
+    "text": "5. Data-Driven Art\n\nConcept:\nData-driven art turns data into creative visual expressions, where aesthetics and meaning are equally important. It communicates complex ideas through artistic mediums, helping people emotionally connect with the data.\nApplication:\nUseful in public exhibitions, museums, or campaigns designed to evoke emotional responses. Can be particularly impactful when the goal is to inspire action or reflection.\nExample:\nA visual installation representing the world’s most polluted cities, where the intensity of color and shape corresponds to pollution levels."
   },
   {
     "objectID": "materials/slides_2a.html#interactive-visualizations",
     "href": "materials/slides_2a.html#interactive-visualizations",
     "title": "Intro to Data Visualisation",
     "section": "6. Interactive Visualizations",
-    "text": "6. Interactive Visualizations\nConcept:\nInteractive visualizations allow the audience to explore the data themselves. Users can hover over elements, click to reveal additional information, and adjust parameters in real time to see how different variables influence outcomes.\nApplication:\nExcellent for websites, educational tools, and data journalism. This method is perfect for exploring complex datasets where users need control over what they want to see.\nExample:\nA web tool where users can explore the effects of different factors (e.g., age, gender, education) on job satisfaction."
+    "text": "6. Interactive Visualizations\n\nConcept:\nInteractive visualizations allow the audience to explore the data themselves. Users can hover over elements, click to reveal additional information, and adjust parameters in real time to see how different variables influence outcomes.\nApplication:\nExcellent for websites, educational tools, and data journalism. This method is perfect for exploring complex datasets where users need control over what they want to see.\nExample:\nA web tool where users can explore the effects of different factors (e.g., age, gender, education) on job satisfaction."
   },
   {
     "objectID": "materials/slides_2a.html#maps-and-geospatial-visualizations",
     "href": "materials/slides_2a.html#maps-and-geospatial-visualizations",
     "title": "Intro to Data Visualisation",
     "section": "7. Maps and Geospatial Visualizations",
-    "text": "7. Maps and Geospatial Visualizations\nConcept:\nData visualized on maps can be incredibly powerful, especially when geographic context is essential to the story. These visuals can show patterns across different locations, reveal relationships between data and place, and help identify regional trends.\nApplication:\nUsed in public health (tracking disease outbreaks), environmental research (tracking deforestation), and social science (mapping crime rates).\nExample:\nA heatmap showing the spread of a disease outbreak, highlighting areas of high infection rates over time."
+    "text": "7. Maps and Geospatial Visualizations\n\nConcept:\nData visualized on maps can be incredibly powerful, especially when geographic context is essential to the story. These visuals can show patterns across different locations, reveal relationships between data and place, and help identify regional trends.\nApplication:\nUsed in public health (tracking disease outbreaks), environmental research (tracking deforestation), and social science (mapping crime rates).\nExample:\nA heatmap showing the spread of a disease outbreak, highlighting areas of high infection rates over time."
   },
   {
     "objectID": "materials/slides_2a.html#data-journalism-and-narrated-data",
     "href": "materials/slides_2a.html#data-journalism-and-narrated-data",
     "title": "Intro to Data Visualisation",
     "section": "8. Data Journalism and Narrated Data",
-    "text": "8. Data Journalism and Narrated Data\nConcept:\nNarrated data takes storytelling a step further by adding voiceovers or text to guide the viewer through the visualization, ensuring that key points are not missed and context is clearly explained.\nApplication:\nIdeal for educational content, presentations, and documentaries where understanding the deeper meaning behind the data is essential.\nExample:\nA video presentation explaining the impact of climate change, with data visualizations narrated by an expert who explains each trend."
+    "text": "8. Data Journalism and Narrated Data\n\nConcept:\nNarrated data takes storytelling a step further by adding voiceovers or text to guide the viewer through the visualization, ensuring that key points are not missed and context is clearly explained.\nApplication:\nIdeal for educational content, presentations, and documentaries where understanding the deeper meaning behind the data is essential.\nExample:\nA video presentation explaining the impact of climate change, with data visualizations narrated by an expert who explains each trend."
   },
   {
     "objectID": "materials/slides_2a.html#introduction-to-data-visualization",
@@ -1593,13 +1614,6 @@
     "text": "Introduction to Data Visualization\n\nWhy is it Important for Psychologists?\n\nFor Self: Making sense of information.\nOutwards: Presenting results to a wider audience (academics, professionals, the public)."
   },
   {
-    "objectID": "materials/slides_2a.html#the-goals-of-data-visualization",
-    "href": "materials/slides_2a.html#the-goals-of-data-visualization",
-    "title": "Intro to Data Visualisation",
-    "section": "The Goals of Data Visualization",
-    "text": "The Goals of Data Visualization\n\nCommunication of Information\n\nMaking data accessible, clear, and engaging.\nTranslating raw numbers into understandable narratives.\n\nPattern Recognition\n\nIdentifying trends, outliers, and relationships.\nSupporting statistical analysis by visually highlighting key elements.\n\nExploration\n\nUsing visuals to explore and understand datasets during the research process."
-  },
-  {
     "objectID": "materials/slides_2a.html#nuts-and-bolts",
     "href": "materials/slides_2a.html#nuts-and-bolts",
     "title": "Intro to Data Visualisation",
@@ -1611,42 +1625,112 @@
     "href": "materials/slides_2a.html#types-of-data",
     "title": "Intro to Data Visualisation",
     "section": "Types of Data",
-    "text": "Types of Data\nCategorical Data - Nominal (e.g., types of therapy, animal species) - Ordinal (e.g., Likert scales, levels of education) Continuous Data - Interval (e.g., temperature, time of day) - Ratio (e.g., height, reaction time) Discrete vs Continuous - The difference between countable categories and measurements with infinite possible values."
+    "text": "Types of Data\n\nCategorical Data - Nominal (e.g., types of therapy, animal species) - Ordinal (e.g., Likert scales, levels of education)\nContinuous Data - Interval (e.g., temperature, time of day) - Ratio (e.g., height, reaction time)\nDiscrete vs Continuous - The difference between countable categories and measurements with infinite possible values."
   },
   {
     "objectID": "materials/slides_2a.html#common-types-of-graphs-and-when-to-use-them",
     "href": "materials/slides_2a.html#common-types-of-graphs-and-when-to-use-them",
     "title": "Intro to Data Visualisation",
     "section": "Common Types of Graphs and When to Use Them",
-    "text": "Common Types of Graphs and When to Use Them\n\nBar Charts\n\nBest for comparing discrete categories.\nExample: Comparing the number of participants in different experimental groups.\n\nHistograms\n\nUseful for visualizing the distribution of continuous data.\nExample: Showing the frequency distribution of test scores.\n\nPie Charts\n\nUse for displaying proportions of a whole, though less frequently used in scientific contexts.\n\nLine Graphs\n\nGreat for showing trends over time or continuous data relationships.\nExample: Reaction time changes over time.\n\nScatterplots\n\nIdeal for representing relationships between two continuous variables.\nExample: Relationship between stress levels and performance.\n\nBoxplots\n\nExcellent for summarizing the distribution, central tendency, and variability of continuous data.\n\nHeatmaps and Density Plots\n\nUseful for visualizing large, complex datasets, or relationships between multiple variables.\n\nViolin Plots\n\nCombines boxplot and density information to visualize data distribution."
+    "text": "Common Types of Graphs and When to Use Them"
   },
   {
-    "objectID": "materials/slides_2a.html#design-principles-for-effective-data-visualizations",
-    "href": "materials/slides_2a.html#design-principles-for-effective-data-visualizations",
+    "objectID": "materials/slides_2a.html#bar-charts",
+    "href": "materials/slides_2a.html#bar-charts",
     "title": "Intro to Data Visualisation",
-    "section": "Design Principles for Effective Data Visualizations",
-    "text": "Design Principles for Effective Data Visualizations\n\nClarity and Simplicity\n\nAvoid unnecessary elements (e.g., chartjunk, 3D effects).\nFocus on the key message and make the visualization intuitive to interpret.\n\nConsistency\n\nUse consistent colors, fonts, and labels across different graphs.\n\nLabeling and Annotations\n\nClear axis titles, units, and legends to make the graph self-explanatory.\n\nColor Choices\n\nConsider color blindness (red-green blindness common) and use color schemes that enhance readability.\n\nAppropriate Scale\n\nAvoid misleading visuals by ensuring that scales are not exaggerated or compressed.\n\nHierarchy and Focus\n\nGuide the viewer’s attention to the most important parts of the graph (using size, bolding, or contrasting colors).\n\nTelling a Story\n\nVisuals should flow logically and lead the reader through the narrative of your data."
+    "section": "Bar Charts",
+    "text": "Bar Charts\n\n\n\n\n\nBest for comparing discrete categories.\nExample: Comparing the number of participants in different experimental groups.\nEffective for showing relative differences between categories.\nCan be displayed vertically or horizontally.\nSuitable for both nominal and ordinal data."
+  },
+  {
+    "objectID": "materials/slides_2a.html#histograms",
+    "href": "materials/slides_2a.html#histograms",
+    "title": "Intro to Data Visualisation",
+    "section": "Histograms",
+    "text": "Histograms\n\n\n\n\n\nUseful for visualizing the distribution of continuous data.\nExample: Showing the frequency distribution of test scores."
+  },
+  {
+    "objectID": "materials/slides_2a.html#pie-charts",
+    "href": "materials/slides_2a.html#pie-charts",
+    "title": "Intro to Data Visualisation",
+    "section": "Pie Charts",
+    "text": "Pie Charts\n\n\n\n\n\nUse for displaying proportions of a whole, though less frequently used in scientific contexts."
+  },
+  {
+    "objectID": "materials/slides_2a.html#line-graphs",
+    "href": "materials/slides_2a.html#line-graphs",
+    "title": "Intro to Data Visualisation",
+    "section": "Line Graphs",
+    "text": "Line Graphs\n\n\n\n\n\nGreat for showing trends over time or continuous data relationships.\nExample: Reaction time changes over time."
+  },
+  {
+    "objectID": "materials/slides_2a.html#scatterplots",
+    "href": "materials/slides_2a.html#scatterplots",
+    "title": "Intro to Data Visualisation",
+    "section": "Scatterplots",
+    "text": "Scatterplots\n\n\n\n\n\nIdeal for representing relationships between two continuous variables.\nExample: Relationship between stress levels and performance."
+  },
+  {
+    "objectID": "materials/slides_2a.html#boxplots",
+    "href": "materials/slides_2a.html#boxplots",
+    "title": "Intro to Data Visualisation",
+    "section": "Boxplots",
+    "text": "Boxplots\n\n\n\n\n\nExcellent for summarizing the distribution, central tendency, and variability of continuous data."
+  },
+  {
+    "objectID": "materials/slides_2a.html#density-plots",
+    "href": "materials/slides_2a.html#density-plots",
+    "title": "Intro to Data Visualisation",
+    "section": "Density Plots",
+    "text": "Density Plots\n\n\n\n\n\nUseful for visualizing large, complex datasets, or relationships between multiple variables."
+  },
+  {
+    "objectID": "materials/slides_2a.html#violin-plots",
+    "href": "materials/slides_2a.html#violin-plots",
+    "title": "Intro to Data Visualisation",
+    "section": "Violin Plots",
+    "text": "Violin Plots\n\n\n\n\n\nCombines boxplot and density information to visualize data distribution."
+  },
+  {
+    "objectID": "materials/slides_2a.html#design-principles-for-effective-data-visualizations-1",
+    "href": "materials/slides_2a.html#design-principles-for-effective-data-visualizations-1",
+    "title": "Intro to Data Visualisation",
+    "section": "Design Principles for Effective Data Visualizations 1",
+    "text": "Design Principles for Effective Data Visualizations 1\nClarity and Simplicity Avoid unnecessary elements (e.g., chartjunk, 3D effects). Focus on the key message and make the visualization intuitive to interpret. Consistency Use consistent colors, fonts, and labels across different graphs."
+  },
+  {
+    "objectID": "materials/slides_2a.html#design-principles-for-effective-data-visualizations-2",
+    "href": "materials/slides_2a.html#design-principles-for-effective-data-visualizations-2",
+    "title": "Intro to Data Visualisation",
+    "section": "Design Principles for Effective Data Visualizations 2",
+    "text": "Design Principles for Effective Data Visualizations 2\nLabeling and Annotations Clear axis titles, units, and legends to make the graph self-explanatory. Color Choices Consider color blindness (red-green blindness common) and use color schemes that enhance readability."
+  },
+  {
+    "objectID": "materials/slides_2a.html#design-principles-for-effective-data-visualizations-3",
+    "href": "materials/slides_2a.html#design-principles-for-effective-data-visualizations-3",
+    "title": "Intro to Data Visualisation",
+    "section": "Design Principles for Effective Data Visualizations 3",
+    "text": "Design Principles for Effective Data Visualizations 3\nAppropriate Scale Avoid misleading visuals by ensuring that scales are not exaggerated or compressed. Hierarchy and Focus Guide the viewer’s attention to the most important parts of the graph (using size, bolding, or contrasting colors). Telling a Story Visuals should flow logically and lead the reader through the narrative of your data."
   },
   {
     "objectID": "materials/slides_2a.html#how-to-choose-the-right-graph-for-your-data",
     "href": "materials/slides_2a.html#how-to-choose-the-right-graph-for-your-data",
     "title": "Intro to Data Visualisation",
     "section": "How to Choose the Right Graph for Your Data",
-    "text": "How to Choose the Right Graph for Your Data\n\nUnderstanding Your Audience\n\nTailor complexity based on who is consuming the data (public, peers, experts).\n\nData-Driven Decision Making\n\nChoose the graph based on the data structure and the key message you want to convey.\n\nAvoid Common Pitfalls\n\nMisleading graphs (incorrect scales, truncated axes) can misinform rather than clarify.\nOvercomplicating simple messages with too many visual elements or excessive detail."
+    "text": "How to Choose the Right Graph for Your Data\nUnderstanding Your Audience Tailor complexity based on who is consuming the data (public, peers, experts). Data-Driven Decision Making Choose the graph based on the data structure and the key message you want to convey. Avoid Common Pitfalls Misleading graphs (incorrect scales, truncated axes) can misinform rather than clarify. Overcomplicating simple messages with too many visual elements or excessive detail."
   },
   {
     "objectID": "materials/slides_2a.html#psychological-aspects-of-data-visualization",
     "href": "materials/slides_2a.html#psychological-aspects-of-data-visualization",
     "title": "Intro to Data Visualisation",
     "section": "Psychological Aspects of Data Visualization",
-    "text": "Psychological Aspects of Data Visualization\n\nCognitive Load\n\nMinimizing mental effort required to interpret visuals.\n\nGestalt Principles of Perception\n\nHow humans perceive visual elements (e.g., proximity, similarity, closure) and how to leverage these in visual design.\n\nEmotional Impact of Visuals\n\nUsing visual design to invoke emotions (e.g., empathy, urgency), particularly in health or social psychology data."
+    "text": "Psychological Aspects of Data Visualization\nCognitive Load Minimizing mental effort required to interpret visuals. Gestalt Principles of Perception How humans perceive visual elements (e.g., proximity, similarity, closure) and how to leverage these in visual design. Emotional Impact of Visuals Using visual design to invoke emotions (e.g., empathy, urgency), particularly in health or social psychology data."
   },
   {
     "objectID": "materials/slides_2a.html#examples-and-case-studies",
     "href": "materials/slides_2a.html#examples-and-case-studies",
     "title": "Intro to Data Visualisation",
     "section": "Examples and Case Studies",
-    "text": "Examples and Case Studies\n\nGood vs Bad Visualizations\n\nComparing effective vs poorly designed graphs.\nExamples from psychological research where data visualizations impacted understanding.\n\nInteractive Exercise\n\nStudents create their own data visualization using sample datasets (e.g., reaction times, Likert scale responses)."
+    "text": "Examples and Case Studies\nGood vs Bad Visualizations Comparing effective vs poorly designed graphs. Examples from psychological research where data visualizations impacted understanding. Interactive Exercise Students create their own data visualization using sample datasets (e.g., reaction times, Likert scale responses)."
   },
   {
     "objectID": "materials/slides_2a.html#tech-stack",

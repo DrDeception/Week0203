@@ -43,12 +43,12 @@ website:
         contents:
           - text: "Week 2 Content"
             href: materials/home_week02.qmd
-          # - text: "Week 3 Content"
-          #   href: materials/home_week03.qmd
-          # - text: "Week 2 Content"
-          #   href: materials/home_week2.qmd
-          # - text: "Week 3 Content"
-          #   href: materials/home_week3.qmd
+          - text: "Scale Questions"
+            href: materials/scalequestions.qmd
+          - text: "Choice Questions"
+            href: materials/choicequestions.qmd
+          - text: "Free Text"
+            href: materials/freetextquestions.qmd
           # - text: "Week 4 Content"
           #   href: materials/home_week4.qmd
           # - text: "Week 5 Content"

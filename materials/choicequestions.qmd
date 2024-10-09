@@ -1,0 +1,227 @@
+---
+title: "Choice Questions Clusters"
+author: "Dr. Gordon Wright"
+date: "2023-10-09"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+    code-fold: true
+    code-summary: "Show the code"
+---
+
+# Choice-Based Questions Clusters
+
+## Academic and University Life
+
+1. Which lab group were you in?
+
+2. Which topic are you most looking forward to studying on your course?
+
+3. What psychology program, if any, did you do prior to attending Goldsmiths?
+
+4. How long is your commute? Please select the option which applies best. 
+   A) Under 30 minutes
+   B) 30 minutes to an hour
+   C) Over an hour
+
+5. What are some fundamental features you look for in a university?
+
+6. When were you last in a school environment? 
+   - I just finished secondary school
+   - I finished a different degree recently
+   - It's been 1-3 years
+   - It's been 4+ years
+
+7. What module are you most looking forward to study? 
+   1. Mental Health and Wellbeing
+   2. Professional and Personal Development
+   3. Research Methods and Statistics
+   4. Life and Society
+   5. Cognition and Culture
+   6. Identity, Environment and Agency
+
+8. Which bachelor's degree in psychology do you think has the highest number of students enrolled at Goldsmiths University? Please choose one of the following options: 
+   A) BSc (Hons) Psychology
+   B) BSc (Hons) Psychology with Forensic Psychology
+   C) BSc (Hons) Psychology with Clinical Psychology
+
+9. How difficult is it to navigate around the uni? 
+   1) Very difficult
+   2) Somewhat difficult
+   3) Neutral
+   4) OK
+   5) Very simple
+
+10. How often do you typically ask for help during a class? 
+    1. Often
+    2. Sometimes
+    3. Rarely
+    4. Never
+
+11. Answering either Yes or No, did you feel like today's lesson was beneficial?
+
+## Psychology and Mental Health
+
+1. Which area of psychology do you find more interesting?
+   A) Cognitive Psychology
+   B) Social Psychology
+   C) Clinical Psychology
+   D) Other (please specify)
+
+2. What type of psychology do you find more interesting? 
+   A) Forensic psych
+   B) Clinical psych
+   C) Cognitive neuroscience
+
+3. Do you have a phobia or fear? Yes, maybe, no.
+
+4. How beneficial do believe exposure therapy is for people suffering from phobias? 
+   Very helpful, helpful, neutral, unhelpful, irrelevant.
+
+5. Which of the following do you believe has the most significant long-term impact on individuals who experience childhood trauma?
+
+6. Which area of psychology interests you the most?
+
+7. How often have you felt down, depressed, or hopeless in the past two weeks?
+
+8. How often do you feel anxious?
+
+9. How many days a week does anxiety affect your daily routine?
+
+10. How regularly do you feel angry?
+
+11. To what extent do you feel you have a support system in your life?
+
+## Lifestyle and Preferences
+
+1. Do you prefer playing volleyball or basketball?
+
+2. From these options, what would you say you enjoy the most: football, basketball, tennis and badminton.
+
+3. Which of these appeals to you as a weekend activity? 
+   A) Watching television at home
+   B) Meeting friends at a friend's house
+   C) Going out to a nightclub
+
+4. What is your favourite Season? Spring, Summer, autumn or spring?
+
+5. What do you like to do with your free time? 
+   Option 1 - Watching TV or a show
+   Option 2 - Playing a sport
+   Option 3 - Hanging out with friends
+
+6. What is your favourite colour? 
+   (Options: Red, Yellow, Orange, Green, Blue, Purple, Pink, Brown, Black, Grey, White)
+
+7. What type of genre for movies do you prefer?  
+   A) Romance
+   B) Action
+   C) Comedy
+   D) Fantasy
+   E) Thriller
+   F) Horror
+
+8. What activities make you the most happy from sports, games, talking with friends and family or spending alone time?
+
+9. What sensory experience is most important to you when it comes to eating food? 
+   1. Texture
+   2. Smell
+   3. Taste
+   4. Temperature
+   5. Atmosphere of the room you are eating in
+
+10. What kind of pizza toppings do you like?
+
+11. Which of the following options best suits your opinion on candy floss?
+
+12. What is your favourite drink? 
+    A) Coffee
+    B) Tea
+    C) Apple juice
+
+13. Are you working a part/full time job at the moment?
+
+14. How often do you drink alcohol? 
+    (Never, not often, somewhat often, fairly regularly, everyday)
+
+15. Out of these options, which animal is your favorite: hyena, dolphin, elephant, penguin and Lion?
+
+16. What do you think is the best sweet out of, Haribo's, Skittles, Twix and Maltesers?
+
+17. What is your most preferred type of caffeine?
+
+18. How much time do you spend reading throughout the week? 
+    a) 10+ hours
+    b) Less than 10
+    c) Less than 2 hours
+    d) Never
+
+19. Which ice cream flavour do you prefer the most? 
+    A) Chocolate
+    B) Vanilla
+    C) Cookies and cream
+    D) Salted caramel
+    E) None
+
+## Social and Ethical Questions
+
+1. You find out that a colleague has been stealing from work, which action will you take? 
+   a) Say nothing
+   b) Speak to them privately and tell them to stop
+   c) Tell multiple other colleagues about it under the guise of "asking for advice"
+   d) Report them to your manager
+
+2. What should be the main goal for our prison systems? 
+   (Option for answer e.g. reform, punish etc.)
+
+3. Do you think they should raise the legal age to get married to 21? Yes, no or not sure.
+
+4. In a scenario where an authority figure's orders may be destructive, how likely are you to blindly obey?
+
+## Miscellaneous
+
+1. What environments make you feel the most anxious? 
+   1. Nightclub
+   2. Busy street
+   3. Library
+   4. Class room
+   5. At home
+
+2. If you had to pick between being happy and having never ending money which would u pick?
+
+3. How often do you find yourself reflecting on past experiences to reflect on your current behaviour?
+
+4. Would you like to be asked questions in public?
+
+5. Do you feel safe in your home?
+
+6. What type of activities do you do in your free time to relax?
+
+7. What are your hobbies?
+
+8. What motivates you to participate in social activities at the university? 
+   A. Meeting new people
+   B. Taking a break from studies
+   E. I don't feel motivated to attend
+
+9. How likely are you to enjoy the subject you're studying?
+
+10. What experiments would be carried out during the psychology degree?
+
+11. Which is your favourite between season 5, season 6, and season 7 of Doctor Who?
+
+12. If there were suddenly an increase in a bug species, would you rather have it be cockroaches, mosquitoes, wasps, or spiders?
+
+13. How often did you feel safe in your childhood home?
+
+14. In your day-to-day existence, how do you usually manage difficult situations?
+
+15. Where do you feel the pain the most?
+
+16. Do you think it will rain tomorrow?  Pick: Yes, No or Maybe
+
+17. What has been your prevailing mood this week?
+

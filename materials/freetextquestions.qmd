@@ -1,0 +1,147 @@
+---
+title: "Freetext Questions Clusters"
+author: "Dr. Gordon Wright"
+date: "2023-10-09"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+    code-fold: true
+    code-summary: "Show the code"
+---
+
+# Free-Text Questions Clusters
+
+## Academic and University Experience
+
+1. How do you feel about statistics?
+
+2. What improvements could be made to the course you're studying?
+
+3. How would you describe your experience at University?
+
+4. Describe a challenge you faced as new student at University.
+
+5. How do you feel about being a mature student in a university?
+
+6. What would help improve your experience at Goldsmiths?
+
+7. What was your opinion on today's lecture?
+
+8. How do you feel about the University campus?
+
+9. How would you describe your experience of the London Underground?
+
+10. What do you want to achieve with your Psychology degree?
+
+## Psychology-Related Questions
+
+1. What got you interested in psychology?
+
+2. What motivated you to study Psychology, and how do you hope to apply it in the future?
+
+3. Do you have a favourite topic within psychology? If so, what is it and why?
+
+4. How do you use psychology in your day to day life?
+
+5. Can you define psychology?
+
+6. How do you believe the new era of AI will impact the study of psychology in the next 10 years?
+
+7. Think of the first job you wanted to do as a child, does this link to your decision to study psychology?
+
+8. In what ways do you think psychology can help improve societal issues like mental health awareness or education?
+
+9. Why did you want to do clinical psychology?
+
+10. Which career path do you feel you want to follow in psychology and why?
+
+## Mental Health and Well-being
+
+1. How does the sound of rain make you feel?
+
+2. What makes you feel anxious?
+
+3. What role do you think self-reflection plays in your social interactions?
+
+4. How would you describe your feelings when someone asks you questions in public?
+
+5. What motivates you to get out of bed in the morning?
+
+6. How do you feel about attending social activities and events at the university?
+
+7. How do feelings of depression or happiness impact your daily activities and overall well-being?
+
+8. What makes you happy?
+
+9. What is a phobia?
+
+10. What do you find is the best method to soothe anxiety?
+
+11. How do you feel today?
+
+12. How would you describe your overall happiness/wellbeing?
+
+13. How do you think your childhood experiences affect your relations with others?
+
+14. What does the pain feel like?
+
+15. What motivates you in life?
+
+16. What factors contribute to your stress levels during exam periods? Include any experiences or challenges you find relevant.
+
+17. In what ways do you think your overall happiness has been affected this week?
+
+18. What impact does anxiety have on your university assignments?
+
+19. What's the biggest factor for your anger?
+
+20. What challenges have you faced in seeking support from others?
+
+## Personal Reflections and Opinions
+
+1. What are your opinions on the statement "Listening to music during studying is helpful for recall"? Please explain your answer.
+
+2. How would your friends describe your personality?
+
+3. What is the meaning of life?
+
+4. What is your opinion on modern technology and how it impacts people's lives?
+
+5. What's something you'd like to change about yourself (not physically) by the end of 1st year?
+
+6. What is your favourite childhood memory?
+
+7. What is your favourite topic to discuss? Why?
+
+8. What is your opinion about the use of medication to cure illnesses?
+
+9. What's your opinion on movies?
+
+10. In what ways do you think childhood trauma might contribute to an individual's likelihood of engaging in criminal behaviour later in life?
+
+11. What would your childhood dream treehouse look like?
+
+12. What are the main aspirations and goals you hope to achieve in the next 5 years?
+
+13. What is your opinion on the fast food industry?
+
+14. How would you feel if you were unable to drink coffee for a day?
+
+15. How do you see yourself in 10 years?
+
+16. Do you believe as a society, we should always obey those with social power/authority?
+
+## Pop Culture and Entertainment
+
+1. What is your favourite season of Doctor Who?
+
+2. What is the best Star Wars film?
+
+3. What is your favourite TV show?
+
+4. What is your favourite memory associated with eating ice cream?
+
+```

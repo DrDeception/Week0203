@@ -22,13 +22,32 @@ One of the joys of reading Psychology at Goldsmiths is the artistic environment 
 
 [Lecture Slides -- Full Screen](slides_2a.qmd)
 
-## Lab 2 - RStudio & Base R
+## Lab 2 - Data Visualisation Treasure Hunt
 
 ```{=html}
-<iframe class="slide-deck" src="slides_2a.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
+<iframe class="slide-deck" src="slides_2b.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
 ```
 
-[Lab Slides -- Full Screen](slides_2a.qmd)
+[Lab Slides -- Full Screen](slides_2b.qmd)
 
-## Showcase Materials 
+[Submit your favourite visualisation - TopViz here](https://forms.office.com/Pages/ResponsePage.aspx?id=Px9DDcEgHEaVikaynU4CG8gqdkQ5QElOkXjIDHSz7DVUMDBDMENZVzlHVzRWUEtHSTAzMEFONTJJNS4u)
 
+
+## Showcase BrowZine
+
+[https://browzine.com/libraries/1374/subjects/67/bookcases/169?sort=title](https://browzine.com/libraries/1374/subjects/67/bookcases/169?sort=title)
+
+## Speed Data Survey 
+This survey is to generate data for lab sessions in the future. Please fill it in! 
+It features a number of your questions! 
+
+[LINK TO SPEED DATA SURVEY WEEK 02](https://forms.office.com/Pages/ResponsePage.aspx?id=Px9DDcEgHEaVikaynU4CG8gqdkQ5QElOkXjIDHSz7DVUN1FQU0RMUTJKM0NXU0hXQlk1TTJJNkgxNi4u)
+
+## Your Questions
+If you are interested in viewing the questions you submitted last week, anonymously of course, please use the links below
+
+[Questions on a scale](scalequestions.qmd)
+
+[Questions with choices](choicequestions.qmd)
+
+[FreeText Questions](freetextquestions.qmd)

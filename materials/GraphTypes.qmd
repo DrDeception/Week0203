@@ -692,7 +692,7 @@ Here is an example showing the most frequent words used by Nekfeu, a famous Fren
 
 ------------------------------------------------------------------------
 
-```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=8, fig.width=8}
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=6, fig.width=6}
 # Libraries
 library(tidyverse)
 library(hrbrthemes)
@@ -740,25 +740,37 @@ They are widely used in media and well understood by the public.
 
 Here's an alternative representation using a lollipop plot, which addresses some of the limitations of word clouds:
 
+
 ```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=6}
-# prepare a list of word (30 most frequent)
-data %>%
-  filter(artist=="nekfeu") %>%
-  dplyr::select(word) %>%
-  group_by(word) %>%
-  summarize(freq=n()) %>%
-  arrange(freq) %>%
-  tail(30) %>%
-  mutate(word=factor(word, word)) %>%
-  ggplot( aes(x=word, y=freq) ) +
-    geom_segment( aes(x=word ,xend=word, y=0, yend=freq), color="grey") +
-    geom_point(size=3, color="#69b3a2") +
+# Load necessary libraries
+library(dplyr)
+library(ggplot2)
+library(hrbrthemes)
+
+# Load dataset from github
+word_data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/14_SeveralIndepLists.csv", header=TRUE)
+
+# Print the structure of the data to verify it's correct
+str(word_data)
+
+# Prepare a list of words (30 most frequent)
+word_data |>
+  filter(artist == "nekfeu") |>
+  select(word) |>
+  group_by(word) |>
+  summarize(freq = n()) |>
+  arrange(freq) |>
+  tail(30) |>
+  mutate(word = factor(word, word)) |>
+  ggplot(aes(x = word, y = freq)) +
+    geom_segment(aes(x = word, xend = word, y = 0, yend = freq), color = "grey") +
+    geom_point(size = 3, color = "#69b3a2") +
     coord_flip() +
     theme_ipsum() +
     theme(
       panel.grid.minor.y = element_blank(),
       panel.grid.major.y = element_blank(),
-      legend.position="none"
+      legend.position = "none"
     ) +
     xlab("")
 ```

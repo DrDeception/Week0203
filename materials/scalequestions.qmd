@@ -1,0 +1,94 @@
+---
+title: "Scaled Questions Clusters"
+author: "Your Name"
+date: "2023-10-09"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    theme: cosmo
+    code-fold: true
+    code-summary: "Show the code"
+---
+
+# Scaled Questions
+
+## 1-5 Scale Questions
+
+### Mood and Emotions
+- How happy do you normally feel on a scale of 1-5, 1 being extremely unhappy, and 5 being extremely happy?
+- On a scale of 1-5, how would you rate today's lecture? (1 being the lowest and 5 the highest)
+- Rate how confident you're feeling right now. 1 being very confident and 5 being very insecure.
+
+### Academic and Skills
+- How would you rate your experience in our institution so far on a scale from 1 to 5?
+- On a scale from 1 to 5, how satisfied are you with the social activities at the university?
+- On a scale from 1 to 5, how skilled do you consider yourself to be in Maths?
+- On the scale of 1-5, how happy was your childhood?
+- In a scale from 1 to 5 how hard will you say is psychology in university?
+
+### Miscellaneous
+- On a scale of 1-5, how good was the last movie you watched? (1= terrible, 5=great).
+- How much would you rate chocolate from a rating of 1 to 5? 1 being terrible and disgusting and 5 being amazing and delicious 
+- Would you consider yourself an extrovert? (1-5) 1-Absolutely not 5- Definitely 
+
+## 1-7 Scale Questions
+
+- On a scale of 1 to 7, rate how hungry you are; 1 is not hungry at all and 7 is starving.
+- On a scale from 1 to 7 how severe is your phobia or fear.
+- On a scale from 1 to 7, where 1 = strongly disagree and 7 = strongly agree, rate the following statement "psychology is a science"
+- Should a convicted sex offender be given an opportunity to be released? (1 disagree 7 agree)
+- On a scale of one to seven, how anxious have you felt this week?
+
+## 1-10 Scale Questions
+
+### Confidence and Comfort
+- How confident would you say you are on a scale from 1-10?
+- On a scale of 1 to 10 how confident do you feel about starting the Research and Methods module? (1 being not confident at all, 10 being extremely confident)
+- In a scale of 1 to 10, with 1 being the least confident and 10 being the most confident, how confident do you feel speaking up and asking questions during a seminar?
+- On a scale of 1 to 10, how confident do you feel speaking to new people you've never met? (1= least confident, 10= most confident)
+- On a scale from 1-10 how comfortable are you with yourself?
+- On a scale from 1-10 how confident were you when first starting University?
+
+### Mood and Emotions
+- How happy are you on a scale from one to ten?
+- How would you rate your mood right now on a scale of 1 to 10 with 1 being the worst and 10 being the best.
+- On a scale of 1-10, how are you feeling today?
+- What would you rate your current happiness level on a scale of 1 to 10 (1 being extremely unhappy to 10 being very happy)
+- On a scale from 1-10 how happy are you generally?
+- On a scale of 1-10 how happy do you feel, where 1 is feeling 'extremely unhappy' and 10 is feeling 'extremely happy'?
+
+### Academic and Interests
+- How much do you like listening to music on a scale of 1-10?
+- On a scale from 1-10 how much do you enjoy psychology?
+- On a scale of 1 to 10, how would you rate your first day at University?
+- How likely, on a scale from 1 to 10, do you feel you will choose the path you want to follow on your career after completing your degree?
+- On a scale of 1 to 10 how would you rate your experience?
+
+### Miscellaneous
+- On a scale of 1-10, how difficult do you view psychology as?
+- On a scale from 1 to 10, with 10 being absolutely love them and 1 being dirt on my shoe, how do you feel about the Harry Potter movies?
+- From a scale of 1 to 10, how much do you hate Monday mornings?
+- On a night out how much do you drink (1- one or two, 10- blackout)
+- How much pain do you feel on a scale of 1-10?
+
+## Other Scales and Questions
+
+- On a scale from one to five how likely you would ask question out loud in the public, where 1(I would not do it) and 5(i would definitely do it)?
+- On a scale from 1 - 3, How happy are you? 1 being not happy and 3 being happy
+- How often do you feel anxious?
+- How inclined are you to depression?
+- How apprehensive do you feel about starting this degree? 0 (not at all) - 10 (extremely)
+- With 1 being extremely important and 5 being not important at all, how important is future earning potential when choosing your degree?
+- How often do you feel happy or joyful in your day to day life?
+- On a scale of 1-5, where 1=very negative, and 5=very positive, how do you feel about the political state of the world?
+- On a scale from one to ten, how important do you believe rehabilitation is for convicted felons? One being unimportant and ten being crucial.
+- After the first week at Goldsmiths, how confident are you that psychology is the right subject for you? 0 (not confident at all) - 5 (extremely confident)
+- How would you rate season 5 of Doctor Who on a scale of 1-10?
+- On a scale of 1-10, how significant do you believe the impact of mental health challenges is on men in society?
+- How interested are you in understanding how the human brain influences behaviour?
+- On a scale of 1-9, how vital would you say coffee is in your life, with 1 being unimportant and 9 being extremely vital?
+- On a scale of 1 to 5, how would you describe your stress levels during exam periods, from 5 being very stressed to 1 being not stressed at all?
+- How obedient are you to those with authority?
+- I often seek support from others when I am facing challenges.

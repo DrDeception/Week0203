@@ -24,99 +24,40 @@ filters:
 - webr
 ---
 
-```{webr-r}
-1 + 1 
-```
+## Schedule
 
-```{webr-r}
-fit = lm(mpg ~ am, data = mtcars)
-summary(fit)
-```
+-   **Week 2**: Data Visualisation 1
+-   **Week 3**: Data Visualisation 2
+-   **Week 4**: Open Science
+-   **Week 5**: Mixed Methods Intro
+-	Reading Week
+-   **Week 6**: Qualitative Research (3 weeks)
 
-```{webr-r}
-plot(pressure)
-```
+Lecture, Labs, Data Skills, Application.
 
-## [Today's Schedule]{.blue}
+## This is Research Methods
 
-1.  Introduction to Research Methods
-2.  Wellbeing and Data Visualization
-3.  Effective Communication Strategies
-4.  The Power of Data Visualization
-5.  Standing on the Shoulders of Giants
-6.  Understanding Your Audience
-7.  The Art and Science of Visualization
-## The Big Picture
+But don't assume all that we talk about here is solely useful in research contexts
 
-:::: {.columns}
+It is a new programme this year, and one that we know to be dramatically more potent than what has gone before
 
-::: {.column width="50%"}
-### Week/Block Structure
+## The Big Setup
 
-- Lectures
-- Independent activities
-- Seminars
-:::
+-   One day, you'll want to change a mind, capture interest, persuade,
+    convince, or motivate.
+-   It could be an idea, a product, a pitch, or even a truth.
+-   I want you to be ready for that moment.
 
-::: {.column width="50%"}
-### Research Methods Integration
+## I didn't really give the title much effort
 
-- Research Methods Lectures
-- Research Methods Labs
-- DataSkills
-- Research during your time here
-:::
+-   **Did I inspire wonder?**
+    -   What if I had chosen a different title?
+        -   Truth, Beauty, and Power
+        -   Seeing is Believing: The Power of Data Visualization in
+            Psychology
+        -   From Data to Drama: The Art of Psychological Storytelling
 
-::::
-
-::: {.callout-note}
-All components tie together, building on your growing psychological knowledge and incorporating research methods. But Research Methods WILL still feature in your other lectures and seminars.
-:::
-
-
-## [You Only Get One Chance]{.purple}
-
-::: callout-important
-This is the first real research methods lecture:
-
-• An opportunity to illustrate concepts in practical terms
-
-• Building on your week of wellbeing and positive psychology
-
-• Discussing research methods in context
-:::
-
-------------------------------------------------------------------------
-
-## [Effective Communication Strategies]{.orange .small}
-
-:::::::: callout-tip
-## How can we communicate ideas effectively?
-
-::::::: columns
-:::: {.column width="50%"}
-::: incremental
--   Include examples and demos?
--   Call on experts?
--   Use case studies?
--   Use pictures, videos, music?
-:::
-::::
-
-:::: {.column width="50%"}
-::: incremental
--   Be serious or funny?
--   Be honest?
--   Be intellectual, geeky, or flippant?
--   Be aspirational, motivational, or inspirational?
-:::
-::::
-:::::::
-::::::::
-
-------------------------------------------------------------------------
-
-## [What is Data Visualization?]{.gold}
+### /ˈdeɪtə vɪʒuəlɪˈzeɪʃən/ \[noun\]
 
 ::: incremental
 -   Turning numbers into pictures?
@@ -126,8 +67,6 @@ This is the first real research methods lecture:
 -   Interpolating, extrapolating, predicting the future?
 -   Capturing the audience's imagination and telling a story?
 :::
-
-------------------------------------------------------------------------
 
 ## [Standing on the Shoulders of Giants]{.blue}
 
@@ -155,12 +94,27 @@ This is the first real research methods lecture:
 :::::::
 ::::::::
 
-^^^
 
-## [Am I going to be brave?]{.gold}
+## **Plato’s Triad: The True, The Good, and The Beautiful**
 
+Plato believed in the intrinsic connection between **truth**,
+**goodness**, and **beauty** — a concept that has influenced Western
+thought for centuries.
 
----
+For Plato, these three qualities are inseparable in the realm of
+**Forms**.
+
+The **truth** is inherently **good**, and what is **good** is also
+inherently **beautiful**.
+
+Thus, if something is **false**, it cannot be truly **beautiful** or
+**good**.
+
+::: callout-note
+## Key Principle
+
+"Form and content must work together to give rise to beauty and truth." - Plato
+:::
 
 ## [Rule #1! Know Your Audience]{.purple}
 
@@ -182,85 +136,288 @@ This is the first real research methods lecture:
 -   Improves public engagement with science
 :::
 
-:::: callout-important
-## Reflection
 
-::: incremental
--   Who is your audience?
--   What do they already know?
--   What do they need to know?
--   How can you best reach them?
-:::
-::::
+## Financial Times
 
----
+[Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/)
 
-## [The Power of Visualization]{.orange}
+## 1. Data as Stories
 
-### Data visualization:
+**Concept:**\
+Data visualization isn't just about numbers; it's about telling a
+compelling story. The visual elements should guide the viewer through a
+narrative—showing change over time, revealing relationships, or
+highlighting key insights.
 
-::: incremental
--   Draws on philosophy, arts, and design
-    -   Color theory
-    -   Gestalt principles
-    -   Information architecture
--   Uses technology
-    -   Interactive dashboards
-    -   Virtual/Augmented reality
-    -   AI-assisted visualization
--   Aims to illustrate and animate the future
-    -   Predictive modeling
-    -   Trend forecasting
-    -   Scenario planning
-:::
+**Application:**\
+Case studies or reports where data unfolds in a logical, easy-to-follow
+sequence, such as telling the story of a community's health or an
+individual's progress.
 
-### Combining art and science:
+**Example:**\
+An interactive webpage showing the impact of social media on mental
+health through a narrative of personal experiences and trends.
 
-::: incremental
--   Bridges quantitative and qualitative data
--   Enhances pattern recognition
--   Facilitates decision-making
--   Improves data accessibility
--   Drives engagement with complex topics
--   Supports storytelling with data
-:::
+## 2. Infographics
 
-::: callout-note
-## Key Principle
+**Concept:**\
+Infographics combine text, visuals, and data to create a highly
+accessible, single-view communication tool. They are visually engaging,
+often using illustrations, icons, and small amounts of data to convey
+key points at a glance.
 
-"Form and content must work together to give rise to beauty and truth." - Plato
-:::
+**Application:**\
+Ideal for social media, brochures, or posters where quick digestion of
+information is needed. Frequently used in public campaigns, marketing,
+and education.
 
-:::: callout-tip
-## Reflection
+**Example:**\
+An infographic explaining the psychology of sleep, showing how sleep
+cycles work and tips to improve sleep habits.
 
-::: incremental
--   How can visualization enhance your research?
--   What ethical considerations arise in data visualization?
--   How might different audiences interpret the same visualization?
-:::
-::::
+## 3. Animations
 
----
+**Concept:**\
+Animations bring data to life by adding movement, showing how data
+evolves over time or revealing complex processes step-by-step. They are
+effective in capturing attention and illustrating dynamic changes.
 
-## [The Truth in Beauty, The Beauty in Truth]{.pink}
+**Application:**\
+Excellent for presentations, video content, or interactive dashboards.
+Can be used in education to break down complex processes (e.g., brain
+activity) or in marketing to show trends over time.
 
-::: incremental
--   Yes, there are lies in statistics
--   Yes, beauty is used to peddle falsehoods
--   But being able to generate novel data...
--   Analysing, interpreting and presenting those data well...
--   In a way to capture the hearts and minds of an audience...
--   These are powers that will last you forever and repay your efforts now.
-:::
+**Example:**\
+An animated chart showing the rise of global temperatures over decades,
+or an animation walking through the steps of a psychological experiment.
 
-::: callout-important
-The alchemy of solid evidence and effective presentation is a powerful, enduring skill.
-:::
+## 4. Dashboards
 
----
+**Concept:**\
+Dashboards provide a comprehensive, real-time view of data, often
+integrating multiple graphs and charts into one interface. They allow
+users to interact with the data, filter information, and explore
+different aspects on demand.
+
+**Application:**\
+Useful in business, healthcare, or education where decision-makers need
+up-to-date, actionable insights. Dashboards can provide an overview of
+research data, employee performance, or patient metrics.
+
+**Example:**\
+A live dashboard tracking the results of a clinical trial, showing
+participant progress, side effects, and key outcome measures.
+
+## 5. Data-Driven Art
+
+**Concept:**\
+Data-driven art turns data into creative visual expressions, where
+aesthetics and meaning are equally important. It communicates complex
+ideas through artistic mediums, helping people emotionally connect with
+the data.
+
+**Application:**\
+Useful in public exhibitions, museums, or campaigns designed to evoke
+emotional responses. Can be particularly impactful when the goal is to
+inspire action or reflection.
+
+**Example:**\
+A visual installation representing the world’s most polluted cities,
+where the intensity of color and shape corresponds to pollution levels.
+
+
+## 6. Interactive Visualizations
+
+**Concept:**\
+Interactive visualizations allow the audience to explore the data
+themselves. Users can hover over elements, click to reveal additional
+information, and adjust parameters in real time to see how different
+variables influence outcomes.
+
+**Application:**\
+Excellent for websites, educational tools, and data journalism. This
+method is perfect for exploring complex datasets where users need
+control over what they want to see.
+
+**Example:**\
+A web tool where users can explore the effects of different factors
+(e.g., age, gender, education) on job satisfaction.
+
+## 7. Maps and Geospatial Visualizations
+
+**Concept:**\
+Data visualized on maps can be incredibly powerful, especially when
+geographic context is essential to the story. These visuals can show
+patterns across different locations, reveal relationships between data
+and place, and help identify regional trends.
+
+**Application:**\
+Used in public health (tracking disease outbreaks), environmental
+research (tracking deforestation), and social science (mapping crime
+rates).
+
+**Example:**\
+A heatmap showing the spread of a disease outbreak, highlighting areas
+of high infection rates over time.
+
+## 8. Data Journalism and Narrated Data
+
+**Concept:**\
+Narrated data takes storytelling a step further by adding voiceovers or
+text to guide the viewer through the visualization, ensuring that key
+points are not missed and context is clearly explained.
+
+**Application:**\
+Ideal for educational content, presentations, and documentaries where
+understanding the deeper meaning behind the data is essential.
+
+**Example:**\
+A video presentation explaining the impact of climate change, with data
+visualizations narrated by an expert who explains each trend.
+
+## **Introduction to Data Visualization**
+
+-   **What is Data Visualization?**
+    -   Definition: The graphical representation of data to find
+        insights, patterns, and trends.
+    -   Importance: Simplifying complex data, making research more
+        accessible, and aiding in decision-making.
+
+## **Introduction to Data Visualization**
+
+-   **Why is it Important for Psychologists?**
+    -   For Self: Making sense of information.
+    -   Outwards: Presenting results to a wider audience (academics,
+        professionals, the public).
+
+## **The Goals of Data Visualization**
+
+-   **Communication of Information**
+    -   Making data accessible, clear, and engaging.
+    -   Translating raw numbers into understandable narratives.
+-   **Pattern Recognition**
+    -   Identifying trends, outliers, and relationships.
+    -   Supporting statistical analysis by visually highlighting key
+        elements.
+-   **Exploration**
+    -   Using visuals to explore and understand datasets during the
+        research process.
+        
+# Nuts and Bolts
+        
+## **Types of Data**
+
+**Categorical Data**
+    -   Nominal (e.g., types of therapy, animal species)
+    -   Ordinal (e.g., Likert scales, levels of education)
+**Continuous Data**
+    -   Interval (e.g., temperature, time of day)
+    -   Ratio (e.g., height, reaction time)
+**Discrete vs Continuous**
+    -   The difference between countable categories and measurements
+        with infinite possible values.
+
+## **Common Types of Graphs and When to Use Them**
+
+-   **Bar Charts**
+    -   Best for comparing discrete categories.
+    -   Example: Comparing the number of participants in different
+        experimental groups.
+-   **Histograms**
+    -   Useful for visualizing the distribution of continuous data.
+    -   Example: Showing the frequency distribution of test scores.
+-   **Pie Charts**
+    -   Use for displaying proportions of a whole, though less
+        frequently used in scientific contexts.
+-   **Line Graphs**
+    -   Great for showing trends over time or continuous data
+        relationships.
+    -   Example: Reaction time changes over time.
+-   **Scatterplots**
+    -   Ideal for representing relationships between two continuous
+        variables.
+    -   Example: Relationship between stress levels and performance.
+-   **Boxplots**
+    -   Excellent for summarizing the distribution, central tendency,
+        and variability of continuous data.
+-   **Heatmaps and Density Plots**
+    -   Useful for visualizing large, complex datasets, or relationships
+        between multiple variables.
+-   **Violin Plots**
+    -   Combines boxplot and density information to visualize data
+        distribution.
+        
+## **Design Principles for Effective Data Visualizations**
+
+-   **Clarity and Simplicity**
+    -   Avoid unnecessary elements (e.g., chartjunk, 3D effects).
+    -   Focus on the key message and make the visualization intuitive to
+        interpret.
+-   **Consistency**
+    -   Use consistent colors, fonts, and labels across different
+        graphs.
+-   **Labeling and Annotations**
+    -   Clear axis titles, units, and legends to make the graph
+        self-explanatory.
+-   **Color Choices**
+    -   Consider color blindness (red-green blindness common) and use
+        color schemes that enhance readability.
+-   **Appropriate Scale**
+    -   Avoid misleading visuals by ensuring that scales are not
+        exaggerated or compressed.
+-   **Hierarchy and Focus**
+    -   Guide the viewer’s attention to the most important parts of the
+        graph (using size, bolding, or contrasting colors).
+-   **Telling a Story**
+    -   Visuals should flow logically and lead the reader through the
+        narrative of your data.
+        
+## **How to Choose the Right Graph for Your Data**
+
+-   **Understanding Your Audience**
+    -   Tailor complexity based on who is consuming the data (public,
+        peers, experts).
+-   **Data-Driven Decision Making**
+    -   Choose the graph based on the data structure and the key message
+        you want to convey.
+-   **Avoid Common Pitfalls**
+    -   Misleading graphs (incorrect scales, truncated axes) can
+        misinform rather than clarify.
+    -   Overcomplicating simple messages with too many visual elements
+        or excessive detail.
+
+## **Psychological Aspects of Data Visualization**
+
+-   **Cognitive Load**
+    -   Minimizing mental effort required to interpret visuals.
+-   **Gestalt Principles of Perception**
+    -   How humans perceive visual elements (e.g., proximity,
+        similarity, closure) and how to leverage these in visual design.
+-   **Emotional Impact of Visuals**
+    -   Using visual design to invoke emotions (e.g., empathy, urgency),
+        particularly in health or social psychology data.
+
+## **Examples and Case Studies**
+
+-   **Good vs Bad Visualizations**
+    -   Comparing effective vs poorly designed graphs.
+    -   Examples from psychological research where data visualizations
+        impacted understanding.
+-   **Interactive Exercise**
+    -   Students create their own data visualization using sample
+        datasets (e.g., reaction times, Likert scale responses).
+
+# Tech Stack
 
 ## [Technical Overview of Research Methods]{.gold}
+
+:::: callout-important
+::: incremental
+-   Combine programming power with spreadsheet familiarity
+-   Learn to choose the right tool for each task
+-   Develop a versatile skillset for data analysis and presentation
+:::
+::::
 
 ### R Programming
 
@@ -302,71 +459,159 @@ The alchemy of solid evidence and effective presentation is a powerful, enduring
 -   Valuable skill for future employment
 :::
 
-## Course Approach
 
-:::: callout-important
-::: incremental
--   Combine programming power with spreadsheet familiarity
--   Learn to choose the right tool for each task
--   Develop a versatile skillset for data analysis and presentation
+## What do you currently use?
+
+**How do you write your essays or lab reports?**
+
+* Microsoft Word?
+
+* Google Docs?
+
+* Markdown?
+
+::: {.fragment}
+
+**How do you currently play with numbers?**
+
+* Excel?
+
+* SPSS?
+
+* R?
+
+* Python?
+
 :::
-::::
 
----
+## What is Quarto?
+
+Quarto is an open-source scientific and technical publishing system [that allows you to combine text, images, code, plots, and tables in a fully-reproducible document.]{.fragment}
+
+<br>
+
+[Quarto has support for multiple languages including R, Python, Julia, and Observable.]{.fragment}
+
+<br>
+
+[It also works for a range of output formats such as PDFs, HTML documents, websites, presentations,...]{.fragment}
+
+## Why use Quarto? Why use R?
+
+* More journals require code to be submitted (for transparency and reproducibility). Keeping the code with the paper makes this easier.
+
+* Copying and pasting is tedious (and a great source of accidental errors).
+
+* If you fix an error in code or data, the results and figures in the paper update automatically.
+
+* Easy to share publicly. 
+
+* Open source so anyone can use it.
+
+## What about R Markdown?
+
+R Markdown isn't going anywhere but...
+
+* Quarto has better multi-language support
+
+* More user-friendly
+
+* Better control of the output layouts
+
+## Output types
+
+::: {.incremental}
+
+* Documents: HTML, PDF, MS Word, Markdown
+
+* Presentations: Revealjs, PowerPoint, Beamer
+
+* Websites and blogs
+
+* Books, code notebooks and dashboards
+
+* Interactive apps (in R, Python, Julia, Observablejs)
+
+:::
+
+# Examples
 
 ## [Let's start looking at some examples]{.gold}
 
 The first question is "What do you want to show?"
 
-![](/images/What_to_show.png){.absolute top="150" left="50" width="500" height="400"}
+[From Data to Viz website](https://www.data-to-viz.com/)
 
-## Histograms
+[Quarto Publishing System](https://quarto.org/)
+
+# Definition 
+
+### Histogram
+
+------------------------------------------------------------------------
+
+A histogram is an accurate graphical representation of the distribution of a numeric variable. It takes as input numeric variables only. The variable is cut into several bins, and the number of observation per bin is represented by the height of the bar.
+
+Here is an example showing the distribution of the night price of Rbnb appartements in the south of France. Price range is divided per 10 euros interval. For example, there are slightly less than 750 appartements with a night price between 100 and 110 euros:
+
+------------------------------------------------------------------------
+
+```{r, warning=FALSE, message=FALSE, fig.align="center"}
+# Libraries
+library(tidyverse)
+library(hrbrthemes)
+library(viridis)
+
+# Load dataset from github
+data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/1_OneNum.csv", header=TRUE)
+
+# Make the histogram
+data %>%
+  filter( price<300 ) %>%
+  ggplot( aes(x=price)) +
+    stat_bin(breaks=seq(0,300,10), fill="#69b3a2", color="#e9ecef", alpha=0.9) +
+    ggtitle("Night price distribution of Airbnb appartements") +
+    theme_ipsum()
+```
+
+## What for
 
 Histograms are used to study the distribution of one or a few variables. Checking the distribution of your variables one by one is probably the first task you should do when you get a new dataset. It delivers a good quantity of information. Several distribution shapes exist, here is an illustration of the 6 most common ones:
 
-## Histogrma
+## Examples
 
-```{r}
-#| echo: false
+```{r, fig.align="center", fig.width=10, warning=FALSE, message=FALSE}
 
 # Build dataset with different distributions
 data <- data.frame(
-  type = c(rep("edge peak", 1000), rep("comb", 1000), rep("normal", 1000), rep("uniform", 1000), rep("bimodal", 1000), rep("skewed", 1000)),
-  value = c(
-    rnorm(900), rep(3, 100),  # edge peak
-    rnorm(360, sd=0.5), rep(c(-1,-0.75,-0.5,-0.25,0,0.25,0.5,0.75), 80),  # comb
-    rnorm(1000),  # normal
-    runif(1000),  # uniform
-    c(rnorm(500, mean=-2), rnorm(500, mean=2)),  # bimodal
-    rlnorm(1000, meanlog=0, sdlog=1)  # skewed (log-normal)
-  )
+  type = c( rep("edge peak", 1000), rep("comb", 1000), rep("normal", 1000), rep("uniform", 1000), rep("bimodal", 1000), rep("skewed", 1000) ),
+  value = c( rnorm(900), rep(3, 100), rnorm(360, sd=0.5), rep(c(-1,-0.75,-0.5,-0.25,0,0.25,0.5,0.75), 80), rnorm(1000), runif(1000), rnorm(500, mean=-2), rnorm(500, mean=2), abs(log(rnorm(1000))) )
 )
 
 # Represent it
-library(ggplot2)
-library(dplyr)
-library(hrbrthemes)
+data %>%
+  ggplot( aes(x=value)) +
+    geom_histogram(fill="#69b3a2", color="#e9ecef", alpha=0.9) +
+    facet_wrap(~type, scale="free_x") +
+    theme_ipsum() +
+    theme(
+      panel.spacing = unit(0.1, "lines"),
+      axis.title.x=element_blank(),
+      axis.text.x=element_blank(),
+      axis.ticks.x=element_blank()
+    )
 
-ggplot(data, aes(x=value)) +
-  geom_histogram(fill="#69b3a2", color="#e9ecef", alpha=0.9) +
-  facet_wrap(~type, scales="free") +
-  theme_ipsum() +
-  theme(
-    panel.spacing = unit(0.1, "lines"),
-    axis.title.x=element_blank(),
-    axis.text.x=element_blank(),
-    axis.ticks.x=element_blank()
-  ) +
-  geom_histogram(data = ~ .x[.x$type == "edge peak",], binwidth = 0.2) +
-  geom_histogram(data = ~ .x[.x$type == "comb",], binwidth = 0.1) +
-  geom_histogram(data = ~ .x[.x$type == "normal",], binwidth = 0.3) +
-  geom_histogram(data = ~ .x[.x$type == "uniform",], binwidth = 0.05) +
-  geom_histogram(data = ~ .x[.x$type == "bimodal",], binwidth = 0.3) +
-  geom_histogram(data = ~ .x[.x$type == "skewed",], binwidth = 0.2)
 ```
 
-```{r}
-#| echo: false
+## Useful for:
+
+Checking this distribution also helps you discovering mistakes in the data. For example, the `comb` distribution can often denote a rounding that has been applied to the variable or another mistake.
+
+As a second step, histogram allow to compare the distribution of **a few** variables. Don't compare more than 3 or 4, it would make the figure cluttered and unreadable. This comparison can be done showing the 2 variables on the same graphic and using transparency.
+
+## Example
+
+```{r, fig.align="center", fig.width=7, warning=FALSE, message=FALSE}
 
 # Build dataset with different distributions
 data <- data.frame(
@@ -375,10 +620,712 @@ data <- data.frame(
 )
 
 # Represent it
-p <- data %>%
+data %>%
   ggplot( aes(x=value, fill=type)) +
-    geom_histogram( color="#e9ecef", alpha=0.6, position = 'identity') +
+    geom_histogram( color="#e9ecef", alpha=0.6) +
     scale_fill_manual(values=c("#69b3a2", "#404080")) +
     theme_ipsum() +
     labs(fill="")
+
 ```
+
+## Variation
+
+------------------------------------------------------------------------
+
+A common variation of the histogram is the mirror histogram: it puts face to face 2 histograms to compare their distribution.
+
+```{r, fig.align="center", fig.width=7, warning=FALSE, message=FALSE}
+data <- data.frame(
+  x = rnorm(1000),
+  y = rnorm(1000, mean=2)
+)
+
+data %>%
+  ggplot( aes(x) ) +
+    geom_histogram( aes(x = x, y = ..density..), binwidth = diff(range(data$x))/30, fill="#69b3a2" ) +
+    geom_label( aes(x=4.8, y=0.25, label="variable1"), color="#69b3a2") +
+    geom_histogram( aes(x = y, y = -..density..), binwidth = diff(range(data$x))/30, fill= "#404080") +
+    geom_label( aes(x=4.8, y=-0.25, label="variable2"), color="#404080") +
+    theme_ipsum() +
+    xlab("value of x")
+```
+
+## Common mistakes 
+
+------------------------------------------------------------------------
+
+-   Try several bin size, it can lead to very different conclusions.
+-   Don't use weird color sheme. It does not give any more insight.
+-   Don't confound it with a barplot. A barplot gives a value for each group of a categoric variable. Here, we have only a numeric variable and we chack its distribution.
+-   Don't compare more than \~3 groups in the same histogram. The graphic gets cluttered and hardly understandable. Instead use a violin plot, a boxplot, a ridgeline plot or use small multiple.
+-   Using unequal bin widths
+
+------------------------------------------------------------------------
+
+# Definition 
+
+### Density Plot
+
+------------------------------------------------------------------------
+
+A density plot is a representation of the distribution of a numeric variable. It uses a kernel density estimate to show the probability density function of the variable. It is a smoothed version of the histogram and is used in the same concept.
+
+Here is an example showing the distribution of the night price of Rbnb appartements in the south of France:
+
+------------------------------------------------------------------------
+
+```{r, warning=FALSE, message=FALSE, fig.align="center"}
+# Libraries
+library(tidyverse)
+library(hrbrthemes)
+library(viridis)
+
+# Load dataset from github
+data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/1_OneNum.csv", header=TRUE)
+
+# Make the density plot
+data %>%
+  filter( price<300 ) %>%
+  ggplot( aes(x=price)) +
+    geom_density(fill="#69b3a2", color="#e9ecef", alpha=0.8) +
+    ggtitle("Night price distribution of Airbnb appartements") +
+    theme_ipsum()
+```
+
+## What for
+
+Density plots are used to study the distribution of one or a few variables. Checking the distribution of your variables one by one is probably the first task you should do when you get a new dataset. It delivers a good quantity of information. Several distribution shapes exist, here is an illustration of the 6 most common ones:
+
+## Examples
+
+```{r, fig.align="center", fig.width=10, warning=FALSE, message=FALSE}
+
+# Build dataset with different distributions
+data <- data.frame(
+  type = c( rep("edge peak", 1000), rep("comb", 1000), rep("normal", 1000), rep("uniform", 1000), rep("bimodal", 1000), rep("skewed", 1000) ),
+  value = c( rnorm(900), rep(3, 100), rnorm(360, sd=0.5), rep(c(-1,-0.75,-0.5,-0.25,0,0.25,0.5,0.75), 80), rnorm(1000), runif(1000), rnorm(500, mean=-2), rnorm(500, mean=2), abs(log(rnorm(1000))) )
+)
+
+# Represent it
+data %>%
+  ggplot( aes(x=value)) +
+    geom_density(fill="#69b3a2", color="#e9ecef", alpha=0.9, adjust = 0.5) +
+    facet_wrap(~type, scale="free") +
+    theme_ipsum() +
+    theme(
+      panel.spacing = unit(0.1, "lines"),
+      axis.title.x=element_blank(),
+      axis.text.x=element_blank(),
+      axis.ticks.x=element_blank()
+    )
+
+```
+
+## Useful for:
+
+Checking this distribution also helps you discovering mistakes in the data. For example, the `comb` distribution can often denote a rounding that has been applied to the variable or another mistake.
+
+As a second step, density plots allow to compare the distribution of **a few** variables. Don't compare more than 3 or 4, it would make the figure cluttered and unreadable. This comparison can be done showing the 2 variables on the same graphic and using transparency.
+
+## Example
+
+```{r, fig.align="center", fig.width=7, warning=FALSE, message=FALSE}
+
+# Build dataset with different distributions
+data <- data.frame(
+  type = c( rep("variable 1", 1000), rep("variable 2", 1000) ),
+  value = c( rnorm(1000), rnorm(1000, mean=4) )
+)
+
+# Represent it
+data %>%
+  ggplot( aes(x=value, fill=type)) +
+    geom_density( color="#e9ecef", alpha=0.6) +
+    scale_fill_manual(values=c("#69b3a2", "#404080")) +
+    theme_ipsum() +
+    labs(fill="")
+
+```
+
+## Variation
+
+------------------------------------------------------------------------
+
+A common variation of the density plot is the mirror density plot: it puts face to face 2 density plots to compare their distribution.
+
+```{r, fig.align="center", fig.width=7, warning=FALSE, message=FALSE}
+data <- data.frame(
+  x = rnorm(1000), 
+  y = rnorm(1000, mean=2)
+)
+ 
+data %>% 
+  ggplot( aes(x) ) + 
+    geom_density( aes(x = x, y = ..density..), fill="#69b3a2" ) + 
+    geom_label( aes(x=4.5, y=0.25, label="variable1"), color="#69b3a2") +
+    geom_density( aes(x = y, y = -..density..), fill= "#404080") +
+    geom_label( aes(x=4.5, y=-0.25, label="variable2"), color="#404080") +
+    theme_ipsum() +
+    xlab("value of x")
+```
+
+## Common mistakes
+
+------------------------------------------------------------------------
+
+-   Play with the bandwidth argument, it can lead to very different conclusions.
+-   Don't compare more than \~3 groups on the same density plot. The graphic gets cluttered and hardly understandable. Instead use a violin plot, a boxplot, a ridgeline plot or use small multiple.
+
+# Definition
+
+### Scatter Plot
+
+------------------------------------------------------------------------
+
+A scatterplot displays the relationship between 2 numeric variables. For each data point, the value of its first variable is represented on the X axis, the second on the Y axis.
+
+Here is an example considering the price of 1460 apartments and their ground living area. This dataset comes from a Kaggle machine learning competition.
+
+------------------------------------------------------------------------
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.width=8, fig.height=5}
+# Libraries
+library(tidyverse)
+library(hrbrthemes)
+library(viridis)
+
+# Load dataset from github
+data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/2_TwoNum.csv", header=T, sep=",") %>% dplyr::select(GrLivArea, SalePrice)
+
+# plot
+data %>%
+  ggplot( aes(x=GrLivArea, y=SalePrice/1000)) +
+    geom_point(color="#69b3a2", alpha=0.6) +
+    ggtitle("Ground living area partially explains sale price of apartments") +
+    theme_ipsum() +
+    theme(
+      plot.title = element_text(size=12)
+    ) +
+    ylab('Sale price (k$)') +
+    xlab('Ground living area')
+```
+
+## What for
+
+A scatterplot is made to study the relationship between 2 variables. Thus it is often accompanied by a correlation coefficient calculation, that usually tries to measure the linear relationship.
+
+However other types of relationship can be detected using scatterplots, and a common task consists to fit a model explaining Y in function of X. Here are a few patterns you can detect doing a scatterplot.
+
+## Examples
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.width=10, fig.height=5}
+# Create data
+d1 <- data.frame(x=seq(1,100), y=rnorm(100), name="No trend")
+d2 <- d1 %>% mutate(y=x*10 + rnorm(100,sd=60)) %>% mutate(name="Linear relationship")
+d3 <- d1 %>% mutate(y=x^2 + rnorm(100,sd=140)) %>% mutate(name="Square")
+d4 <- data.frame( x=seq(1,10,0.1), y=sin(seq(1,10,0.1)) + rnorm(91,sd=0.6)) %>% mutate(name="Sin")
+don <- do.call(rbind, list(d1, d2, d3, d4))
+
+# Plot
+don %>%
+  ggplot(aes(x=x, y=y)) +
+    geom_point(color="#69b3a2", alpha=0.8) +
+    theme_ipsum() +
+    facet_wrap(~name, scale="free")
+```
+
+## Useful for:
+
+-   Detecting relationships between two variables
+-   Identifying patterns or trends in data
+-   Spotting outliers or unusual data points
+-   Comparing different groups or categories within the data
+
+## Variation
+
+------------------------------------------------------------------------
+
+Interactivity is a real plus for scatterplot. It allows to zoom on a specific part of the graphic to detect more precise patterns. It also allows to hover dots to get more information about them, like below:
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.width=8, fig.height=5}
+# Plotly allows to turn any ggplot2 graphic interactive
+library(plotly)
+
+p <- data %>%
+  mutate(text=paste("Apartment Number: ", seq(1:nrow(data)), "\nLocation: New York\nAny other information you need..", sep="")) %>%
+  ggplot( aes(x=GrLivArea, y=SalePrice/1000, text=text)) +
+    geom_point(color="#69b3a2", alpha=0.8) +
+    ggtitle("Ground living area partially explains sale price of apartments") +
+    theme_ipsum() +
+    theme(
+      plot.title = element_text(size=12)
+    ) +
+    ylab('Sale price (k$)') +
+    xlab('Ground living area')
+
+ggplotly(p, tooltip="text")
+```
+
+Scatterplots are sometimes supported by marginal distributions. It indeed adds insight to the graphic, revealing the distribution of both variables:
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.width=8, fig.height=5}
+library(ggExtra)
+
+# create a ggplot2 scatterplot
+p <- data %>%
+  ggplot( aes(x=GrLivArea, y=SalePrice/1000)) +
+    geom_point(color="#69b3a2", alpha=0.8) +
+    theme_ipsum() +
+    theme(
+      legend.position="none"
+    )
+
+# add marginal histograms
+ggExtra::ggMarginal(p, type = "histogram", color="grey")
+```
+
+## Common mistakes
+
+------------------------------------------------------------------------
+
+-   Overplotting is the most common mistake when sample size is high. There are about 10 different workarounds to fix this issue.
+-   Don't forget to show subgroups if you have some. Indeed it can reveal important hidden patterns in your data, like in the case of the Simpson paradox.
+
+# Definition
+
+### Bar Plot
+
+------------------------------------------------------------------------
+
+A barplot (or barchart) is one of the most common types of graphic. It shows the relationship between a numeric and a categoric variable. Each entity of the categoric variable is represented as a bar. The size of the bar represents its numeric value.
+
+Here is an example showing the quantity of weapons exported by the top 20 largest exporters in 2017:
+
+------------------------------------------------------------------------
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=6}
+# Libraries
+library(tidyverse)
+library(hrbrthemes)
+library(kableExtra)
+options(knitr.table.format = "html")
+
+# Load dataset from github
+data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/7_OneCatOneNum.csv", header=TRUE, sep=",")
+
+# Barplot
+data %>%
+  filter(!is.na(Value)) %>%
+  arrange(Value) %>%
+  tail(20) %>%
+  mutate(Country=factor(Country, Country)) %>%
+  ggplot( aes(x=Country, y=Value) ) +
+    geom_bar(stat="identity", fill="#69b3a2") +
+    coord_flip() +
+    theme_ipsum() +
+    theme(
+      panel.grid.minor.y = element_blank(),
+      panel.grid.major.y = element_blank(),
+      legend.position="none"
+    ) +
+    xlab("") +
+    ylab("Weapon quantity (SIPRI trend-indicator value)")
+```
+
+## What for
+
+A barplot shows the relationship between a numeric and a categoric variable. In the previous graphic, each country is a level of the categoric variable, and the quantity of weapon sold is the numeric variable. An ordered barplot is a very good choice here since it displays both the ranking of countries and their specific value.
+
+A barplot can also display values for several levels of grouping. Here's an example of a grouped barplot:
+
+## Examples
+
+```{r, warning=FALSE, message=FALSE, fig.width=8, fig.align="center" }
+# Libraries
+library(tidyverse)
+library(hrbrthemes)
+library(babynames)
+library(viridis)
+
+# Load dataset from github
+data <- babynames %>%
+  filter(name %in% c("Ashley", "Amanda", "Jessica", "Patricia", "Linda", "Deborah", "Dorothy", "Betty", "Helen")) %>%
+  filter(sex=="F")
+
+# A grouped barplot
+data  %>%
+  filter(name %in% c("Ashley", "Patricia", "Betty", "Helen")) %>%
+  filter(year %in% c(1920, 1960, 2000)) %>%
+  mutate(year=as.factor(year)) %>%
+  ggplot( aes(x=year, y=n, fill=name)) +
+    geom_bar(stat="identity", position="dodge") +
+    scale_fill_viridis(discrete=TRUE, name="") +
+    theme_ipsum() +
+    ylab("Number of baby")
+```
+
+## Useful for:
+
+-   Comparing values across categories
+-   Showing the distribution of a numeric variable for different groups
+-   Displaying rankings or ordered data
+-   Visualizing part-to-whole relationships (in stacked bar charts)
+
+## Variation
+
+------------------------------------------------------------------------
+
+Lollipop plot: A variation that replaces bars with segments and dots, resulting in a less cluttered figure:
+
+```{r, fig.align="center", fig.height=7, warning=FALSE}
+# Load dataset from github
+data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/7_OneCatOneNum.csv", header=TRUE, sep=",")
+
+# Plot
+data %>%
+  filter(!is.na(Value)) %>%
+  arrange(Value) %>%
+  mutate(Country=factor(Country, Country)) %>%
+  ggplot( aes(x=Country, y=Value) ) +
+    geom_segment( aes(x=Country ,xend=Country, y=0, yend=Value), color="grey") +
+    geom_point(size=3, color="#69b3a2") +
+    coord_flip() +
+    theme_ipsum() +
+    theme(
+      panel.grid.minor.y = element_blank(),
+      panel.grid.major.y = element_blank(),
+      legend.position="none"
+    ) +
+    xlab("")
+```
+
+Circular barplot: Useful when you have many groups, though it sacrifices some accuracy in comparison:
+
+```{r, fig.align="center", fig.height=8, fig.width=8, message=FALSE, warning=FALSE}
+# Load dataset from github
+data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/7_OneCatOneNum.csv", header=TRUE, sep=",")
+
+# Order data
+tmp <- data %>%
+  filter(!is.na(Value)) %>%
+  arrange(desc(Value)) %>%
+  mutate(Country=factor(Country, Country))
+
+# Set a number of 'empty bar'
+empty_bar=10
+
+# Add lines to the initial tmpset
+to_add = matrix(NA, empty_bar, ncol(tmp))
+colnames(to_add) = colnames(tmp)
+tmp=rbind(tmp, to_add)
+tmp$id=seq(1, nrow(tmp))
+
+# Get the name and the y position of each label
+label_tmp=tmp
+number_of_bar=nrow(label_tmp)
+angle= 90 - 360 * (label_tmp$id-0.5) /number_of_bar     # I substract 0.5 because the letter must have the angle of the center of the bars. Not extreme right(1) or extreme left (0)
+label_tmp$hjust<-ifelse( angle < -90, 1, 0)
+label_tmp$angle<-ifelse(angle < -90, angle+180, angle)
+label_tmp$Country <- gsub("United States", "US", label_tmp$Country)
+label_tmp$Country <- paste(label_tmp$Country, " (", label_tmp$Value,")", sep="")
+
+# Make the plot
+ggplot(tmp, aes(x=as.factor(id), y=Value)) +       # Note that id is a factor. If x is numeric, there is some space between the first bar
+  geom_bar(stat="identity", fill=alpha("#69b3a2", 0.8)) +
+  ylim(-7000,13000) +
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    panel.grid = element_blank(),
+    plot.margin = unit(rep(-1,4), "cm")
+  ) +
+  coord_polar(start = 0) +
+  geom_text(data=label_tmp, aes(x=id, y=Value+200, label=Country ), color="black", fontface="bold",alpha=0.6, size=2.5, angle= label_tmp$angle, hjust=label_tmp$hjust, inherit.aes = FALSE ) +
+  geom_text( aes(x=24, y=8000, label="Who sells more weapons?"), color="black", inherit.aes = FALSE, data = data.frame())
+```
+
+## Common mistakes
+
+------------------------------------------------------------------------
+
+-   Do not confound barchart with histogram. A histogram has only a numeric variable as input and shows its distribution.
+-   Order your bars. If the levels of your categoric variable have no obvious order, order the bars following their values.
+-   Several values per group? Don't use a barplot. Even with error bars, it hides information and other types of graphics like boxplot or violin are much more appropriate.
+
+# Definition
+
+### Line Chart
+
+------------------------------------------------------------------------
+
+A line chart or line graph displays the evolution of one or several numeric variables. Data points are connected by straight line segments. It is similar to a scatter plot except that the measurement points are ordered (typically by their x-axis value) and joined with straight line segments. A line chart is often used to visualize a trend in data over intervals of time – a time series – thus the line is often drawn chronologically.
+
+Here is an example showing the evolution of the bitcoin price between April 2013 and April 2018:
+
+------------------------------------------------------------------------
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=5, fig.width=10}
+# Libraries
+library(tidyverse)
+library(hrbrthemes)
+library(plotly)
+library(patchwork)
+library(babynames)
+library(viridis)
+
+# Load dataset from github
+data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/3_TwoNumOrdered.csv", header=T)
+data$date <- as.Date(data$date)
+
+# plot
+data %>%
+  ggplot( aes(x=date, y=value)) +
+    geom_line(color="#69b3a2") +
+    ggtitle("Evolution of Bitcoin price") +
+    ylab("bitcoin price ($)") +
+    theme_ipsum()
+```
+
+## What for
+
+Line charts can be used to show the evolution of one or several variables. Here is an example showing the evolution of three baby name frequencies in the US between 1880 and 2015:
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=5, fig.width=10}
+# Load dataset from github
+don <- babynames %>%
+  filter(name %in% c("Ashley", "Patricia", "Helen")) %>%
+  filter(sex=="F")
+
+# Plot
+don %>%
+  ggplot( aes(x=year, y=n, group=name, color=name)) +
+    geom_line() +
+    scale_color_viridis(discrete = TRUE) +
+    ggtitle("Popularity of American names in the previous 30 years") +
+    theme_ipsum() +
+    ylab("Number of babies born")
+```
+
+## Useful for:
+
+-   Visualizing trends over time
+-   Comparing multiple variables or categories over a continuous axis
+-   Showing the rate of change between data points
+-   Identifying patterns, cycles, or anomalies in data
+
+## Variation
+
+------------------------------------------------------------------------
+
+If the number of data points is low, it is advised to represent each individual observation with a dot:
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=3, fig.width=10}
+data %>%
+  tail(10) %>%
+  ggplot( aes(x=date, y=value)) +
+    geom_line(color="#69b3a2") +
+    geom_point(color="#69b3a2", size=4) +
+    ggtitle("Line chart with points") +
+    ylab("bitcoin price ($)") +
+    theme_ipsum()
+```
+
+Lines are also used to show trends in a scatterplot. Here is an example using Smoothed conditional means and showing confidence interval around it:
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=5, fig.width=7}
+ggplot(mpg, aes(displ, hwy)) +
+  geom_point() +
+  geom_smooth(color="#69b3a2") +
+  theme_ipsum()
+```
+
+## Common caveats
+
+------------------------------------------------------------------------
+
+The line chart is subject to a lot of discussion concerning potential caveats:
+
+-   To cut or not to cut the Y axis? Whether or not the Y axis must start at 0 is a hot topic leading to intense debates. Generally, line plots do not need to start at 0 since it allows observing patterns more efficiently.
+
+---
+title: "GraphTypes"
+format: revealjs
+editor: visual
+---
+
+# Definition 
+
+### Line Chart
+
+------------------------------------------------------------------------
+
+[Previous content remains the same]
+
+## Common caveats 
+
+------------------------------------------------------------------------
+
+The line chart is subject to a lot of discussion concerning potential caveats:
+
+- To cut or not to cut the Y axis? Whether or not the Y axis must start at 0 is a hot topic leading to intense debates. Generally, line plots do not need to start at 0 since it allows observing patterns more efficiently.
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=3, fig.width=10}
+# Libraries
+library(tidyverse)
+library(hrbrthemes)
+library(patchwork)
+
+# Create a small dataset with less dramatic changes
+set.seed(123)
+small_data <- data.frame(
+  date = seq(as.Date("2023-01-01"), by = "month", length.out = 10),
+  value = 100 + cumsum(rnorm(10, mean = 0.5, sd = 1))
+)
+
+p1 <- small_data %>%
+  ggplot(aes(x = date, y = value)) +
+    geom_line(color = "#69b3a2") +
+    geom_point(color = "#69b3a2", size = 4) +
+    ggtitle("Not cutting (shows full context)") +
+    ylab("Value") +
+    theme_ipsum() +
+    ylim(0, max(small_data$value))
+
+p2 <- small_data %>%
+  ggplot(aes(x = date, y = value)) +
+    geom_line(color = "#69b3a2") +
+    geom_point(color = "#69b3a2", size = 4) +
+    ggtitle("Cutting (exaggerates differences)") +
+    ylab("Value") +
+    theme_ipsum() +
+    ylim(min(small_data$value) - 1, max(small_data$value) + 1)
+
+# Combine plots using patchwork
+p1 + p2
+```
+
+-   If you need to compare the evolution of 2 different variables, avoid using dual axis. Dual axis can show very different results depending on what range you apply to the axis.
+-   Mind the spaghetti chart: too many lines make the chart unreadable.
+-   Think about the aspect ratio of the graphic, extreme ratios make the chart unreadable.
+
+---
+title: "GraphTypes"
+format: revealjs
+editor: visual
+---
+
+# Definition
+
+### Word Cloud
+
+------------------------------------------------------------------------
+
+A word cloud (also called tag cloud or weighted list) is a visual representation of text data. Words are usually single words, and the importance of each is shown with font size or color.
+
+Here is an example showing the most frequent words used by Nekfeu, a famous French rapper, in a few of his songs:
+
+------------------------------------------------------------------------
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=6, fig.width=6}
+# Libraries
+library(tidyverse)
+library(hrbrthemes)
+library(tm)
+library(proustr)
+library(wordcloud2)
+
+# Load dataset from github
+data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/14_SeveralIndepLists.csv", header=TRUE)
+to_remove <- c("_|[0-9]|\\.|function|^id|script|var|div|null|typeof|opts|if|^r$|undefined|false|loaded|true|settimeout|eval|else|artist")
+data <- data %>% filter(!grepl(to_remove, word)) %>% filter(!word %in% stopwords('fr')) %>% filter(!word %in% proust_stopwords()$word)
+
+# prepare a list of word (50 most frequent)
+mywords <- data %>%
+  filter(artist=="nekfeu") %>%
+  dplyr::select(word) %>%
+  group_by(word) %>%
+  summarize(freq=n()) %>%
+  arrange(freq) %>%
+  tail(30)
+
+# Make the plot
+wordcloud2(mywords,  minRotation = -pi/2, maxRotation = -pi/2,
+         backgroundColor = "white", color="#69b3a2")
+```
+
+## What for
+
+Word clouds are useful for:
+
+- Quickly perceiving the most prominent terms
+- Locating a term alphabetically to determine its relative prominence
+- Creating visually appealing representations of text data
+
+They are widely used in media and well understood by the public.
+
+## Useful for:
+
+- Summarizing large amounts of text data
+- Highlighting key themes or topics in a dataset
+- Creating engaging visuals for presentations or reports
+- Comparing word frequencies across different texts or sources
+
+## Example
+
+Here's an alternative representation using a lollipop plot, which addresses some of the limitations of word clouds:
+
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=6}
+# Load necessary libraries
+library(dplyr)
+library(ggplot2)
+library(hrbrthemes)
+
+# Load dataset from github
+word_data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/14_SeveralIndepLists.csv", header=TRUE)
+
+# Print the structure of the data to verify it's correct
+str(word_data)
+
+# Prepare a list of words (30 most frequent)
+word_data |>
+  filter(artist == "nekfeu") |>
+  select(word) |>
+  group_by(word) |>
+  summarize(freq = n()) |>
+  arrange(freq) |>
+  tail(30) |>
+  mutate(word = factor(word, word)) |>
+  ggplot(aes(x = word, y = freq)) +
+    geom_segment(aes(x = word, xend = word, y = 0, yend = freq), color = "grey") +
+    geom_point(size = 3, color = "#69b3a2") +
+    coord_flip() +
+    theme_ipsum() +
+    theme(
+      panel.grid.minor.y = element_blank(),
+      panel.grid.major.y = element_blank(),
+      legend.position = "none"
+    ) +
+    xlab("")
+```
+
+## Variation
+
+Many variations exist for word clouds:
+
+- Different shapes, sometimes using the shape of an object related to the topic
+- Varying text orientation, font, size, and colors
+- Interactive word clouds that change or provide additional information on hover
+
+## Common mistakes
+
+- Relying too heavily on word clouds for accurate data representation
+- Ignoring the limitations of area as a metaphor for numeric values
+- Not accounting for the bias created by longer words appearing larger
+- Using word clouds when more precise visualizations (like bar charts or lollipop plots) would be more appropriate
+- Creating overly complex or cluttered word clouds that are difficult to read or interpret
+
+Word clouds, while visually appealing, are often criticized for their lack of accuracy in conveying information. Consider using them primarily for aesthetic purposes or in conjunction with more precise data visualization methods.
+

@@ -1,6 +1,15 @@
 ---
-title: "Untitled"
+title: "Social Annotation"
 format: html
 ---
 
-index content
+## Hypothes.is
+
+Use Hypothes.is, an amazing tool for annotating the web.
+Go to Hypothes.is, and “get-started”
+
+Install the the add-on for chrome, or other browser
+
+That’s it, turn on Hypothes.is when you are reading this textbook, and you will see all public annotations made by anyone else.
+
+Please see the VLE for the private Research Methods Group ID that will restrict sight of the comments to the year group! (Week 02 Lecture Comments)

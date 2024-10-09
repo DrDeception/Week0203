@@ -30,7 +30,7 @@ filters:
 -   **Week 3**: Data Visualisation 2
 -   **Week 4**: Open Science
 -   **Week 5**: Mixed Methods Intro
--	Reading Week
+-   Reading Week
 -   **Week 6**: Qualitative Research (3 weeks)
 
 Lecture, Labs, Data Skills, Application.
@@ -43,21 +43,22 @@ It is a new programme this year, and one that we know to be dramatically more po
 
 ## The Big Setup
 
--   One day, you'll want to change a mind, capture interest, persuade,
-    convince, or motivate.
+-   One day, you'll want to change a mind, capture interest, persuade, convince, or motivate.
 -   It could be an idea, a product, a pitch, or even a truth.
--   I want you to be ready for that moment.
+-   I want you to be ready for that moment with an overflowing toolbox!
 
 ## I didn't really give the title much effort
 
--   **Did I inspire wonder?**
+-   ::: incremental
+    **Did I inspire wonder?**
+
     -   What if I had chosen a different title?
         -   Truth, Beauty, and Power
-        -   Seeing is Believing: The Power of Data Visualization in
-            Psychology
+        -   Seeing is Believing: The Power of Data Visualization in Psychology
         -   From Data to Drama: The Art of Psychological Storytelling
+    :::
 
-### /ˈdeɪtə vɪʒuəlɪˈzeɪʃən/ \[noun\]
+## /ˈdeɪtə vɪʒuəlɪˈzeɪʃən/ \[noun\]
 
 ::: incremental
 -   Turning numbers into pictures?
@@ -75,7 +76,7 @@ It is a new programme this year, and one that we know to be dramatically more po
 
 ::::::: columns
 :::: {.column width="50%"}
-::: incremental
+::: {.incremental .smaller}
 -   Song lyrics you can't forget
 -   Your favorite comedian
 -   A non-verbal behaviour that's powerful
@@ -84,7 +85,7 @@ It is a new programme this year, and one that we know to be dramatically more po
 ::::
 
 :::: {.column width="50%"}
-::: incremental
+::: {.incremental .smaller}
 -   Your favourite teacher
 -   The best communicator you know
 -   Someone you consider a genius
@@ -94,21 +95,31 @@ It is a new programme this year, and one that we know to be dramatically more po
 :::::::
 ::::::::
 
+## The Goat
+
+[Hans Rosling - Joy of Stats 5 mins](https://youtu.be/jbkSRLYSojo)
+
+[Hans Rosling TED Talk 20 mins](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen?utm_source=tedcomshare&utm_medium=referral&utm_campaign=tedspread)
+
+[Gapminder Website](https://www.gapminder.org/)
+
+## My quick effort last night
+
+![](images/nations.gif)
 
 ## **Plato’s Triad: The True, The Good, and The Beautiful**
 
-Plato believed in the intrinsic connection between **truth**,
-**goodness**, and **beauty** — a concept that has influenced Western
-thought for centuries.
+::: smaller
+Plato believed in the intrinsic connection between **truth**, **goodness**, and **beauty** — a concept that has influenced Western thought for centuries.
 
-For Plato, these three qualities are inseparable in the realm of
-**Forms**.
+For Plato, these three qualities are inseparable in the realm of **Forms**.
 
-The **truth** is inherently **good**, and what is **good** is also
-inherently **beautiful**.
+The **truth** is inherently **good**, and what is **good** is also inherently **beautiful**.
 
-Thus, if something is **false**, it cannot be truly **beautiful** or
-**good**.
+Thus, if something is **false**, it cannot be truly **beautiful** or **good**.
+:::
+
+## Obligatory Plato Quote
 
 ::: callout-note
 ## Key Principle
@@ -126,7 +137,7 @@ Thus, if something is **false**, it cannot be truly **beautiful** or
 -   Applies to various fields: Sales and marketing, Education, Leadership
 :::
 
-### Why it matters in research
+## Why it matters in research
 
 ::: incremental
 -   Tailors your communication effectively
@@ -136,276 +147,272 @@ Thus, if something is **false**, it cannot be truly **beautiful** or
 -   Improves public engagement with science
 :::
 
-
 ## Financial Times
 
-[Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/)
+[Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/) (best to right-click and open in a new window)
+
+::: callout-note
+## Available as pdf on VLE
+
+Find in Week 02 Content as a pdf which is perhaps more user-friendly
+:::
 
 ## 1. Data as Stories
 
+::: tiny
 **Concept:**\
-Data visualization isn't just about numbers; it's about telling a
-compelling story. The visual elements should guide the viewer through a
-narrative—showing change over time, revealing relationships, or
-highlighting key insights.
+Data visualization isn't just about numbers; it's about telling a compelling story. The visual elements should guide the viewer through a narrative—showing change over time, revealing relationships, or highlighting key insights.
 
 **Application:**\
-Case studies or reports where data unfolds in a logical, easy-to-follow
-sequence, such as telling the story of a community's health or an
-individual's progress.
+Case studies or reports where data unfolds in a logical, easy-to-follow sequence, such as telling the story of a community's health or an individual's progress.
 
 **Example:**\
-An interactive webpage showing the impact of social media on mental
-health through a narrative of personal experiences and trends.
+An interactive webpage showing the impact of social media on mental health through a narrative of personal experiences and trends.
+:::
 
 ## 2. Infographics
 
+::: tiny
 **Concept:**\
-Infographics combine text, visuals, and data to create a highly
-accessible, single-view communication tool. They are visually engaging,
-often using illustrations, icons, and small amounts of data to convey
-key points at a glance.
+Infographics combine text, visuals, and data to create a highly accessible, single-view communication tool. They are visually engaging, often using illustrations, icons, and small amounts of data to convey key points at a glance.
 
 **Application:**\
-Ideal for social media, brochures, or posters where quick digestion of
-information is needed. Frequently used in public campaigns, marketing,
-and education.
+Ideal for social media, brochures, or posters where quick digestion of information is needed. Frequently used in public campaigns, marketing, and education.
 
 **Example:**\
-An infographic explaining the psychology of sleep, showing how sleep
-cycles work and tips to improve sleep habits.
+An infographic explaining the psychology of sleep, showing how sleep cycles work and tips to improve sleep habits.
+:::
 
 ## 3. Animations
 
+::: tiny
 **Concept:**\
-Animations bring data to life by adding movement, showing how data
-evolves over time or revealing complex processes step-by-step. They are
-effective in capturing attention and illustrating dynamic changes.
+Animations bring data to life by adding movement, showing how data evolves over time or revealing complex processes step-by-step. They are effective in capturing attention and illustrating dynamic changes.
 
 **Application:**\
-Excellent for presentations, video content, or interactive dashboards.
-Can be used in education to break down complex processes (e.g., brain
-activity) or in marketing to show trends over time.
+Excellent for presentations, video content, or interactive dashboards. Can be used in education to break down complex processes (e.g., brain activity) or in marketing to show trends over time.
 
 **Example:**\
-An animated chart showing the rise of global temperatures over decades,
-or an animation walking through the steps of a psychological experiment.
+An animated chart showing the rise of global temperatures over decades, or an animation walking through the steps of a psychological experiment.
+:::
 
 ## 4. Dashboards
 
+::: tiny
 **Concept:**\
-Dashboards provide a comprehensive, real-time view of data, often
-integrating multiple graphs and charts into one interface. They allow
-users to interact with the data, filter information, and explore
-different aspects on demand.
+Dashboards provide a comprehensive, real-time view of data, often integrating multiple graphs and charts into one interface. They allow users to interact with the data, filter information, and explore different aspects on demand.
 
 **Application:**\
-Useful in business, healthcare, or education where decision-makers need
-up-to-date, actionable insights. Dashboards can provide an overview of
-research data, employee performance, or patient metrics.
+Useful in business, healthcare, or education where decision-makers need up-to-date, actionable insights. Dashboards can provide an overview of research data, employee performance, or patient metrics.
 
 **Example:**\
-A live dashboard tracking the results of a clinical trial, showing
-participant progress, side effects, and key outcome measures.
+A live dashboard tracking the results of a clinical trial, showing participant progress, side effects, and key outcome measures.
+:::
 
 ## 5. Data-Driven Art
 
+::: tiny
 **Concept:**\
-Data-driven art turns data into creative visual expressions, where
-aesthetics and meaning are equally important. It communicates complex
-ideas through artistic mediums, helping people emotionally connect with
-the data.
+Data-driven art turns data into creative visual expressions, where aesthetics and meaning are equally important. It communicates complex ideas through artistic mediums, helping people emotionally connect with the data.
 
 **Application:**\
-Useful in public exhibitions, museums, or campaigns designed to evoke
-emotional responses. Can be particularly impactful when the goal is to
-inspire action or reflection.
+Useful in public exhibitions, museums, or campaigns designed to evoke emotional responses. Can be particularly impactful when the goal is to inspire action or reflection.
 
 **Example:**\
-A visual installation representing the world’s most polluted cities,
-where the intensity of color and shape corresponds to pollution levels.
-
+A visual installation representing the world’s most polluted cities, where the intensity of color and shape corresponds to pollution levels.
+:::
 
 ## 6. Interactive Visualizations
 
+::: tiny
 **Concept:**\
-Interactive visualizations allow the audience to explore the data
-themselves. Users can hover over elements, click to reveal additional
-information, and adjust parameters in real time to see how different
-variables influence outcomes.
+Interactive visualizations allow the audience to explore the data themselves. Users can hover over elements, click to reveal additional information, and adjust parameters in real time to see how different variables influence outcomes.
 
 **Application:**\
-Excellent for websites, educational tools, and data journalism. This
-method is perfect for exploring complex datasets where users need
-control over what they want to see.
+Excellent for websites, educational tools, and data journalism. This method is perfect for exploring complex datasets where users need control over what they want to see.
 
 **Example:**\
-A web tool where users can explore the effects of different factors
-(e.g., age, gender, education) on job satisfaction.
+A web tool where users can explore the effects of different factors (e.g., age, gender, education) on job satisfaction.
+:::
 
 ## 7. Maps and Geospatial Visualizations
 
+::: tiny
 **Concept:**\
-Data visualized on maps can be incredibly powerful, especially when
-geographic context is essential to the story. These visuals can show
-patterns across different locations, reveal relationships between data
-and place, and help identify regional trends.
+Data visualized on maps can be incredibly powerful, especially when geographic context is essential to the story. These visuals can show patterns across different locations, reveal relationships between data and place, and help identify regional trends.
 
 **Application:**\
-Used in public health (tracking disease outbreaks), environmental
-research (tracking deforestation), and social science (mapping crime
-rates).
+Used in public health (tracking disease outbreaks), environmental research (tracking deforestation), and social science (mapping crime rates).
 
 **Example:**\
-A heatmap showing the spread of a disease outbreak, highlighting areas
-of high infection rates over time.
+A heatmap showing the spread of a disease outbreak, highlighting areas of high infection rates over time.
+:::
 
 ## 8. Data Journalism and Narrated Data
 
+::: tiny
 **Concept:**\
-Narrated data takes storytelling a step further by adding voiceovers or
-text to guide the viewer through the visualization, ensuring that key
-points are not missed and context is clearly explained.
+Narrated data takes storytelling a step further by adding voiceovers or text to guide the viewer through the visualization, ensuring that key points are not missed and context is clearly explained.
 
 **Application:**\
-Ideal for educational content, presentations, and documentaries where
-understanding the deeper meaning behind the data is essential.
+Ideal for educational content, presentations, and documentaries where understanding the deeper meaning behind the data is essential.
 
 **Example:**\
-A video presentation explaining the impact of climate change, with data
-visualizations narrated by an expert who explains each trend.
+A video presentation explaining the impact of climate change, with data visualizations narrated by an expert who explains each trend.
+:::
 
 ## **Introduction to Data Visualization**
 
 -   **What is Data Visualization?**
-    -   Definition: The graphical representation of data to find
-        insights, patterns, and trends.
-    -   Importance: Simplifying complex data, making research more
-        accessible, and aiding in decision-making.
+    -   Definition: The graphical representation of data to find insights, patterns, and trends.
+    -   Importance: Simplifying complex data, making research more accessible, and aiding in decision-making.
 
 ## **Introduction to Data Visualization**
 
 -   **Why is it Important for Psychologists?**
     -   For Self: Making sense of information.
-    -   Outwards: Presenting results to a wider audience (academics,
-        professionals, the public).
+    -   Outwards: Presenting results to a wider audience (academics, professionals, the public).
 
-## **The Goals of Data Visualization**
-
--   **Communication of Information**
-    -   Making data accessible, clear, and engaging.
-    -   Translating raw numbers into understandable narratives.
--   **Pattern Recognition**
-    -   Identifying trends, outliers, and relationships.
-    -   Supporting statistical analysis by visually highlighting key
-        elements.
--   **Exploration**
-    -   Using visuals to explore and understand datasets during the
-        research process.
-        
 ## Nuts and Bolts
-        
+
 ## **Types of Data**
 
-**Categorical Data**
-    -   Nominal (e.g., types of therapy, animal species)
-    -   Ordinal (e.g., Likert scales, levels of education)
-**Continuous Data**
-    -   Interval (e.g., temperature, time of day)
-    -   Ratio (e.g., height, reaction time)
-**Discrete vs Continuous**
-    -   The difference between countable categories and measurements
-        with infinite possible values.
+::: tiny
+**Categorical Data** - Nominal (e.g., types of therapy, animal species) - Ordinal (e.g., Likert scales, levels of education)
+
+**Continuous Data** - Interval (e.g., temperature, time of day) - Ratio (e.g., height, reaction time)
+
+**Discrete vs Continuous** - The difference between countable categories and measurements with infinite possible values.
+:::
 
 ## **Common Types of Graphs and When to Use Them**
 
--   **Bar Charts**
-    -   Best for comparing discrete categories.
-    -   Example: Comparing the number of participants in different
-        experimental groups.
--   **Histograms**
-    -   Useful for visualizing the distribution of continuous data.
-    -   Example: Showing the frequency distribution of test scores.
--   **Pie Charts**
-    -   Use for displaying proportions of a whole, though less
-        frequently used in scientific contexts.
--   **Line Graphs**
-    -   Great for showing trends over time or continuous data
-        relationships.
-    -   Example: Reaction time changes over time.
--   **Scatterplots**
-    -   Ideal for representing relationships between two continuous
-        variables.
-    -   Example: Relationship between stress levels and performance.
--   **Boxplots**
-    -   Excellent for summarizing the distribution, central tendency,
-        and variability of continuous data.
--   **Heatmaps and Density Plots**
-    -   Useful for visualizing large, complex datasets, or relationships
-        between multiple variables.
--   **Violin Plots**
-    -   Combines boxplot and density information to visualize data
-        distribution.
-        
-## **Design Principles for Effective Data Visualizations**
+## Bar Charts
 
--   **Clarity and Simplicity**
-    -   Avoid unnecessary elements (e.g., chartjunk, 3D effects).
-    -   Focus on the key message and make the visualization intuitive to
-        interpret.
--   **Consistency**
-    -   Use consistent colors, fonts, and labels across different
-        graphs.
--   **Labeling and Annotations**
-    -   Clear axis titles, units, and legends to make the graph
-        self-explanatory.
--   **Color Choices**
-    -   Consider color blindness (red-green blindness common) and use
-        color schemes that enhance readability.
--   **Appropriate Scale**
-    -   Avoid misleading visuals by ensuring that scales are not
-        exaggerated or compressed.
--   **Hierarchy and Focus**
-    -   Guide the viewer’s attention to the most important parts of the
-        graph (using size, bolding, or contrasting colors).
--   **Telling a Story**
-    -   Visuals should flow logically and lead the reader through the
-        narrative of your data.
-        
+::::: columns
+::: {.column width="40%"}
+![](/images/BarBig.png){width="100%"}
+:::
+
+::: {.column width="60%"}
+-   Best for comparing discrete categories.
+-   Example: Comparing the number of participants in different experimental groups.
+-   Effective for showing relative differences between categories.
+-   Can be displayed vertically or horizontally.
+-   Suitable for both nominal and ordinal data.
+:::
+:::::
+
+## **Histograms**
+
+::::: columns
+::: {.column width="40%"}
+![](/images/HistogramBig.png){width="100%"}
+:::
+
+::: {.column width="60%"}
+-   Useful for visualizing the distribution of continuous data.
+-   Example: Showing the frequency distribution of test scores.
+:::
+:::::
+
+## **Pie Charts**
+
+::::: columns
+::: {.column width="40%"}
+![](/images/PieBig.png){width="100%"}
+:::
+
+::: {.column width="60%"}
+-   Use for displaying proportions of a whole, though less frequently used in scientific contexts.
+:::
+:::::
+
+## **Line Graphs**
+
+::::: columns
+::: {.column width="40%"}
+![](/images/LineBig.png){width="100%"}
+:::
+
+::: {.column width="60%"}
+-   Great for showing trends over time or continuous data relationships.
+-   Example: Reaction time changes over time.
+:::
+:::::
+
+## **Scatterplots**
+
+::::: columns
+::: {.column width="40%"}
+![](/images/ScatterPlotBig.png){width="100%"}
+:::
+
+::: {.column width="60%"}
+-   Ideal for representing relationships between two continuous variables.
+-   Example: Relationship between stress levels and performance.
+:::
+:::::
+
+## **Boxplots**
+
+::::: columns
+::: {.column width="40%"}
+![](/images/Box1Big.png){width="100%"}
+:::
+
+::: {.column width="60%"}
+-   Excellent for summarizing the distribution, central tendency, and variability of continuous data.
+:::
+:::::
+
+## **Density Plots**
+
+::::: columns
+::: {.column width="40%"}
+![](/images/DensityBig.png){width="100%"}
+:::
+
+::: {.column width="60%"}
+-   Useful for visualizing large, complex datasets, or relationships between multiple variables.
+:::
+:::::
+
+## **Violin Plots**
+
+::::: columns
+::: {.column width="40%"}
+![](/images/ViolinBig.png){width="100%"}
+:::
+
+::: {.column width="60%"}
+-   Combines boxplot and density information to visualize data distribution.
+:::
+:::::
+
+## **Design Principles for Effective Data Visualizations 1**
+
+**Clarity and Simplicity** Avoid unnecessary elements (e.g., chartjunk, 3D effects). Focus on the key message and make the visualization intuitive to interpret. **Consistency** Use consistent colors, fonts, and labels across different graphs.
+
+## **Design Principles for Effective Data Visualizations 2**
+
+**Labeling and Annotations** Clear axis titles, units, and legends to make the graph self-explanatory. **Color Choices** Consider color blindness (red-green blindness common) and use color schemes that enhance readability.
+
+## **Design Principles for Effective Data Visualizations 3**
+
+**Appropriate Scale** Avoid misleading visuals by ensuring that scales are not exaggerated or compressed. **Hierarchy and Focus** Guide the viewer’s attention to the most important parts of the graph (using size, bolding, or contrasting colors). **Telling a Story** Visuals should flow logically and lead the reader through the narrative of your data.
+
 ## **How to Choose the Right Graph for Your Data**
 
--   **Understanding Your Audience**
-    -   Tailor complexity based on who is consuming the data (public,
-        peers, experts).
--   **Data-Driven Decision Making**
-    -   Choose the graph based on the data structure and the key message
-        you want to convey.
--   **Avoid Common Pitfalls**
-    -   Misleading graphs (incorrect scales, truncated axes) can
-        misinform rather than clarify.
-    -   Overcomplicating simple messages with too many visual elements
-        or excessive detail.
+**Understanding Your Audience** Tailor complexity based on who is consuming the data (public, peers, experts). **Data-Driven Decision Making** Choose the graph based on the data structure and the key message you want to convey. **Avoid Common Pitfalls** Misleading graphs (incorrect scales, truncated axes) can misinform rather than clarify. Overcomplicating simple messages with too many visual elements or excessive detail.
 
 ## **Psychological Aspects of Data Visualization**
 
--   **Cognitive Load**
-    -   Minimizing mental effort required to interpret visuals.
--   **Gestalt Principles of Perception**
-    -   How humans perceive visual elements (e.g., proximity,
-        similarity, closure) and how to leverage these in visual design.
--   **Emotional Impact of Visuals**
-    -   Using visual design to invoke emotions (e.g., empathy, urgency),
-        particularly in health or social psychology data.
+**Cognitive Load** Minimizing mental effort required to interpret visuals. **Gestalt Principles of Perception** How humans perceive visual elements (e.g., proximity, similarity, closure) and how to leverage these in visual design. **Emotional Impact of Visuals** Using visual design to invoke emotions (e.g., empathy, urgency), particularly in health or social psychology data.
 
 ## **Examples and Case Studies**
 
--   **Good vs Bad Visualizations**
-    -   Comparing effective vs poorly designed graphs.
-    -   Examples from psychological research where data visualizations
-        impacted understanding.
--   **Interactive Exercise**
-    -   Students create their own data visualization using sample
-        datasets (e.g., reaction times, Likert scale responses).
+**Good vs Bad Visualizations** Comparing effective vs poorly designed graphs. Examples from psychological research where data visualizations impacted understanding. **Interactive Exercise** Students create their own data visualization using sample datasets (e.g., reaction times, Likert scale responses).
 
 ## Tech Stack
 
@@ -429,7 +436,7 @@ visualizations narrated by an expert who explains each trend.
 -   [Learn more about R](https://www.r-project.org/about.html){preview-link="https://www.r-project.org/about.html"}
 :::
 
----
+------------------------------------------------------------------------
 
 ### Quarto for Publishing
 
@@ -440,7 +447,7 @@ visualizations narrated by an expert who explains each trend.
 -   [Explore Quarto](https://quarto.org/){preview-link="https://quarto.org/"}
 :::
 
----
+------------------------------------------------------------------------
 
 ### Excel
 
@@ -459,29 +466,26 @@ visualizations narrated by an expert who explains each trend.
 -   Valuable skill for future employment
 :::
 
-
 ## What do you currently use?
 
 **How do you write your essays or lab reports?**
 
-* Microsoft Word?
+-   Microsoft Word?
 
-* Google Docs?
+-   Google Docs?
 
-* Markdown?
+-   Markdown?
 
-::: {.fragment}
-
+::: fragment
 **How do you currently play with numbers?**
 
-* Excel?
+-   Excel?
 
-* SPSS?
+-   SPSS?
 
-* R?
+-   R?
 
-* Python?
-
+-   Python?
 :::
 
 ## What is Quarto?
@@ -498,40 +502,38 @@ Quarto is an open-source scientific and technical publishing system [that allows
 
 ## Why use Quarto? Why use R?
 
-* More journals require code to be submitted (for transparency and reproducibility). Keeping the code with the paper makes this easier.
+-   More journals require code to be submitted (for transparency and reproducibility). Keeping the code with the paper makes this easier.
 
-* Copying and pasting is tedious (and a great source of accidental errors).
+-   Copying and pasting is tedious (and a great source of accidental errors).
 
-* If you fix an error in code or data, the results and figures in the paper update automatically.
+-   If you fix an error in code or data, the results and figures in the paper update automatically.
 
-* Easy to share publicly. 
+-   Easy to share publicly.
 
-* Open source so anyone can use it.
+-   Open source so anyone can use it.
 
 ## What about R Markdown?
 
 R Markdown isn't going anywhere but...
 
-* Quarto has better multi-language support
+-   Quarto has better multi-language support
 
-* More user-friendly
+-   More user-friendly
 
-* Better control of the output layouts
+-   Better control of the output layouts
 
 ## Output types
 
-::: {.incremental}
+::: incremental
+-   Documents: HTML, PDF, MS Word, Markdown
 
-* Documents: HTML, PDF, MS Word, Markdown
+-   Presentations: Revealjs, PowerPoint, Beamer
 
-* Presentations: Revealjs, PowerPoint, Beamer
+-   Websites and blogs
 
-* Websites and blogs
+-   Books, code notebooks and dashboards
 
-* Books, code notebooks and dashboards
-
-* Interactive apps (in R, Python, Julia, Observablejs)
-
+-   Interactive apps (in R, Python, Julia, Observablejs)
 :::
 
 ## Examples
@@ -544,7 +546,7 @@ The first question is "What do you want to show?"
 
 [Quarto Publishing System](https://quarto.org/)
 
-## Definition 
+## Definition
 
 ### Histogram
 
@@ -651,7 +653,7 @@ data %>%
     xlab("value of x")
 ```
 
-## Common mistakes 
+## Common mistakes
 
 ------------------------------------------------------------------------
 
@@ -663,7 +665,7 @@ data %>%
 
 ------------------------------------------------------------------------
 
-## Definition 
+## Definition
 
 ### Density Plot
 
@@ -1149,22 +1151,21 @@ The line chart is subject to a lot of discussion concerning potential caveats:
 
 -   To cut or not to cut the Y axis? Whether or not the Y axis must start at 0 is a hot topic leading to intense debates. Generally, line plots do not need to start at 0 since it allows observing patterns more efficiently.
 
-
-## Definition 
+## Definition
 
 ### Line Chart
 
 ------------------------------------------------------------------------
 
-[Previous content remains the same]
+\[Previous content remains the same\]
 
-## Common caveats 
+## Common caveats
 
 ------------------------------------------------------------------------
 
 The line chart is subject to a lot of discussion concerning potential caveats:
 
-- To cut or not to cut the Y axis? Whether or not the Y axis must start at 0 is a hot topic leading to intense debates. Generally, line plots do not need to start at 0 since it allows observing patterns more efficiently.
+-   To cut or not to cut the Y axis? Whether or not the Y axis must start at 0 is a hot topic leading to intense debates. Generally, line plots do not need to start at 0 since it allows observing patterns more efficiently.
 
 ```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=3, fig.width=10}
 # Libraries
@@ -1248,23 +1249,22 @@ wordcloud2(mywords,  minRotation = -pi/2, maxRotation = -pi/2,
 
 Word clouds are useful for:
 
-- Quickly perceiving the most prominent terms
-- Locating a term alphabetically to determine its relative prominence
-- Creating visually appealing representations of text data
+-   Quickly perceiving the most prominent terms
+-   Locating a term alphabetically to determine its relative prominence
+-   Creating visually appealing representations of text data
 
 They are widely used in media and well understood by the public.
 
 ## Useful for:
 
-- Summarizing large amounts of text data
-- Highlighting key themes or topics in a dataset
-- Creating engaging visuals for presentations or reports
-- Comparing word frequencies across different texts or sources
+-   Summarizing large amounts of text data
+-   Highlighting key themes or topics in a dataset
+-   Creating engaging visuals for presentations or reports
+-   Comparing word frequencies across different texts or sources
 
 ## Example
 
 Here's an alternative representation using a lollipop plot, which addresses some of the limitations of word clouds:
-
 
 ```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=6}
 # Load necessary libraries
@@ -1304,17 +1304,16 @@ word_data |>
 
 Many variations exist for word clouds:
 
-- Different shapes, sometimes using the shape of an object related to the topic
-- Varying text orientation, font, size, and colors
-- Interactive word clouds that change or provide additional information on hover
+-   Different shapes, sometimes using the shape of an object related to the topic
+-   Varying text orientation, font, size, and colors
+-   Interactive word clouds that change or provide additional information on hover
 
 ## Common mistakes
 
-- Relying too heavily on word clouds for accurate data representation
-- Ignoring the limitations of area as a metaphor for numeric values
-- Not accounting for the bias created by longer words appearing larger
-- Using word clouds when more precise visualizations (like bar charts or lollipop plots) would be more appropriate
-- Creating overly complex or cluttered word clouds that are difficult to read or interpret
+-   Relying too heavily on word clouds for accurate data representation
+-   Ignoring the limitations of area as a metaphor for numeric values
+-   Not accounting for the bias created by longer words appearing larger
+-   Using word clouds when more precise visualizations (like bar charts or lollipop plots) would be more appropriate
+-   Creating overly complex or cluttered word clouds that are difficult to read or interpret
 
 Word clouds, while visually appealing, are often criticized for their lack of accuracy in conveying information. Consider using them primarily for aesthetic purposes or in conjunction with more precise data visualization methods.
-

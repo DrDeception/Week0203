@@ -1,6 +1,6 @@
 ---
 title: "Scaled Questions Clusters"
-author: "Your Name"
+author: "Dr. Gordon Wright"
 date: "2023-10-09"
 format:
   html:

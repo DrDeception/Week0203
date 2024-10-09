@@ -8,7 +8,7 @@ format:
 editor: visual
 ---
 
-# Definition {#definition1}
+# Definition 
 
 ### Histogram
 
@@ -115,7 +115,7 @@ data %>%
     xlab("value of x")
 ```
 
-## Common mistakes {#mistake1}
+## Common mistakes 
 
 ------------------------------------------------------------------------
 
@@ -127,7 +127,7 @@ data %>%
 
 ------------------------------------------------------------------------
 
-# Definition {#definition2}
+# Definition 
 
 ### Density Plot
 
@@ -619,7 +619,7 @@ format: revealjs
 editor: visual
 ---
 
-# Definition {#definition}
+# Definition 
 
 ### Line Chart
 
@@ -627,7 +627,7 @@ editor: visual
 
 [Previous content remains the same]
 
-## Common caveats {#mistake}
+## Common caveats 
 
 ------------------------------------------------------------------------
 
@@ -673,3 +673,110 @@ p1 + p2
 -   If you need to compare the evolution of 2 different variables, avoid using dual axis. Dual axis can show very different results depending on what range you apply to the axis.
 -   Mind the spaghetti chart: too many lines make the chart unreadable.
 -   Think about the aspect ratio of the graphic, extreme ratios make the chart unreadable.
+
+---
+title: "GraphTypes"
+format: revealjs
+editor: visual
+---
+
+# Definition
+
+### Word Cloud
+
+------------------------------------------------------------------------
+
+A word cloud (also called tag cloud or weighted list) is a visual representation of text data. Words are usually single words, and the importance of each is shown with font size or color.
+
+Here is an example showing the most frequent words used by Nekfeu, a famous French rapper, in a few of his songs:
+
+------------------------------------------------------------------------
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=8, fig.width=8}
+# Libraries
+library(tidyverse)
+library(hrbrthemes)
+library(tm)
+library(proustr)
+library(wordcloud2)
+
+# Load dataset from github
+data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/14_SeveralIndepLists.csv", header=TRUE)
+to_remove <- c("_|[0-9]|\\.|function|^id|script|var|div|null|typeof|opts|if|^r$|undefined|false|loaded|true|settimeout|eval|else|artist")
+data <- data %>% filter(!grepl(to_remove, word)) %>% filter(!word %in% stopwords('fr')) %>% filter(!word %in% proust_stopwords()$word)
+
+# prepare a list of word (50 most frequent)
+mywords <- data %>%
+  filter(artist=="nekfeu") %>%
+  dplyr::select(word) %>%
+  group_by(word) %>%
+  summarize(freq=n()) %>%
+  arrange(freq) %>%
+  tail(30)
+
+# Make the plot
+wordcloud2(mywords,  minRotation = -pi/2, maxRotation = -pi/2,
+         backgroundColor = "white", color="#69b3a2")
+```
+
+## What for
+
+Word clouds are useful for:
+
+- Quickly perceiving the most prominent terms
+- Locating a term alphabetically to determine its relative prominence
+- Creating visually appealing representations of text data
+
+They are widely used in media and well understood by the public.
+
+## Useful for:
+
+- Summarizing large amounts of text data
+- Highlighting key themes or topics in a dataset
+- Creating engaging visuals for presentations or reports
+- Comparing word frequencies across different texts or sources
+
+## Example
+
+Here's an alternative representation using a lollipop plot, which addresses some of the limitations of word clouds:
+
+```{r, warning=FALSE, message=FALSE, fig.align="center", fig.height=6}
+# prepare a list of word (30 most frequent)
+data %>%
+  filter(artist=="nekfeu") %>%
+  dplyr::select(word) %>%
+  group_by(word) %>%
+  summarize(freq=n()) %>%
+  arrange(freq) %>%
+  tail(30) %>%
+  mutate(word=factor(word, word)) %>%
+  ggplot( aes(x=word, y=freq) ) +
+    geom_segment( aes(x=word ,xend=word, y=0, yend=freq), color="grey") +
+    geom_point(size=3, color="#69b3a2") +
+    coord_flip() +
+    theme_ipsum() +
+    theme(
+      panel.grid.minor.y = element_blank(),
+      panel.grid.major.y = element_blank(),
+      legend.position="none"
+    ) +
+    xlab("")
+```
+
+## Variation
+
+Many variations exist for word clouds:
+
+- Different shapes, sometimes using the shape of an object related to the topic
+- Varying text orientation, font, size, and colors
+- Interactive word clouds that change or provide additional information on hover
+
+## Common mistakes
+
+- Relying too heavily on word clouds for accurate data representation
+- Ignoring the limitations of area as a metaphor for numeric values
+- Not accounting for the bias created by longer words appearing larger
+- Using word clouds when more precise visualizations (like bar charts or lollipop plots) would be more appropriate
+- Creating overly complex or cluttered word clouds that are difficult to read or interpret
+
+Word clouds, while visually appealing, are often criticized for their lack of accuracy in conveying information. Consider using them primarily for aesthetic purposes or in conjunction with more precise data visualization methods.

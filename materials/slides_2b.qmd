@@ -29,123 +29,131 @@ filters:
 
 By the end of lab 02, you will be able to:
 
-1. Analyze the value and effectiveness of visuals in a number of real-world contexts
-2. Critically evaluate the impact of audiovisual stimuli in experimental settings
-3. Identify effective data visualisation techniques you have encountered
-4. Visualise how visualisation could be a tool worth mastering for **YOU**
+1.  Analyze the value and effectiveness of visuals in a number of real-world contexts
+2.  Critically evaluate the impact of audiovisual stimuli in experimental settings
+3.  Identify effective data visualisation techniques you have encountered
+4.  Visualise how visualisation could be a tool worth mastering for **YOU**
 
-## Lab 02 Schedule - 90 mins{.smaller}
+## Lab 02 Schedule - 90 mins {.smaller}
 
-1. Introduction and Warm-up (10 minutes)
-2. Visual Analysis of this week's learning (20 minutes)
-3. Wellbeing Experiment Stimuli Reflection (20 minutes)
-5. Visual Analysis of Scientific Communications (30 minutes)
-6. Showcase (10 minutes)
+1.  Introduction and Warm-up (10 minutes)
+2.  Visual Analysis of this week's learning (20 minutes)
+3.  Wellbeing Experiment Stimuli Reflection (20 minutes)
+4.  Visual Analysis of Scientific Communications (30 minutes)
+5.  Showcase (10 minutes)
 
-## DataSkills 02 - 30 mins (+){.smaller}
+## DataSkills 02 - 30 mins (+) {.smaller}
 
-7. Speed Data Questionnaire (15 minutes)
-8. Submit own 'Top Viz' with rationale (15 minutes)
+7.  Speed Data Questionnaire (15 minutes)
+8.  Submit own 'Top Viz' with rationale (15 minutes)
 
-## 1. Introduction and Warm-up 10 mins{.smaller}
+## 1. Introduction and Warm-up 10 mins {.smaller}
 
-- Overview of lab objectives
-- Icebreaker: Share ways you 'see data' in your everyday lives
+-   Overview of lab objectives
+-   Icebreaker: Share ways you 'see data' in your everyday lives
 
-::: {.callout-tip}
+::: callout-tip
 ## Icebreaker Tip
+
 Sleep trackers, free-coffee coupons, spotify, charts, sports league tables, fitbit etc
 :::
 
-::: {.notes}
+::: notes
 This activity sets the tone for the lab and gets students thinking about effective visual communication from the start.
 :::
 
-## 2. Visual Analysis of this week's learning 20 mins{.smaller}
+## 2. Visual Analysis of this week's learning 20 mins {.smaller}
 
-What do we need to do to help you understand and engage with complex topics like Wellbeing and Positive Psychology?  
-- Discuss in pairs
-    - What different techniques are used to achieve this important goal? 
-- It's not all words (e.g. spoken or text)
-    - What else is in the mix? 
+What do we (as educators and Psychologists) need to do to help you understand and engage with complex topics like Wellbeing and Positive Psychology?\
+- Discuss in pairs - What different techniques are used to achieve this important goal? - It's not all words (e.g. spoken or text) - What else is in the mix?
 
-::: {.callout-note}
+::: callout-note
 ## Discussion Prompts
-- Visuals? Do they help or not? Why?
-- Video or audio? Are they worthwhile?
-- Even just the lecturer's voice, nonverbal behaviour or facial expressions. Are they important?
+
+-   Visuals? Do they help or not? Why?
+-   Video or audio? Are they worthwhile?
+-   Fonts (begin comic sans argument NOW!)
+-   Even just the lecturer's voice, nonverbal behaviour or facial expressions. Are they important?
 :::
 
-## 3. Wellbeing Experiment Stimuli Reflection 20 mins{.smaller}
+## 3. Wellbeing Experiment Stimuli Reflection 20 mins {.smaller}
 
-- Reflect on the peace/tranquility vs. urban stress video experiment from the first seminar
-- Small group discussion on the effectiveness of these visual stimuli
-- Share insights on how visuals impacted the experimental outcomes
-- What alternatives exist? Would they be as effective?
+-   Reflect on the peace/tranquility vs. urban stress video experiment from the first seminar
+-   Small group discussion on the effectiveness of these visual stimuli
+-   Share insights on how visuals impacted the experimental outcomes
+-   What alternatives exist? Would they be as effective? More effective?
 
-::: {.callout-important}
-Think about how the videos elicited specific emotional responses and why this is important in psychological research.
+::: callout-important
+Think about how the videos elicited specific emotional responses and why this is important in psychological research. Would immersive VR be STRONGER? Smells? Infra-sound?
 :::
 
-## 4. Campus Visual Communication Hunt {.smaller}
+## 4. Visual Analysis of Scientific Communications 20 mins {.smaller}
 
-- Explore the college campus in small groups
-- Task: Find and document examples of effective visual communication
-- Use smartphones to capture images (if permitted)
+-   Introduction to the BrowZine app via the library
+-   Task: Find a psychology journal article and evaluate its use of visuals
+-   Consider how visuals enhance or detract from the article's content
+-   What other forms of 'Scientific Communication' exist?
 
-::: {.callout-tip}
-## Visual Hunt Guidelines
-- Look for diverse examples (posters, signage, artwork, digital displays)
-- Consider how these visuals communicate their message effectively
-- Think about the context and target audience for each visual
-:::
-
-::: {.notes}
-This activity gets students out of the classroom and actively engaging with visual communication in their environment.
-:::
-
-## 5a. Visual Analysis of Scientific Communications 20 mins {.smaller}
-
-- Introduction to the BrowZine app via the library
-- Task: Find a psychology journal article and evaluate its use of visuals
-- Consider how visuals enhance or detract from the article's content
-- What other forms of 'Scientific Communication' exist?
-
-::: {.callout-warning}
+::: callout-warning
 ## Evaluation Criteria
-- Clarity and relevance of figures/tables
-- Integration of visuals with text
-- Aesthetic appeal and professionalism
-- Contribution to overall understanding of the research
+
+-   Clarity and relevance, Integration of visuals with text, Aesthetic appeal and professionalism, Contribution to overall understanding of the research
+-   Posters, Book Covers, Journal Covers, Academic Websites, Conference Posters, Business Cards?, Blogs, Lab Websites, Software interfaces and UX, Branding
 :::
 
-## 5b. Visual Analysis of Communications 10 mins {.smaller}
+## 5. Visual Analysis of Communications 10 mins {.smaller}
 
-- Visualisation and effective communication is bigger than just Psychology
-- Task: Think about what you might want to present visually in the future
-- Consider how you might benefit from this important skill
+-   Visualisation and effective communication is bigger than just Psychology
+-   Task: Think about what you might want to present visually in the future
+-   Consider how you might benefit from this important skill
 
-::: {.callout-note}
-Business Proposals, Marriage Proposals, Websites, Advertising, Blogs, Vlogs & Pods, Merchandise, Wedding invitations, CVs, Portfolios, Dating Profile, Political Campaign, LinkedIn profile etc 
+::: callout-note
+Business Proposals, Marriage Proposals, Websites, Advertising, Blogs, Vlogs & Pods, Merchandise, Wedding invitations, CVs, Portfolios, Dating Profile, Political Campaign, LinkedIn profile etc
 :::
 
 ## 6. Showcase {.smaller}
 
-- Although not graphs. Are these things to consider? 
+-   Although not graphs. Are these things to consider?
 
-::: {.callout-note}
+::: callout-note
 These are just from Gordon, but please feel free to find any others.
 :::
 
-## Lab 02 Learning Objectives {.smaller}
+## 6.1 Event Shenanigans
 
-- Speed Data Questionnaire - including some of your questions
-- To be used for next week!
-- Submit a response to the ideas you've encountered this week via the link on the VLE
-    - Only one good idea required.
+![](images/85543.png){width="200"}
 
-::: {.callout-important}
+![](images/30175.png){width="400"}
+
+![](images/60045.png){width="500"}
+
+![](images/47514.png){width="500"}
+
+![](images/95984.png){width="500"}
+
+![](images/90703.png){width="500"}
+
+![](images/10573.png){width="500"}
+
+![](images/29882.png){width="500"}
+
+![](images/66984.png){width="500"}
+
+![](images/4473.png){width="500"}
+
+## ![](images/37512.png){width="500"} {.smaller}
+
+## DataSkills 02  {.smaller}
+
+-   Speed Data Questionnaire - including some of your questions!!
+-   To be used for next week!
+-   Submit a response to the Data Visuals you've encountered this week via the link on the VLE
+    -   TopViz - Only one good idea required.
+-   Review the results of the Questions we asked you to provide (roughly clustered so far). See VLE
+
+::: callout-important
 ## Give it some thought
-- Apply insights to improve visual elements in future work at Uni
-- Think bigger and consider how learning to communicate can be useful, and whether or not visuals (data-based or otherwise), or design, typography, digital or just artistic skills are worth pursuing
+
+-   Mastering Data Visualisation will pay off at Uni
+-   But think bigger and consider how learning to communicate can be useful, and whether or not visuals (data-based or otherwise), or design, typography, digital or just artistic skills are worth pursuing
 :::

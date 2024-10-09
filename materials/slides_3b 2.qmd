@@ -1,0 +1,460 @@
+---
+title: "Intro to Data Visualisation II"
+author: "Lab 3 -- More than Graphs"
+engine: knitr
+
+format: 
+  revealjs: 
+    slide-number: c/t
+    controls-layout: bottom-right
+    embed-resources: true
+    scrollable: true
+    code-overflow: wrap
+    code-line-numbers: true
+    code-copy: true
+    theme: [simple, slides.scss]
+    reference-location: document
+    footer: "[Data Visualisation II](https:www.bbc.co.uk)"
+webr:
+  packages: ['ggplot2', 'dplyr'] # Install R packages on document open
+# autoload-packages: false       # Disable automatic loading of packages
+# show-startup-message: false    # Disable displaying status of webR initialization
+filters:
+- webr
+---
+
+## A Guide to Your Process
+
+### [Scheduling]{.blue}
+
+### [Learning Objectives]{.purple}
+
+### [Practice]{.pink}
+
+### [Supporting Information]{.orange}
+
+### [Class Discussion]{.gold}
+
+## [Today's Plan]{.blue}
+
+- Introductions
+- Data Science Background
+- Why R?
+- Problem Solving Tips (for Coding)
+- Computer File Paths
+
+```{webr-r}
+fit = lm(mpg ~ am, data = mtcars)
+
+summary(fit)
+```
+
+## [Today's Learning Objectives]{.purple}
+
+After today's session you will be able to:
+ 
+. . .
+
+- Define "data science"
+- Explain why the course is taught in R
+- Identify useful code problem solving techniques
+- Demonstrate comprehension of computer file paths
+
+## [About Me]{.orange} {.smaller}
+
+![](/images/image1.png){.absolute top=50 left=800 width="30%" fig-alt="Photo of course instructor. A caucasian, male-presenting person with glasses in a dark jacket"}
+
+- Gordon or Doctor Wright ([_he_]{.purple} / [_him_]{.purple})
+
+\
+
+- Education:
+    - B.Sc. Biology + M.Sc. Ecology & Evolutionary Biology
+
+\
+
+- Career Goals:
+    - Marine Biologist `r fontawesome::fa("arrow-right", a11y = "sem")` College Faculty `r fontawesome::fa("arrow-right", a11y = "sem")` **_???_** `r fontawesome::fa("arrow-right", a11y = "sem")` Data Scientist
+
+\
+
+- Hobbies:
+    - [Dungeons & Dragons]{.gold}; Reading; Hiking; Movies; Videogames
+
+## [Introductions]{.gold}
+
+Tell me a bit about yourselves!
+
+. . .
+
+- What is your preferred name?
+
+- What year are you in school?
+
+- What's one of your hobbies that brings you joy?
+
+## [Introductions (Continued)]{.gold}
+
+- Why did you sign up for the course?
+
+- What skill(s) are you most excited to learn?
+
+- What previous coding / data science experience do you have?
+    - Absolutely fine if this is your first foray into data science!
+
+## [My Goal for You]{.purple}
+
+<p align="center">
+<img src="/images/image1.png" alt="Comic-style graph depicting someone's confidence with R changing over time">
+</p>
+
+## [Data Science Definition]{.orange} 
+
+\
+\
+
+Data science combines [_programming_]{.purple} and statistics with [_subject matter expertise_]{.purple} to identify patterns and insights hidden in data
+
+## [Why is this Course Taught in R?]{.orange}
+
+R is a programming language that is _awesome_ for environmental data scientists
+
+\
+
+. . .
+
+Benefits of R:
+
+\
+
+. . . 
+
+| Free | Reproducible | Accessible | Popular | Versatile |
+| :---: | :---: | :---: | :---: | :---: |
+| `r fontawesome::fa(name = "piggy-bank", a11y = "sem")` | `r fontawesome::fa(name = "repeat", a11y = "sem")` | `r fontawesome::fa(name = "universal-access", a11y = "sem")` | `r fontawesome::fa(name = "star", a11y = "sem")` | `r fontawesome::fa(name = "masks-theater", a11y = "sem")` |
+
+## [R's Popularity]{.orange}
+
+```{r popularity-ggplot}
+#| echo: false
+
+# Read in data
+pop_df <- read.csv(file = file.path("materials", "data", "r-popularity.csv"))
+
+# Load ggplot2
+library(ggplot2)
+
+# Make graph
+ggplot(pop_df, aes(x = year, y = percent_papers)) +
+  geom_smooth(method = "lm", formula = "y ~ x", se = F, color = "black") +
+  geom_point(aes(fill = 'x'), size = 5, pch = 21) +
+  labs(x = "Year", y = "Papers Using R (%)") +
+  # Tweak X-axis
+  scale_x_continuous(breaks = round(pop_df$year)) +
+  # Custom color
+  scale_fill_manual(values = "#ffc300") +
+  # Custom theming
+  theme(legend.position = "none",
+        panel.background = element_blank(),
+        panel.grid = element_blank(),
+        axis.line = element_line(color = "black"),
+        axis.text = element_text(size = 15),
+        # axis.text.x = element_text(angle = 35, hjust = 1),
+        axis.title = element_text(size = 18),
+        axis.title.x = element_blank())
+```
+
+:::{.aside}
+Data from [Lai _et al._ 2019](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.2567)
+:::
+
+## [R Data Science Value]{.orange}{.smaller}
+
+:::{.incremental}
+
+::::{.columns}
+:::{.column width="50%"}
+### `r fontawesome::fa(name = "arrows-left-right", a11y = "sem")` Reproducibility 
+
+- R is written in "[scripts]{.orange}"
+    - Scripts = step-by-step instructions
+- Scripts can be run by _any_ R user
+- Allows perfect replication of process
+- Programs that require clicking buttons are not (as) reproducible
+    - Would depend on accompanying written/verbal instructions
+:::
+
+:::{.column width="50%"}
+### Collaboration  `r fontawesome::fa(name = "handshake", a11y = "sem")`
+
+- R scripts can be co-developed!
+- They can then be shared like a paper draft
+- Many tools exist to formalize sharing
+    - We'll cover one in this course!
+- Unscripted programs would again require written/verbal instructions
+    - Then hoping someone clicks the right buttons in the right way 
+:::
+::::
+
+:::
+
+## [Temperature Check]{.purple}
+
+#### How are you Feeling?
+
+
+
+## [Problem Solving in R]{.orange}
+
+
+
+## [Problem Solving Methods]{.orange} {.smaller}
+
+- Problem solving is an important life skill generally
+    - Also useful for data science!
+
+\
+
+. . .
+
+- I _do not_ recommend using AI as a problem-solving method
+
+\
+
+. . .
+
+- Let's discuss some useful strategies:
+    1. 'Rubber duck' method
+    2. Google (seriously!)
+    3. Teamwork
+    4. Take a break
+    5. Whatever methods _you_ use!
+
+## ["AI" Aside]{.gold} {.smaller}
+
+- I _strongly_ discourage the use of AI tools in this class
+    - E.g., ChatGPT, GitHub CoPilot, etc.
+
+\
+
+. . .
+
+- Two primary reasons:
+    1. It undermines your learning
+    2. There is an ethical dimension we don't have time to cover in this class
+
+\
+
+. . .
+
+- However, I'm an educator not a cop
+    - I won't be policing you in order to enforce my take on AI
+
+## [Method 1: Rubber Duck]{.orange} {.smaller}
+
+
+
+\
+
+. . . 
+
+- Explain each line of your code to the duck
+    - Go into as much detail as possible
+    - Re-read lines _carefully_ as you explain
+
+\
+
+. . .
+
+- You'll catch typos/errors that you had missed!
+
+\
+
+. . .
+
+- Why "rubber duck" instead of "friend"?
+    - Because it would likely be a dull experience for your friend `r fontawesome::fa(name = "smile", a11y = "sem")`
+
+## [Method 2: Google]{.orange} {.smaller}
+
+
+
+- This is a serious suggestion!
+    - Google is truly an _amazing_ resource for this
+
+\
+
+. . . 
+
+
+
+\
+
+. . . 
+
+- If you get an error:
+    1. Copy the entire error message
+    2. Paste it into Google
+    3. Check the first few links to see how others solved that issue
+
+## [Google Tips]{.orange} {.smaller}
+
+
+- **Ignore** the "AI Overview"
+    - This is frequently wrong and/or misleading
+    - Click actual links!
+
+\
+
+. . . 
+
+- Use a plus sign (`+`) between search terms
+    - E.g., "R + \<error message text\>"
+
+\
+
+. . . 
+
+- When specific wording matters, use quotes!
+    - E.g., "I want results with _exactly_ this phrase"
+
+## [Method 3: Team Up!]{.orange} {.smaller}
+
+- Group work is a classic method of problem solving
+
+\
+
+. . . 
+
+- Email/text classmates about errors you're encountering
+    - Set up a weekly time to meet and work together
+
+\
+
+. . . 
+
+- Group work & assignments
+    - I really encourage you to work together to [solve problems]{.blue}
+    - _BUT_ assignments should be produced by you alone
+    - There are **no group assignments** in this course!
+
+## [Method 4: Take a Break]{.orange}
+
+
+
+## [Method 4: Take a Break]{.orange} {.smaller}
+
+- Coding issues can be super frustrating
+   - Totally **normal** to feel this way
+
+\
+
+. . .
+
+- If you are struggling to solve a problem, take a few minutes to step re-set
+   - Physically step away and do something active
+   - Do one of your hobbies for a few minutes
+   - Work on something else
+
+\
+
+. . .
+
+- Return to the problem an hour or so later and try again!
+
+## [Method 5: Yours!]{.gold}
+
+- As students, you're experienced problem solvers already!
+
+\
+
+. . . 
+
+- Code problems can likely be solved by the strategies you already use!
+
+\
+
+. . . 
+
+- How do you solve problems you encounter in other courses or at work?
+
+## [Temperature Check]{.purple}
+
+#### How are you Feeling?
+
+
+
+## [Computer File Paths]{.orange} {.smaller}
+
+- Computers store files in "[folders]{.orange}"
+    - Folders can be _nested_ inside other folders
+
+\
+
+. . .
+
+- The name of all folders leading to a particular file is that file's "[file path]{.purple}"
+    - File path starts at the biggest folder ("top" folder) and ends at the file
+    - Each folder name is separated by slashes (`\` or `/`)
+
+
+\
+
+. . .
+
+- For example: _[\~]{.blue} [/]{.orange} Downloads [/]{.orange} BIO-316_syllabus.docx_
+
+## [File Path Example]{.gold} {.smaller}
+
+What is the file path for the **notes** document in this image?
+
+
+
+. . . 
+
+_[\~]{.blue} [/]{.orange} Documents [/]{.orange} BIO 316 [/]{.orange} BIO316-Notes-Week 1.docx_
+
+## [Practice: File Paths]{.pink} {.smaller}
+
+- Pick a file on your computer
+    - _Not_ one in the "Downloads" folder (file paths are too short)
+
+\
+
+. . .
+
+- What is that file's path?
+    - Hint: _[\~]{.blue} [/]{.orange} ... [/]{.orange} ... [/]{.orange} ..._
+
+\
+
+. . .
+
+- When you have it, show me the file and tell me its path
+
+## [Upcoming Due Dates]{.blue} {.smaller}
+
+::::{.columns}
+:::{.column width="50%"}
+### Due before lab
+
+#### Due ASAP
+
+- Install R (see [here](https://cran.r-project.org/))
+- Install RStudio (see [here](https://posit.co/download/rstudio-desktop/))
+- Read the syllabus (esp. point values + assignment descriptions)
+
+#### Due by midnight
+
+- Muddiest Point \#1
+
+:::
+:::{.column width="50%"}
+### Due before lecture
+
+#### (By midnight)
+
+- Read the British Ecological Society's [Reproducible Code Guide](https://www.britishecologicalsociety.org/publications/better-science/) (p.1-12) 
+
+:::
+::::

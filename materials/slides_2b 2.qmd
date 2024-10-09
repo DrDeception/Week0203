@@ -1,0 +1,135 @@
+---
+title: "Wellbeing Week - Positive Research Methods"
+author: "Lab 2"
+engine: knitr
+
+format: 
+  revealjs: 
+    slide-number: c/t
+    controls-layout: bottom-right
+    embed-resources: true
+    scrollable: true
+    code-overflow: wrap
+    code-line-numbers: true
+    code-copy: true
+    theme: [simple, slides.scss]
+    reference-location: document
+    footer: "[Data Visualisation I](https:www.bbc.co.uk)"
+webr:
+  packages: ['ggplot2', 'dplyr'] # Install R packages on document open
+# autoload-packages: false       # Disable automatic loading of packages
+# show-startup-message: false    # Disable displaying status of webR initialization
+filters:
+- webr
+---
+
+## [Today's Plan]{.blue}
+
+Duration: 90 minutes
+
+### [Learning Objectives]{.purple}
+
+::: {.callout-important}
+## By the end of this lab, students will be able to:
+1. Identify factors that contribute to or inhibit wellbeing and happiness
+2. Design a basic intervention aimed at improving wellbeing
+3. Discuss ethical and logistical challenges in wellbeing research
+4. Propose methods to measure the effectiveness of a wellbeing intervention
+:::
+
+### [Scheduling]{.blue}
+
+1. Introduction and Warm-up (10 minutes)
+2. Individual Reflection (15 minutes)
+3. Small Group Discussion (20 minutes)
+4. Intervention Design (20 minutes)
+5. Challenges and Ethics Discussion (15 minutes)
+6. Measuring Effectiveness (15 minutes)
+7. Wrap-up and Reflection (5 minutes)
+
+### [Practice]{.pink}
+
+#### 1. Introduction and Warm-up (10 minutes)
+- Brief overview of the lab's objectives
+- Quick icebreaker: Students share one thing that made them happy recently
+
+::: {.callout-tip}
+## Icebreaker Tip
+Encourage students to be specific in their icebreaker responses. This can help set a positive tone for the lab and prime them to think about concrete factors affecting wellbeing.
+:::
+
+#### 2. Individual Reflection (15 minutes)
+- Students write down their thoughts on:
+  - Factors they believe contribute to wellbeing/happiness
+  - Factors they think inhibit wellbeing/happiness
+- Use guided questions on handouts to prompt deeper thinking
+
+::: {.callout-note}
+## Reflection Prompts
+Consider providing a mix of open-ended and specific questions to guide reflection. For example: "Think of a time when you felt particularly happy. What factors contributed to that feeling?"
+:::
+
+#### 3. Small Group Discussion (20 minutes)
+- Form groups of 3-4 students
+- Share individual reflections
+- Compile a group list of top 5 contributors and inhibitors to wellbeing
+- Begin brainstorming potential interventions based on their lists
+
+::: {.callout-important}
+Encourage groups to consider diverse perspectives and experiences when compiling their lists. This will lead to a richer discussion and more comprehensive understanding of wellbeing factors.
+:::
+
+#### 4. Intervention Design (20 minutes)
+- Each group selects one intervention idea to develop further
+- Groups outline their intervention, considering:
+  - Target population
+  - Method of delivery
+  - Duration
+  - Expected outcomes
+
+::: {.callout-tip collapse="true"}
+## Intervention Design Guidelines
+- Keep interventions realistic and implementable
+- Consider both short-term and long-term effects
+- Think about potential barriers to implementation
+- Reflect on how the intervention aligns with psychological theories of wellbeing
+:::
+
+### [Supporting Information]{.orange}
+
+#### 5. Challenges and Ethics Discussion (15 minutes)
+- Full class discussion on potential challenges:
+  - Ethical considerations (e.g., informed consent, privacy)
+  - Logistical issues (e.g., resources, time constraints)
+  - Potential negative outcomes or side effects
+
+::: {.callout-warning}
+## Ethical Considerations
+Emphasize the importance of ethical considerations in psychology research, particularly when dealing with sensitive topics like mental health and wellbeing. Discuss the need for informed consent, confidentiality, and the right to withdraw from studies.
+:::
+
+#### 6. Measuring Effectiveness (15 minutes)
+- Groups propose methods to measure their intervention's effectiveness
+- Consider both quantitative and qualitative approaches
+- Discuss potential confounding variables
+
+::: {.callout-note}
+Introduce the concept of pre- and post-intervention measures, as well as the importance of control groups in experimental design. Discuss the pros and cons of different measurement tools (e.g., surveys, interviews, physiological measures).
+:::
+
+### [Class Discussion]{.gold}
+
+#### 7. Wrap-up and Reflection (5 minutes)
+- Brief sharing of key takeaways
+- Assign optional follow-up reading on evidence-based wellbeing interventions
+
+::: {.callout-tip}
+End the session by highlighting a few innovative ideas or insightful observations from the students to reinforce learning and encourage further exploration of the topic.
+:::
+
+### Follow-up
+
+::: {.callout-important icon="lightbulb"}
+## Extended Learning
+Encourage students to refine their intervention ideas and measurement plans for a future assignment or research proposal. Provide resources for students to learn more about existing wellbeing interventions and research methodologies in positive psychology.
+:::

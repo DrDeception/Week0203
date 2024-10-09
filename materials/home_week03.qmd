@@ -4,6 +4,74 @@ format:
   html: default
 ---
 
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig.width: 12
+#| fig.height: 4
+
+library(tidyverse)
+library(igraph)
+library(ggraph)
+library(patchwork)
+
+# Function to generate network data with a central node
+generate_network <- function(n_nodes, n_edges, seed = 42) {
+  set.seed(seed)
+  nodes <- tibble(id = 0:n_nodes)  # 0 is the central node (the student)
+  edges <- tibble(
+    from = c(rep(0, n_nodes), sample(1:n_nodes, n_edges - n_nodes, replace = TRUE)),
+    to = c(1:n_nodes, sample(1:n_nodes, n_edges - n_nodes, replace = TRUE))
+  ) %>% filter(from != to) %>% distinct()
+  
+  graph <- graph_from_data_frame(edges, directed = FALSE, vertices = nodes)
+  
+  # Calculate closeness centrality
+  closeness <- closeness(graph, normalized = TRUE)
+  V(graph)$closeness <- closeness
+  V(graph)$is_central <- as.numeric(V(graph)$name == "0")
+  
+  return(graph)
+}
+
+# Function to plot a network
+plot_network <- function(graph, title) {
+  ggraph(graph, layout = "fr") +
+    geom_edge_link(alpha = 0.4) +
+    geom_node_point(aes(size = closeness, color = as.factor(is_central)), alpha = 0.7) +
+    scale_size_continuous(range = c(3, 10)) +
+    scale_color_manual(values = c("0" = "darkblue", "1" = "red")) +
+    theme_graph() +
+    labs(title = title) +
+    theme(plot.title = element_text(hjust = 0.5),
+          legend.position = "none")
+}
+
+# Generate three different networks
+slim_network <- generate_network(5, 8, seed = 1)
+frantic_network <- generate_network(20, 50, seed = 2)
+healthy_network <- generate_network(15, 25, seed = 3)
+
+# Create individual plots
+p1 <- plot_network(slim_network, "Slim")
+p2 <- plot_network(frantic_network, "Frantic")
+p3 <- plot_network(healthy_network, "Healthy")
+
+# Combine plots
+combined_plot <- p1 + p2 + p3 +
+  plot_layout(ncol = 3) +
+  plot_annotation(
+    title = "Social Connectedness Networks of Three Students",
+    subtitle = "Node size represents closeness centrality. Red node is the student.",
+    theme = theme(plot.title = element_text(hjust = 0.5),
+                  plot.subtitle = element_text(hjust = 0.5))
+  )
+
+# Display the combined plot
+combined_plot
+```
+
 ## Overview
 
 This week we'll be covering mostly big picture background content. We'll begin with background on data science generally then narrow to talking about why this course is taught in R (rather than some other coding language). I'll then give you some hard-won tips on problem solving so that you can begin to develop strategies for handling the errors and warnings that you'll inevitably encounter as you grow your competency in this arena. In lab, we'll discuss some crucial components of navigating and using RStudio as well as begin our conversation about R scripts and "base R"

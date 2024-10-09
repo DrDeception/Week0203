@@ -1,0 +1,17 @@
+{
+  "hash": "5a467c04f0ae35b4bbc6826faa59f082",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Week 3 Materials\"\nformat:\n  html: default\n---\n\n::: {.cell}\n::: {.cell-output-display}\n![](home_week03_files/figure-html/unnamed-chunk-1-1.png){width=1152}\n:::\n:::\n\n\n\n\n## Overview\n\nThis week we'll be covering mostly big picture background content. We'll begin with background on data science generally then narrow to talking about why this course is taught in R (rather than some other coding language). I'll then give you some hard-won tips on problem solving so that you can begin to develop strategies for handling the errors and warnings that you'll inevitably encounter as you grow your competency in this arena. In lab, we'll discuss some crucial components of navigating and using RStudio as well as begin our conversation about R scripts and \"base R\"\n\n## Lecture 3 - Data Visualisation\n\n\n\n\n```{=html}\n<iframe class=\"slide-deck\" src=\"slides_1a.html\" height=\"420\" width=\"750\" style=\"border: 1px solid #2e3846;\"></iframe>\n```\n\n\n\n\n[Lecture Slides -- Full Screen](slides_3a.qmd)\n\n## Lab 2 - RStudio & Base R\n\n\n\n\n```{=html}\n<iframe class=\"slide-deck\" src=\"slides_3a.html\" height=\"420\" width=\"750\" style=\"border: 1px solid #2e3846;\"></iframe>\n```\n\n\n\n\n[Lab Slides -- Full Screen](slides_3a.qmd)\n\n## DataSkills 3\n\n### Learning Objective(s)\n\nUpon completion of these assignments, students will be able to:\n\n- **Describe** a real-world file path\n- **Demonstrate** comfortability with using comments in an R script \n- **Explain** fundamental principles of R and RStudio\n- **Perform** arithmetic using objects in R\n- **Manipulate** and interpret vectors and objects of various classes and contents\n\n### Assignment Due Date(s)\n\nEach homework is due at midnight the day before each lecture (i.e., Monday night) Late work will be accepted but will be subject to the late assignments policy outlined in this course's syllabus.\n\n### Assignment Description\n\nThis homework should be submitted as an R script with your last name and week 1 as the file name (e.g., \"Lyon_week1.R\"). Remember to include comments explaining what line(s) correspond to each of the following prompts.\n\n1. As a comment, write the full file path on your computer to where you've saved this script. Folders should be separated by slashes. Include the name of the R script in the file path\n\n2. As a comment, explain the difference between the RStudio \"Console\" and \"Source\" panes\n\n3. As a comment, describe–in your own words–what is meant by the term \"base R\"\n\n4. Create an object named \"weight_kg\" and assign the value 62 as a number\n\n5. Create a new object by multiplying the 'weight_kg' object by 2.2 and assign the result to an object called \"weight_lb\"\n\n6. As a comment, define both (A) the value of 'weight_lb' and (B) the class of 'weight_lb'\n\n7. Write the code necessary to access the help file for the function `floor`",
+    "supporting": [
+      "home_week03_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

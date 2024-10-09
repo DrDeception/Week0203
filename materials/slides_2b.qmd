@@ -1,6 +1,6 @@
 ---
-title: "Wellbeing Week - Positive Research Methods"
-author: "Lab 2"
+title: "Lab 02 - Positive Research Methods"
+author: "Dr. Gordon Wright"
 engine: knitr
 
 format: 
@@ -14,7 +14,9 @@ format:
     code-copy: true
     theme: [simple, slides.scss]
     reference-location: document
-    footer: "[Data Visualisation I](https:www.bbc.co.uk)"
+    footer: "Data Visualisation I"
+  html: 
+    output-ext: .htm
 webr:
   packages: ['ggplot2', 'dplyr'] # Install R packages on document open
 # autoload-packages: false       # Disable automatic loading of packages
@@ -23,113 +25,127 @@ filters:
 - webr
 ---
 
-## [Today's Plan]{.blue}
+## Lab 02 Learning Objectives {.smaller}
 
-Duration: 90 minutes
+By the end of lab 02, you will be able to:
 
-### [Learning Objectives]{.purple}
+1. Analyze the value and effectiveness of visuals in a number of real-world contexts
+2. Critically evaluate the impact of audiovisual stimuli in experimental settings
+3. Identify effective data visualisation techniques you have encountered
+4. Visualise how visualisation could be a tool worth mastering for **YOU**
 
-::: {.callout-important}
-## By the end of this lab, students will be able to:
-1. Identify factors that contribute to or inhibit wellbeing and happiness
-2. Design a basic intervention aimed at improving wellbeing
-3. Discuss ethical and logistical challenges in wellbeing research
-4. Propose methods to measure the effectiveness of a wellbeing intervention
-:::
-
-### [Scheduling]{.blue}
+## Lab 02 Schedule - 90 mins{.smaller}
 
 1. Introduction and Warm-up (10 minutes)
-2. Individual Reflection (15 minutes)
-3. Small Group Discussion (20 minutes)
-4. Intervention Design (20 minutes)
-5. Challenges and Ethics Discussion (15 minutes)
-6. Measuring Effectiveness (15 minutes)
-7. Wrap-up and Reflection (5 minutes)
+2. Visual Analysis of this week's learning (20 minutes)
+3. Wellbeing Experiment Stimuli Reflection (20 minutes)
+5. Visual Analysis of Scientific Communications (30 minutes)
+6. Showcase (10 minutes)
 
-### [Practice]{.pink}
+## DataSkills 02 - 30 mins (+){.smaller}
 
-#### 1. Introduction and Warm-up (10 minutes)
-- Brief overview of the lab's objectives
-- Quick icebreaker: Students share one thing that made them happy recently
+7. Speed Data Questionnaire (15 minutes)
+8. Submit own 'Top Viz' with rationale (15 minutes)
+
+## 1. Introduction and Warm-up 10 mins{.smaller}
+
+- Overview of lab objectives
+- Icebreaker: Share ways you 'see data' in your everyday lives
 
 ::: {.callout-tip}
 ## Icebreaker Tip
-Encourage students to be specific in their icebreaker responses. This can help set a positive tone for the lab and prime them to think about concrete factors affecting wellbeing.
+Sleep trackers, free-coffee coupons, spotify, charts, sports league tables, fitbit etc
 :::
 
-#### 2. Individual Reflection (15 minutes)
-- Students write down their thoughts on:
-  - Factors they believe contribute to wellbeing/happiness
-  - Factors they think inhibit wellbeing/happiness
-- Use guided questions on handouts to prompt deeper thinking
+::: {.notes}
+This activity sets the tone for the lab and gets students thinking about effective visual communication from the start.
+:::
+
+## 2. Visual Analysis of this week's learning 20 mins{.smaller}
+
+What do we need to do to help you understand and engage with complex topics like Wellbeing and Positive Psychology?  
+- Discuss in pairs
+    - What different techniques are used to achieve this important goal? 
+- It's not all words (e.g. spoken or text)
+    - What else is in the mix? 
 
 ::: {.callout-note}
-## Reflection Prompts
-Consider providing a mix of open-ended and specific questions to guide reflection. For example: "Think of a time when you felt particularly happy. What factors contributed to that feeling?"
+## Discussion Prompts
+- Visuals? Do they help or not? Why?
+- Video or audio? Are they worthwhile?
+- Even just the lecturer's voice, nonverbal behaviour or facial expressions. Are they important?
 :::
 
-#### 3. Small Group Discussion (20 minutes)
-- Form groups of 3-4 students
-- Share individual reflections
-- Compile a group list of top 5 contributors and inhibitors to wellbeing
-- Begin brainstorming potential interventions based on their lists
+## 3. Wellbeing Experiment Stimuli Reflection 20 mins{.smaller}
+
+- Reflect on the peace/tranquility vs. urban stress video experiment from the first seminar
+- Small group discussion on the effectiveness of these visual stimuli
+- Share insights on how visuals impacted the experimental outcomes
+- What alternatives exist? Would they be as effective?
 
 ::: {.callout-important}
-Encourage groups to consider diverse perspectives and experiences when compiling their lists. This will lead to a richer discussion and more comprehensive understanding of wellbeing factors.
+Think about how the videos elicited specific emotional responses and why this is important in psychological research.
 :::
 
-#### 4. Intervention Design (20 minutes)
-- Each group selects one intervention idea to develop further
-- Groups outline their intervention, considering:
-  - Target population
-  - Method of delivery
-  - Duration
-  - Expected outcomes
+## 4. Campus Visual Communication Hunt {.smaller}
 
-::: {.callout-tip collapse="true"}
-## Intervention Design Guidelines
-- Keep interventions realistic and implementable
-- Consider both short-term and long-term effects
-- Think about potential barriers to implementation
-- Reflect on how the intervention aligns with psychological theories of wellbeing
-:::
-
-### [Supporting Information]{.orange}
-
-#### 5. Challenges and Ethics Discussion (15 minutes)
-- Full class discussion on potential challenges:
-  - Ethical considerations (e.g., informed consent, privacy)
-  - Logistical issues (e.g., resources, time constraints)
-  - Potential negative outcomes or side effects
-
-::: {.callout-warning}
-## Ethical Considerations
-Emphasize the importance of ethical considerations in psychology research, particularly when dealing with sensitive topics like mental health and wellbeing. Discuss the need for informed consent, confidentiality, and the right to withdraw from studies.
-:::
-
-#### 6. Measuring Effectiveness (15 minutes)
-- Groups propose methods to measure their intervention's effectiveness
-- Consider both quantitative and qualitative approaches
-- Discuss potential confounding variables
-
-::: {.callout-note}
-Introduce the concept of pre- and post-intervention measures, as well as the importance of control groups in experimental design. Discuss the pros and cons of different measurement tools (e.g., surveys, interviews, physiological measures).
-:::
-
-### [Class Discussion]{.gold}
-
-#### 7. Wrap-up and Reflection (5 minutes)
-- Brief sharing of key takeaways
-- Assign optional follow-up reading on evidence-based wellbeing interventions
+- Explore the college campus in small groups
+- Task: Find and document examples of effective visual communication
+- Use smartphones to capture images (if permitted)
 
 ::: {.callout-tip}
-End the session by highlighting a few innovative ideas or insightful observations from the students to reinforce learning and encourage further exploration of the topic.
+## Visual Hunt Guidelines
+- Look for diverse examples (posters, signage, artwork, digital displays)
+- Consider how these visuals communicate their message effectively
+- Think about the context and target audience for each visual
 :::
 
-### Follow-up
+::: {.notes}
+This activity gets students out of the classroom and actively engaging with visual communication in their environment.
+:::
 
-::: {.callout-important icon="lightbulb"}
-## Extended Learning
-Encourage students to refine their intervention ideas and measurement plans for a future assignment or research proposal. Provide resources for students to learn more about existing wellbeing interventions and research methodologies in positive psychology.
+## 5a. Visual Analysis of Scientific Communications 20 mins {.smaller}
+
+- Introduction to the BrowZine app via the library
+- Task: Find a psychology journal article and evaluate its use of visuals
+- Consider how visuals enhance or detract from the article's content
+- What other forms of 'Scientific Communication' exist?
+
+::: {.callout-warning}
+## Evaluation Criteria
+- Clarity and relevance of figures/tables
+- Integration of visuals with text
+- Aesthetic appeal and professionalism
+- Contribution to overall understanding of the research
+:::
+
+## 5b. Visual Analysis of Communications 10 mins {.smaller}
+
+- Visualisation and effective communication is bigger than just Psychology
+- Task: Think about what you might want to present visually in the future
+- Consider how you might benefit from this important skill
+
+::: {.callout-note}
+Business Proposals, Marriage Proposals, Websites, Advertising, Blogs, Vlogs & Pods, Merchandise, Wedding invitations, CVs, Portfolios, Dating Profile, Political Campaign, LinkedIn profile etc 
+:::
+
+## 6. Showcase {.smaller}
+
+- Although not graphs. Are these things to consider? 
+
+::: {.callout-note}
+These are just from Gordon, but please feel free to find any others.
+:::
+
+## Lab 02 Learning Objectives {.smaller}
+
+- Speed Data Questionnaire - including some of your questions
+- To be used for next week!
+- Submit a response to the ideas you've encountered this week via the link on the VLE
+    - Only one good idea required.
+
+::: {.callout-important}
+## Give it some thought
+- Apply insights to improve visual elements in future work at Uni
+- Think bigger and consider how learning to communicate can be useful, and whether or not visuals (data-based or otherwise), or design, typography, digital or just artistic skills are worth pursuing
 :::

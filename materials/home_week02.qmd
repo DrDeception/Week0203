@@ -6,11 +6,13 @@ format:
 
 ## Overview
 
-We're going to start by trying to demonstrate that using design principles and using a creative mindset to approach the challenges of science can lead to some really exciting outcomes.
+This is a website built using Quarto. Don't be afraid. If Gordon can do it, you can do it.
 
-We're going to start by trying to demonstrate that using design principles and using a creative mindset to approach the challenges of science can lead to some really exciting outcomes.
+This week we're going to start by trying to demonstrate that using design principles and using a creative mindset to approach the challenges of communicating science can lead to some really exciting outcomes.
 
-We are going to talk about some of the tools that you might end up using during the course of your degree, the point being that they will be useful hopefully for the rest of your lives, but certainly the process and sensibilities that you might develop this year by engaging with the process. Will last you a lifetime and bridge the arts and sciences.
+We are going to talk about some of the tools that you might end up using during the course of your degree, the point being that they will be useful hopefully for the rest of your lives. 
+
+One of the joys of reading Psychology at Goldsmiths is the artistic environment and spirit of creativity. By investing just a little thought, time and energy, you could bring the arts and sciences closer together!
 
 ## Lecture 2 - Data Visualisation
 
@@ -28,36 +30,5 @@ We are going to talk about some of the tools that you might end up using during 
 
 [Lab Slides -- Full Screen](slides_2a.qmd)
 
-## DataSkills 2
+## Showcase Materials 
 
-### Learning Objective(s)
-
-Upon completion of these assignments, students will be able to:
-
-- **Describe** a real-world file path
-- **Demonstrate** comfortability with using comments in an R script 
-- **Explain** fundamental principles of R and RStudio
-- **Perform** arithmetic using objects in R
-- **Manipulate** and interpret vectors and objects of various classes and contents
-
-### Assignment Due Date(s)
-
-Each homework is due at midnight the day before each lecture (i.e., Monday night) Late work will be accepted but will be subject to the late assignments policy outlined in this course's syllabus.
-
-### Assignment Description
-
-This homework should be submitted as an R script with your last name and week 1 as the file name (e.g., "Lyon_week1.R"). Remember to include comments explaining what line(s) correspond to each of the following prompts.
-
-1. As a comment, write the full file path on your computer to where you've saved this script. Folders should be separated by slashes. Include the name of the R script in the file path
-
-2. As a comment, explain the difference between the RStudio "Console" and "Source" panes
-
-3. As a comment, describe–in your own words–what is meant by the term "base R"
-
-4. Create an object named "weight_kg" and assign the value 62 as a number
-
-5. Create a new object by multiplying the 'weight_kg' object by 2.2 and assign the result to an object called "weight_lb"
-
-6. As a comment, define both (A) the value of 'weight_lb' and (B) the class of 'weight_lb'
-
-7. Write the code necessary to access the help file for the function `floor`

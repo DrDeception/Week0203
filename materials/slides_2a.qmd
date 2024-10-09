@@ -23,6 +23,7 @@ webr:
 filters:
 - webr
 ---
+
 ```{webr-r}
 1 + 1 
 ```
@@ -35,6 +36,7 @@ summary(fit)
 ```{webr-r}
 plot(pressure)
 ```
+
 ## [Today's Schedule]{.blue}
 
 1.  Introduction to Research Methods
@@ -44,33 +46,33 @@ plot(pressure)
 5.  Standing on the Shoulders of Giants
 6.  Understanding Your Audience
 7.  The Art and Science of Visualization
+## The Big Picture
 
-------------------------------------------------------------------------
-## [The Big Picture]{.pink}
+:::: {.columns}
 
-::::: columns
 ::: {.column width="50%"}
 ### Week/Block Structure
 
--   Lectures
--   Independent activities
--   Seminars
+- Lectures
+- Independent activities
+- Seminars
 :::
 
 ::: {.column width="50%"}
 ### Research Methods Integration
--   Research Methods Lectures
--   Research Methods Labs
--   DataSkills
--   Research during your time here
-:::
-:::::
 
-::: callout-note
+- Research Methods Lectures
+- Research Methods Labs
+- DataSkills
+- Research during your time here
+:::
+
+::::
+
+::: {.callout-note}
 All components tie together, building on your growing psychological knowledge and incorporating research methods. But Research Methods WILL still feature in your other lectures and seminars.
 :::
 
-------------------------------------------------------------------------
 
 ## [You Only Get One Chance]{.purple}
 
@@ -88,29 +90,29 @@ This is the first real research methods lecture:
 
 ## [Effective Communication Strategies]{.orange .small}
 
-::: {.callout-tip}
+:::::::: callout-tip
 ## How can we communicate ideas effectively?
 
-::: {.columns}
-::: {.column width="50%"}
-::: {.incremental}
-- Include examples and demos?
-- Call on experts?
-- Use case studies?
-- Use pictures, videos, music?
+::::::: columns
+:::: {.column width="50%"}
+::: incremental
+-   Include examples and demos?
+-   Call on experts?
+-   Use case studies?
+-   Use pictures, videos, music?
 :::
-:::
+::::
 
-::: {.column width="50%"}
-::: {.incremental}
-- Be serious or funny?
-- Be honest?
-- Be intellectual, geeky, or flippant?
-- Be aspirational, motivational, or inspirational?
+:::: {.column width="50%"}
+::: incremental
+-   Be serious or funny?
+-   Be honest?
+-   Be intellectual, geeky, or flippant?
+-   Be aspirational, motivational, or inspirational?
 :::
-:::
-:::
-:::
+::::
+:::::::
+::::::::
 
 ------------------------------------------------------------------------
 
@@ -129,64 +131,67 @@ This is the first real research methods lecture:
 
 ## [Standing on the Shoulders of Giants]{.blue}
 
-::: {.callout-tip}
+:::::::: callout-tip
 ## Have a think about...
 
-::: {.columns}
-::: {.column width="50%"}
-::: {.incremental}
+::::::: columns
+:::: {.column width="50%"}
+::: incremental
 -   Song lyrics you can't forget
 -   Your favorite comedian
 -   A non-verbal behaviour that's powerful
 -   Your favorite psychologist
 :::
-:::
+::::
 
-::: {.column width="50%"}
-::: {.incremental}
+:::: {.column width="50%"}
+::: incremental
 -   Your favourite teacher
 -   The best communicator you know
 -   Someone you consider a genius
 -   A piece of 'art' that captivates you
 :::
-:::
-:::
-:::
-------------------------------------------------------------------------
+::::
+:::::::
+::::::::
+
+^^^
 
 ## [Am I going to be brave?]{.gold}
 
-------------------------------------------------------------------------
+
+---
 
 ## [Rule #1! Know Your Audience]{.purple}
 
 ### "First seek to understand, then be understood"
 
-::: {.incremental}
-- Stephen Covey's 5th Habit of Highly Effective People
-- Crucial in academia and research
-- Applies to various fields: Sales and marketing, Education, Leadership
+::: incremental
+-   Stephen Covey's 5th Habit of Highly Effective People
+-   Crucial in academia and research
+-   Applies to various fields: Sales and marketing, Education, Leadership
 :::
 
 ### Why it matters in research
 
-::: {.incremental}
-- Tailors your communication effectively
-- Increases impact of your research
-- Helps bridge knowledge gaps
-- Facilitates interdisciplinary collaboration
-- Improves public engagement with science
+::: incremental
+-   Tailors your communication effectively
+-   Increases impact of your research
+-   Helps bridge knowledge gaps
+-   Facilitates interdisciplinary collaboration
+-   Improves public engagement with science
 :::
 
-::: {.callout-important}
+:::: callout-important
 ## Reflection
-::: {.incremental}
-- Who is your audience?
-- What do they already know?
-- What do they need to know?
-- How can you best reach them?
+
+::: incremental
+-   Who is your audience?
+-   What do they already know?
+-   What do they need to know?
+-   How can you best reach them?
 :::
-:::
+::::
 
 ---
 
@@ -194,57 +199,59 @@ This is the first real research methods lecture:
 
 ### Data visualization:
 
-::: {.incremental}
-- Draws on philosophy, arts, and design
-  - Color theory
-  - Gestalt principles
-  - Information architecture
-- Uses technology
-  - Interactive dashboards
-  - Virtual/Augmented reality
-  - AI-assisted visualization
-- Aims to illustrate and animate the future
-  - Predictive modeling
-  - Trend forecasting
-  - Scenario planning
+::: incremental
+-   Draws on philosophy, arts, and design
+    -   Color theory
+    -   Gestalt principles
+    -   Information architecture
+-   Uses technology
+    -   Interactive dashboards
+    -   Virtual/Augmented reality
+    -   AI-assisted visualization
+-   Aims to illustrate and animate the future
+    -   Predictive modeling
+    -   Trend forecasting
+    -   Scenario planning
 :::
 
 ### Combining art and science:
 
-::: {.incremental}
-- Bridges quantitative and qualitative data
-- Enhances pattern recognition
-- Facilitates decision-making
-- Improves data accessibility
-- Drives engagement with complex topics
-- Supports storytelling with data
+::: incremental
+-   Bridges quantitative and qualitative data
+-   Enhances pattern recognition
+-   Facilitates decision-making
+-   Improves data accessibility
+-   Drives engagement with complex topics
+-   Supports storytelling with data
 :::
 
-::: {.callout-note}
+::: callout-note
 ## Key Principle
+
 "Form and content must work together to give rise to beauty and truth." - Plato
 :::
 
-::: {.callout-tip}
+:::: callout-tip
 ## Reflection
-::: {.incremental}
-- How can visualization enhance your research?
-- What ethical considerations arise in data visualization?
-- How might different audiences interpret the same visualization?
+
+::: incremental
+-   How can visualization enhance your research?
+-   What ethical considerations arise in data visualization?
+-   How might different audiences interpret the same visualization?
 :::
-:::
+::::
 
 ---
 
 ## [The Truth in Beauty, The Beauty in Truth]{.pink}
 
 ::: incremental
-- Yes, there are lies in statistics
-- Yes, beauty is used to peddle falsehoods
-- But being able to generate novel data...
-- Analysing, interpreting and presenting those data well...
-- In a way to capture the hearts and minds of an audience...
-- These are powers that will last you forever and repay your efforts now.
+-   Yes, there are lies in statistics
+-   Yes, beauty is used to peddle falsehoods
+-   But being able to generate novel data...
+-   Analysing, interpreting and presenting those data well...
+-   In a way to capture the hearts and minds of an audience...
+-   These are powers that will last you forever and repay your efforts now.
 :::
 
 ::: callout-important
@@ -257,52 +264,53 @@ The alchemy of solid evidence and effective presentation is a powerful, enduring
 
 ### R Programming
 
-::: {.incremental}
-- Primary tool for data analysis
-- Powerful statistical capabilities
-- Extensive libraries for data manipulation
-- Create publication-quality graphics
-- [Learn more about R](https://www.r-project.org/about.html){preview-link="https://www.r-project.org/about.html"}
+::: incremental
+-   Primary tool for data analysis
+-   Powerful statistical capabilities
+-   Extensive libraries for data manipulation
+-   Create publication-quality graphics
+-   [Learn more about R](https://www.r-project.org/about.html){preview-link="https://www.r-project.org/about.html"}
 :::
 
 ---
 
 ### Quarto for Publishing
 
-::: {.incremental}
-- Create dynamic documents
-- Publish websites, blogs, presentations
-- Seamless integration with R
-- [Explore Quarto](https://quarto.org/){preview-link="https://quarto.org/"}
+::: incremental
+-   Create dynamic documents
+-   Publish websites, blogs, presentations
+-   Seamless integration with R
+-   [Explore Quarto](https://quarto.org/){preview-link="https://quarto.org/"}
 :::
 
 ---
 
 ### Excel
 
-::: {.incremental}
-- Widely used in various industries
-- Familiar interface for many users
-- Useful for initial data exploration
-- Complementary to R for certain tasks
+::: incremental
+-   Widely used in various industries
+-   Familiar interface for many users
+-   Useful for initial data exploration
+-   Complementary to R for certain tasks
 :::
 
-::: {.callout-note}
+::: callout-note
 ## Why learn Excel?
-- Universal tool in business and research
-- Quick for small datasets and simple analyses
-- Valuable skill for future employment
+
+-   Universal tool in business and research
+-   Quick for small datasets and simple analyses
+-   Valuable skill for future employment
 :::
 
 ## Course Approach
-::: {.callout-important}
 
-::: {.incremental}
-- Combine programming power with spreadsheet familiarity
-- Learn to choose the right tool for each task
-- Develop a versatile skillset for data analysis and presentation
+:::: callout-important
+::: incremental
+-   Combine programming power with spreadsheet familiarity
+-   Learn to choose the right tool for each task
+-   Develop a versatile skillset for data analysis and presentation
 :::
-:::
+::::
 
 ---
 
@@ -310,12 +318,14 @@ The alchemy of solid evidence and effective presentation is a powerful, enduring
 
 The first question is "What do you want to show?"
 
-![](/images/What_to_show.png){.absolute top=150 left=50 width="500" height="400"}
+![](/images/What_to_show.png){.absolute top="150" left="50" width="500" height="400"}
 
 ## Histograms
+
 Histograms are used to study the distribution of one or a few variables. Checking the distribution of your variables one by one is probably the first task you should do when you get a new dataset. It delivers a good quantity of information. Several distribution shapes exist, here is an illustration of the 6 most common ones:
 
 ## Histogrma
+
 ```{r}
 #| echo: false
 
@@ -372,4 +382,3 @@ p <- data %>%
     theme_ipsum() +
     labs(fill="")
 ```
-

@@ -15,7 +15,6 @@ format:
     theme: [simple, slides.scss]
     preview-links: true
     reference-location: document
-    footer: "[Data Visualisation I](https:www.bbc.co.uk)"
 webr:
   packages: ['ggplot2', 'dplyr', 'hrbrthemes'] # Install R packages on document open
 # autoload-packages: false       # Disable automatic loading of packages
@@ -159,7 +158,7 @@ Find in Week 02 Content as a pdf which is perhaps more user-friendly
 
 ## 1. Data as Stories
 
-::: tiny
+::: small
 **Concept:**\
 Data visualization isn't just about numbers; it's about telling a compelling story. The visual elements should guide the viewer through a narrative—showing change over time, revealing relationships, or highlighting key insights.
 
@@ -172,7 +171,7 @@ An interactive webpage showing the impact of social media on mental health throu
 
 ## 2. Infographics
 
-::: tiny
+::: small
 **Concept:**\
 Infographics combine text, visuals, and data to create a highly accessible, single-view communication tool. They are visually engaging, often using illustrations, icons, and small amounts of data to convey key points at a glance.
 
@@ -185,7 +184,7 @@ An infographic explaining the psychology of sleep, showing how sleep cycles work
 
 ## 3. Animations
 
-::: tiny
+::: small
 **Concept:**\
 Animations bring data to life by adding movement, showing how data evolves over time or revealing complex processes step-by-step. They are effective in capturing attention and illustrating dynamic changes.
 
@@ -198,7 +197,7 @@ An animated chart showing the rise of global temperatures over decades, or an an
 
 ## 4. Dashboards
 
-::: tiny
+::: small
 **Concept:**\
 Dashboards provide a comprehensive, real-time view of data, often integrating multiple graphs and charts into one interface. They allow users to interact with the data, filter information, and explore different aspects on demand.
 
@@ -211,7 +210,7 @@ A live dashboard tracking the results of a clinical trial, showing participant p
 
 ## 5. Data-Driven Art
 
-::: tiny
+::: small
 **Concept:**\
 Data-driven art turns data into creative visual expressions, where aesthetics and meaning are equally important. It communicates complex ideas through artistic mediums, helping people emotionally connect with the data.
 
@@ -224,7 +223,7 @@ A visual installation representing the world’s most polluted cities, where the
 
 ## 6. Interactive Visualizations
 
-::: tiny
+::: small
 **Concept:**\
 Interactive visualizations allow the audience to explore the data themselves. Users can hover over elements, click to reveal additional information, and adjust parameters in real time to see how different variables influence outcomes.
 
@@ -237,7 +236,7 @@ A web tool where users can explore the effects of different factors (e.g., age, 
 
 ## 7. Maps and Geospatial Visualizations
 
-::: tiny
+::: small
 **Concept:**\
 Data visualized on maps can be incredibly powerful, especially when geographic context is essential to the story. These visuals can show patterns across different locations, reveal relationships between data and place, and help identify regional trends.
 
@@ -250,7 +249,7 @@ A heatmap showing the spread of a disease outbreak, highlighting areas of high i
 
 ## 8. Data Journalism and Narrated Data
 
-::: tiny
+::: small
 **Concept:**\
 Narrated data takes storytelling a step further by adding voiceovers or text to guide the viewer through the visualization, ensuring that key points are not missed and context is clearly explained.
 
@@ -277,12 +276,22 @@ A video presentation explaining the impact of climate change, with data visualiz
 
 ## **Types of Data**
 
-::: tiny
-**Categorical Data** - Nominal (e.g., types of therapy, animal species) - Ordinal (e.g., Likert scales, levels of education)
+::: small
+-   **Categorical Data**
 
-**Continuous Data** - Interval (e.g., temperature, time of day) - Ratio (e.g., height, reaction time)
+    -   Nominal (e.g., types of therapy, animal species)
 
-**Discrete vs Continuous** - The difference between countable categories and measurements with infinite possible values.
+    -   Ordinal (e.g., Likert scales, levels of education)
+
+-   **Continuous Data**
+
+    -   Interval (e.g., temperature, time of day)
+
+    -   Ratio (e.g., height, reaction time)
+
+-   **Discrete vs Continuous**
+
+    -   The difference between countable categories and measurements with infinite possible values.
 :::
 
 ## **Common Types of Graphs and When to Use Them**
@@ -392,41 +401,57 @@ A video presentation explaining the impact of climate change, with data visualiz
 
 ## **Design Principles for Effective Data Visualizations 1**
 
-**Clarity and Simplicity** Avoid unnecessary elements (e.g., chartjunk, 3D effects). Focus on the key message and make the visualization intuitive to interpret. **Consistency** Use consistent colors, fonts, and labels across different graphs.
+**Clarity and Simplicity** Avoid unnecessary elements (e.g., chartjunk, 3D effects). Focus on the key message and make the visualization intuitive to interpret.
+
+**Consistency** Use consistent colors, fonts, and labels across different graphs.
 
 ## **Design Principles for Effective Data Visualizations 2**
 
-**Labeling and Annotations** Clear axis titles, units, and legends to make the graph self-explanatory. **Color Choices** Consider color blindness (red-green blindness common) and use color schemes that enhance readability.
+**Labeling and Annotations** Clear axis titles, units, and legends to make the graph self-explanatory.
+
+**Color Choices** Consider color blindness (red-green blindness common) and use color schemes that enhance readability.
 
 ## **Design Principles for Effective Data Visualizations 3**
 
-**Appropriate Scale** Avoid misleading visuals by ensuring that scales are not exaggerated or compressed. **Hierarchy and Focus** Guide the viewer’s attention to the most important parts of the graph (using size, bolding, or contrasting colors). **Telling a Story** Visuals should flow logically and lead the reader through the narrative of your data.
+**Appropriate Scale** Avoid misleading visuals by ensuring that scales are not exaggerated or compressed.
+
+**Hierarchy and Focus** Guide the viewer’s attention to the most important parts of the graph (using size, bolding, or contrasting colors).
+
+**Telling a Story** Visuals should flow logically and lead the reader through the narrative of your data.
 
 ## **How to Choose the Right Graph for Your Data**
 
-**Understanding Your Audience** Tailor complexity based on who is consuming the data (public, peers, experts). **Data-Driven Decision Making** Choose the graph based on the data structure and the key message you want to convey. **Avoid Common Pitfalls** Misleading graphs (incorrect scales, truncated axes) can misinform rather than clarify. Overcomplicating simple messages with too many visual elements or excessive detail.
+**Understanding Your Audience** Tailor complexity based on who is consuming the data (public, peers, experts).
+
+**Data-Driven Decision Making** Choose the graph based on the data structure and the key message you want to convey.
+
+**Avoid Common Pitfalls** Misleading graphs (incorrect scales, truncated axes) can misinform rather than clarify. Overcomplicating simple messages with too many visual elements or excessive detail.
 
 ## **Psychological Aspects of Data Visualization**
 
-**Cognitive Load** Minimizing mental effort required to interpret visuals. **Gestalt Principles of Perception** How humans perceive visual elements (e.g., proximity, similarity, closure) and how to leverage these in visual design. **Emotional Impact of Visuals** Using visual design to invoke emotions (e.g., empathy, urgency), particularly in health or social psychology data.
+**Cognitive Load** Minimizing mental effort required to interpret visuals.
+
+**Gestalt Principles of Perception** How humans perceive visual elements (e.g., proximity, similarity, closure) and how to leverage these in visual design.
+
+**Emotional Impact of Visuals** Using visual design to invoke emotions (e.g., empathy, urgency), particularly in health or social psychology data.
 
 ## **Examples and Case Studies**
 
-**Good vs Bad Visualizations** Comparing effective vs poorly designed graphs. Examples from psychological research where data visualizations impacted understanding. **Interactive Exercise** Students create their own data visualization using sample datasets (e.g., reaction times, Likert scale responses).
+**Good vs Bad Visualizations** Comparing effective vs poorly designed graphs. Examples from psychological research where data visualizations impacted understanding.
+
+**Interactive Exercise** Students create their own data visualization using sample datasets (e.g., reaction times, Likert scale responses).
 
 ## Tech Stack
 
 ## [Technical Overview of Research Methods]{.gold}
 
-:::: callout-important
 ::: incremental
 -   Combine programming power with spreadsheet familiarity
 -   Learn to choose the right tool for each task
 -   Develop a versatile skillset for data analysis and presentation
 :::
-::::
 
-### R Programming
+## R Programming (Posit/RStudio)
 
 ::: incremental
 -   Primary tool for data analysis
@@ -438,7 +463,7 @@ A video presentation explaining the impact of climate change, with data visualiz
 
 ------------------------------------------------------------------------
 
-### Quarto for Publishing
+## Quarto for Publishing
 
 ::: incremental
 -   Create dynamic documents
@@ -449,7 +474,7 @@ A video presentation explaining the impact of climate change, with data visualiz
 
 ------------------------------------------------------------------------
 
-### Excel
+## Excel
 
 ::: incremental
 -   Widely used in various industries
@@ -458,58 +483,54 @@ A video presentation explaining the impact of climate change, with data visualiz
 -   Complementary to R for certain tasks
 :::
 
-::: callout-note
-## Why learn Excel?
+## Why teach myself Excel?
 
--   Universal tool in business and research
--   Quick for small datasets and simple analyses
+::: callout-note
+-   **Universal** tool in business and research
+-   Quick for small datasets and simple analyses - not great for more advanced
 -   Valuable skill for future employment
 :::
 
-## What do you currently use?
+## There are many other tools
+
+-   Canva
+-   Tableau
+-   PowerBI
+-   Google variants
+-   Python (Jupyter Notebooks)
+-   MatLab (Some Neuroscience applications)
+
+## What do you currently use to write?
 
 **How do you write your essays or lab reports?**
 
 -   Microsoft Word?
-
 -   Google Docs?
-
 -   Markdown?
 
-::: fragment
+## What do you currently use to calculate?
+
 **How do you currently play with numbers?**
 
 -   Excel?
-
 -   SPSS?
-
 -   R?
-
 -   Python?
-:::
 
 ## What is Quarto?
 
-Quarto is an open-source scientific and technical publishing system [that allows you to combine text, images, code, plots, and tables in a fully-reproducible document.]{.fragment}
+Quarto is an open-source scientific and technical publishing system that allows you to combine text, images, code, plots, and tables in a fully-reproducible document.
 
-<br>
+<br>Quarto has support for multiple languages including R, Python, Julia, and Observable.
 
-[Quarto has support for multiple languages including R, Python, Julia, and Observable.]{.fragment}
-
-<br>
-
-[It also works for a range of output formats such as PDFs, HTML documents, websites, presentations,...]{.fragment}
+<br>It also works for a range of output formats such as PDFs, HTML documents, websites, presentations,...
 
 ## Why use Quarto? Why use R?
 
 -   More journals require code to be submitted (for transparency and reproducibility). Keeping the code with the paper makes this easier.
-
 -   Copying and pasting is tedious (and a great source of accidental errors).
-
 -   If you fix an error in code or data, the results and figures in the paper update automatically.
-
 -   Easy to share publicly.
-
 -   Open source so anyone can use it.
 
 ## What about R Markdown?
@@ -517,23 +538,17 @@ Quarto is an open-source scientific and technical publishing system [that allows
 R Markdown isn't going anywhere but...
 
 -   Quarto has better multi-language support
-
 -   More user-friendly
-
 -   Better control of the output layouts
 
 ## Output types
 
 ::: incremental
 -   Documents: HTML, PDF, MS Word, Markdown
-
 -   Presentations: Revealjs, PowerPoint, Beamer
-
 -   Websites and blogs
-
 -   Books, code notebooks and dashboards
-
--   Interactive apps (in R, Python, Julia, Observablejs)
+-   Interactive apps e.g. Shiny (in R, Python, Julia, Observablejs)
 :::
 
 ## Examples

@@ -1,5 +1,5 @@
 ---
-title: "Lab 02 - Positive Research Methods"
+title: "Lab 02 - Data Visualisation I"
 author: "Dr. Gordon Wright"
 engine: knitr
 
@@ -14,7 +14,6 @@ format:
     code-copy: true
     theme: [simple, slides.scss]
     reference-location: document
-    footer: "Data Visualisation I"
   html: 
     output-ext: .htm
 webr:

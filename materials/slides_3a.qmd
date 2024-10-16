@@ -1,6 +1,6 @@
 ---
 title: "Intro to Data Visualisation II"
-author: "Lecture 3 -- More than Graphs"
+author: "Dr. Gordon Wright"
 engine: knitr
 
 format: 
@@ -14,781 +14,559 @@ format:
     code-copy: true
     theme: [simple, slides.scss]
     reference-location: document
-    footer: "[Data Visualisation II](https:www.bbc.co.uk)"
+    footer: "Data Visualisation II"
 webr:
-  packages: ['ggplot2', 'dplyr'] # Install R packages on document open
+  packages: ['ggplot2', 'dplyr', 'tidyr'] # Install R packages on document open
 # autoload-packages: false       # Disable automatic loading of packages
-# show-startup-message: false    # Disable displaying status of webR initialization
+show-startup-message: false    # Disable displaying status of webR initialization
 filters:
 - webr
 ---
-```{r}
-#| label: load-packages
-#| include: false
 
-library(tidyverse)
-library(palmerpenguins)
-library(ggplot2)
-```
+## Introduction to Data Types
 
-### /ˈdeɪtə vɪʒuəlɪˈzeɪʃən/ \[noun\]
+In statistics, we work with various types of data. Understanding these types is crucial for:
 
-::: {.incremental .small}
-Data presented visually? ys
+-   Choosing appropriate statistical methods
+-   Interpreting results correctly
+-   Making informed decisions based on data
 
-The process of turning data into images or graphs to help interpret it?
+Let's explore the four main levels of measurement...
 
-The representation of data through visual means to aid a reader's
-understanding?
-
-The transformation of data into visual form to communicate patterns,
-insights, and stories?
-
-The creative process of communicating information in a way that captures
-the imagination and communicates meaning?
+::: notes
+Emphasize the importance of understanding data types for statistical analysis.
 :::
 
-## Data Visualization Beyond Graphs
-
-### More than Just Charts **\[***noun\]* /ˈdeɪtə vɪʒuəlɪˈzeɪʃən/
-
-------------------------------------------------------------------------
-
-## 1. Data as Stories
-
-**Concept:**\
-Data visualization isn't just about numbers; it's about telling a
-compelling story. The visual elements should guide the viewer through a
-narrative—showing change over time, revealing relationships, or
-highlighting key insights.
-
-**Application:**\
-Case studies or reports where data unfolds in a logical, easy-to-follow
-sequence, such as telling the story of a community's health or an
-individual's progress.
-
-**Example:**\
-An interactive webpage showing the impact of social media on mental
-health through a narrative of personal experiences and trends.
-
-------------------------------------------------------------------------
-
-## 2. Infographics
-
-**Concept:**\
-Infographics combine text, visuals, and data to create a highly
-accessible, single-view communication tool. They are visually engaging,
-often using illustrations, icons, and small amounts of data to convey
-key points at a glance.
-
-**Application:**\
-Ideal for social media, brochures, or posters where quick digestion of
-information is needed. Frequently used in public campaigns, marketing,
-and education.
-
-**Example:**\
-An infographic explaining the psychology of sleep, showing how sleep
-cycles work and tips to improve sleep habits.
-
-------------------------------------------------------------------------
-
-## 3. Animations
-
-**Concept:**\
-Animations bring data to life by adding movement, showing how data
-evolves over time or revealing complex processes step-by-step. They are
-effective in capturing attention and illustrating dynamic changes.
-
-**Application:**\
-Excellent for presentations, video content, or interactive dashboards.
-Can be used in education to break down complex processes (e.g., brain
-activity) or in marketing to show trends over time.
-
-**Example:**\
-An animated chart showing the rise of global temperatures over decades,
-or an animation walking through the steps of a psychological experiment.
-
-------------------------------------------------------------------------
-
-## 4. Dashboards
-
-**Concept:**\
-Dashboards provide a comprehensive, real-time view of data, often
-integrating multiple graphs and charts into one interface. They allow
-users to interact with the data, filter information, and explore
-different aspects on demand.
-
-**Application:**\
-Useful in business, healthcare, or education where decision-makers need
-up-to-date, actionable insights. Dashboards can provide an overview of
-research data, employee performance, or patient metrics.
-
-**Example:**\
-A live dashboard tracking the results of a clinical trial, showing
-participant progress, side effects, and key outcome measures.
-
-------------------------------------------------------------------------
-
-## 5. Data-Driven Art
-
-**Concept:**\
-Data-driven art turns data into creative visual expressions, where
-aesthetics and meaning are equally important. It communicates complex
-ideas through artistic mediums, helping people emotionally connect with
-the data.
-
-**Application:**\
-Useful in public exhibitions, museums, or campaigns designed to evoke
-emotional responses. Can be particularly impactful when the goal is to
-inspire action or reflection.
-
-**Example:**\
-A visual installation representing the world’s most polluted cities,
-where the intensity of color and shape corresponds to pollution levels.
-
-------------------------------------------------------------------------
-
-## 6. Interactive Visualizations
-
-**Concept:**\
-Interactive visualizations allow the audience to explore the data
-themselves. Users can hover over elements, click to reveal additional
-information, and adjust parameters in real time to see how different
-variables influence outcomes.
-
-**Application:**\
-Excellent for websites, educational tools, and data journalism. This
-method is perfect for exploring complex datasets where users need
-control over what they want to see.
-
-**Example:**\
-A web tool where users can explore the effects of different factors
-(e.g., age, gender, education) on job satisfaction.
-
-------------------------------------------------------------------------
-
-## 7. Maps and Geospatial Visualizations
-
-**Concept:**\
-Data visualized on maps can be incredibly powerful, especially when
-geographic context is essential to the story. These visuals can show
-patterns across different locations, reveal relationships between data
-and place, and help identify regional trends.
-
-**Application:**\
-Used in public health (tracking disease outbreaks), environmental
-research (tracking deforestation), and social science (mapping crime
-rates).
-
-**Example:**\
-A heatmap showing the spread of a disease outbreak, highlighting areas
-of high infection rates over time.
-
-------------------------------------------------------------------------
-
-## 8. Narrated Data
-
-**Concept:**\
-Narrated data takes storytelling a step further by adding voiceovers or
-text to guide the viewer through the visualization, ensuring that key
-points are not missed and context is clearly explained.
-
-**Application:**\
-Ideal for educational content, presentations, and documentaries where
-understanding the deeper meaning behind the data is essential.
-
-**Example:**\
-A video presentation explaining the impact of climate change, with data
-visualizations narrated by an expert who explains each trend.
-
-## **Introduction to Data Visualization**
-
--   **What is Data Visualization?**
-    -   Definition: The graphical representation of data to find
-        insights, patterns, and trends.
-    -   Importance: Simplifying complex data, making research more
-        accessible, and aiding in decision-making.
-
-## **Introduction to Data Visualization**
-
--   **Why is it Important for Psychologists?**
-    -   For Self: Making sense of information.
-    -   Outwards: Presenting results to a wider audience (academics,
-        professionals, the public).
-
-## **The Goals of Data Visualization**
-
--   **Communication of Information**
-    -   Making data accessible, clear, and engaging.
-    -   Translating raw numbers into understandable narratives.
--   **Pattern Recognition**
-    -   Identifying trends, outliers, and relationships.
-    -   Supporting statistical analysis by visually highlighting key
-        elements.
--   **Exploration**
-    -   Using visuals to explore and understand datasets during the
-        research process.
-
-## **Types of Data**
-
--   **Categorical Data**
-    -   Nominal (e.g., types of therapy, animal species)
-    -   Ordinal (e.g., Likert scales, levels of education)
--   **Continuous Data**
-    -   Interval (e.g., temperature, time of day)
-    -   Ratio (e.g., height, reaction time)
--   **Discrete vs Continuous**
-    -   The difference between countable categories and measurements
-        with infinite possible values.
-
-## **Common Types of Graphs and When to Use Them**
-
--   **Bar Charts**
-    -   Best for comparing discrete categories.
-    -   Example: Comparing the number of participants in different
-        experimental groups.
--   **Histograms**
-    -   Useful for visualizing the distribution of continuous data.
-    -   Example: Showing the frequency distribution of test scores.
--   **Pie Charts**
-    -   Use for displaying proportions of a whole, though less
-        frequently used in scientific contexts.
--   **Line Graphs**
-    -   Great for showing trends over time or continuous data
-        relationships.
-    -   Example: Reaction time changes over time.
--   **Scatterplots**
-    -   Ideal for representing relationships between two continuous
-        variables.
-    -   Example: Relationship between stress levels and performance.
--   **Boxplots**
-    -   Excellent for summarizing the distribution, central tendency,
-        and variability of continuous data.
--   **Heatmaps and Density Plots**
-    -   Useful for visualizing large, complex datasets, or relationships
-        between multiple variables.
--   **Violin Plots**
-    -   Combines boxplot and density information to visualize data
-        distribution.
-
-## **The Many Ways to Convey Information** 1
-
--   **Tables**
-    -   When to use: Presenting precise numerical data or categorical
-        comparisons.
--   **Infographics**
-    -   A visual story: Combining graphs, icons, and minimal text to
-        tell a narrative (good for public dissemination).
-
-## **The Many Ways to Convey Information** 2
-
--   **Interactive Visualizations**
-    -   Dynamic data representations, useful for exploring and filtering
-        datasets in real-time (tools like Shiny or Tableau).
--   **Dashboards**
-    -   Overviewing multiple aspects of data in one space for
-        decision-making, often used in applied settings.
-
-## **The Many Ways to Convey Information** 3
-
--   **Flowcharts and Diagrams**
-    -   Best for depicting processes or causal relationships.
--   **Presenting Visuals in Scientific Reports**
-    -   Adapting visuals to APA standards (formatting, labeling, figure
-        legends).
-
-## **Design Principles for Effective Data Visualizations**
-
--   **Clarity and Simplicity**
-    -   Avoid unnecessary elements (e.g., chartjunk, 3D effects).
-    -   Focus on the key message and make the visualization intuitive to
-        interpret.
--   **Consistency**
-    -   Use consistent colors, fonts, and labels across different
-        graphs.
--   **Labeling and Annotations**
-    -   Clear axis titles, units, and legends to make the graph
-        self-explanatory.
--   **Color Choices**
-    -   Consider color blindness (red-green blindness common) and use
-        color schemes that enhance readability.
--   **Appropriate Scale**
-    -   Avoid misleading visuals by ensuring that scales are not
-        exaggerated or compressed.
--   **Hierarchy and Focus**
-    -   Guide the viewer’s attention to the most important parts of the
-        graph (using size, bolding, or contrasting colors).
--   **Telling a Story**
-    -   Visuals should flow logically and lead the reader through the
-        narrative of your data.
-
-## **How to Choose the Right Graph for Your Data**
-
--   **Understanding Your Audience**
-    -   Tailor complexity based on who is consuming the data (public,
-        peers, experts).
--   **Data-Driven Decision Making**
-    -   Choose the graph based on the data structure and the key message
-        you want to convey.
--   **Avoid Common Pitfalls**
-    -   Misleading graphs (incorrect scales, truncated axes) can
-        misinform rather than clarify.
-    -   Overcomplicating simple messages with too many visual elements
-        or excessive detail.
-
-## **Psychological Aspects of Data Visualization**
-
--   **Cognitive Load**
-    -   Minimizing mental effort required to interpret visuals.
--   **Gestalt Principles of Perception**
-    -   How humans perceive visual elements (e.g., proximity,
-        similarity, closure) and how to leverage these in visual design.
--   **Emotional Impact of Visuals**
-    -   Using visual design to invoke emotions (e.g., empathy, urgency),
-        particularly in health or social psychology data.
-
-## **Examples and Case Studies**
-
--   **Good vs Bad Visualizations**
-    -   Comparing effective vs poorly designed graphs.
-    -   Examples from psychological research where data visualizations
-        impacted understanding.
--   **Interactive Exercise**
-    -   Students create their own data visualization using sample
-        datasets (e.g., reaction times, Likert scale responses).
-
-## **Conclusion**
-
--   Recap of key points: Visualization enhances comprehension,
-    facilitates communication, and uncovers hidden patterns in data.
--   Encouragement: Practice visualizing data in R or Excel using real
-    datasets.
-
-------------------------------------------------------------------------
-
-## Header
-
-Atkinson Hyperlegible is a font developed by the Braille Institute of
-America, which is designed to maximise distinction between different
-characters for low vision readers. It’s freely available, and can be
-downloaded from the [Braille
-Institute](https://brailleinstitute.org/freefont) or used through
-[Google Fonts](https://fonts.google.com/specimen/Atkinson+Hyperlegible).
-
-![](images/Florence.png)
-
----
-title: "Data Visualisation 1"
-author: "Dr. Gordon Wright"
-format: revealjs
----
-
-## Data Visualisation 1
-
-Dr. Gordon Wright
-
-------------------------------------------------------------------------
-
-## Schedule
-
--   **Week 1**: Data Visualisation 1
--   **Week 2**: Data Visualisation 2
--   **Open Science with Stacey**
--   **Mixed Methods with Gordon**
--   **Qualitative Research (3 weeks) with Hillary**
-
-Lecture, Labs, Data Skills, Application.
-
-------------------------------------------------------------------------
-
-## Important Notes
-
--   [ ] Lecture slides are **not lectures**. Lectures are **not lecture
-    slides**.
--   [ ] Introduce myself.
--   [ ] First real research methods lecture. I've got to set the tone
-    for the coming 3 years. **Caveats**.
-
-------------------------------------------------------------------------
-
-## Setting the Tone
-
--   Should I introduce myself?\
--   Any other advice?
--   Examples, demonstrations, case studies (good and bad).
--   Experts, added value content.
--   Pictures, videos, music.\
--   Should I make it funny? Honest? Intellectual? Geeky?
--   **Aspirational**, **motivational**, **inspirational**?
-
-------------------------------------------------------------------------
-
-## Introductions vs. Getting to Know Someone
-
--   Introductions ≠ Getting to know someone.
--   Are we the same or are we different?
-
-------------------------------------------------------------------------
-
-## Visualising Data
-
--   **Don't look now**, you're visualising data.
-
-------------------------------------------------------------------------
-
-## What is Data Visualisation?
-
--   So what **is** data visualisation?
-
-------------------------------------------------------------------------
-
-## Introduce Yourself
-
-Include: - Movies, music lyrics, band - Favourite genius - Favourite
-comedian - Favourite communicator - Who would play you in a movie? -
-Favourite teacher - Favourite non-verbal behaviour - Favourite
-psychologist - Favourite team you'd call in an emergency - What you'd
-want to do when you grow up
-
-------------------------------------------------------------------------
-
-## Research Methods in Positive Psychology
-
-**Stop**.
-
-Visualisation is bringing to life Animation Communicating Captivating
-Convincing Cut-through Sticky
-
-<!-- ## Inspirational Video and Slides -->
-
-<!-- ::: columns -->
-
-<!-- ::: {.column width="40%"} -->
-
-<!-- <iframe width="100%" height="400" src="https://www.youtube.com/embed/yoEezZD71sc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> -->
-
-<!-- </iframe> -->
-
-<!-- ::: -->
-
-<!-- ::: {.column width="60%" style="position: relative; height: 400px;"} -->
-
-<!-- ![Image 1](images/clipboard-2345556086.png){.fragment .fade-in -->
-
-<!-- .current-visible -->
-
-<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
-
-<!-- ![Image 2](images/clipboard-2976832170.png){.fragment .fade-in -->
-
-<!-- .current-visible -->
-
-<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
-
-<!-- ![Image 3](images/clipboard-1036810540.png){.fragment .fade-in -->
-
-<!-- .current-visible -->
-
-<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
-
-<!-- ![Image 4](images/clipboard-1185044832.png){.fragment .fade-in -->
-
-<!-- .current-visible -->
-
-<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
-
-<!-- ![Image 5](images/clipboard-492947776.png){.fragment .fade-in -->
-
-<!-- .current-visible -->
-
-<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
-
-<!-- ![Image 6](images/clipboard-2791386978.png){.fragment .fade-in -->
-
-<!-- .current-visible -->
-
-<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
-
-<!-- ![Image 7](images/clipboard-3977689435.png){.fragment .fade-in -->
-
-<!-- .current-visible -->
-
-<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
-
-<!-- ![Image 8](images/clipboard-2970447046.png){.fragment .fade-in -->
-
-<!-- .current-visible -->
-
-<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
-
-<!-- ![Image 9](images/clipboard-3152777671.png){.fragment .fade-in -->
-
-<!-- .current-visible -->
-
-<!-- style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain;"} -->
-
-<!-- ::: -->
-
-<!-- ::: -->
-
-## Header
-
-content
+## Nominal Data 
+
+-   **Definition**: Categories or groups without intrinsic order
+-   **Characteristics**:
+    -   Cannot be ordered
+    -   No numerical value
+    -   Only shows distinct groups
+-   **Examples from our dataset**:
+    -   MBTI (Myers-Briggs Type Indicator)
+    -   Coin (Heads or Tails)
+    -   DogCatBoth (Preference for pets)
+
+::: notes
+Explain that nominal data is qualitative and used for labeling variables without any quantitative value.
+:::
+
+## Ordinal Data
+
+-   **Definition**: Categories with a meaningful order, but differences aren't measurable
+-   **Characteristics**:
+    -   Can be ordered
+    -   Intervals between ranks aren't necessarily equal
+-   **Examples from our dataset**:
+    -   1-7 rating scales (Likert scale responses)
+    -   TIPI scores (Big Five - OCEAN)
+
+::: notes
+Highlight that ordinal data has an order, but the distance between categories is not uniform or meaningful.
+:::
+
+## Interval Data
+
+-   **Definition**: Numerical data with consistent intervals, but no true zero point
+-   **Characteristics**:
+    -   Ordered with equal intervals between values
+    -   Can be added or subtracted
+    -   No true zero point
+-   **Examples**:
+    -   Temperature in Celsius or Fahrenheit
+    -   Calendar years
+
+::: notes
+Explain that interval data allows for degree of difference, but not ratio comparisons.
+:::
+
+## Ratio Data
+
+-   **Definition**: Numerical data with equal intervals and a true zero point
+-   **Characteristics**:
+    -   Ordered with equal intervals
+    -   Has a true zero point (absence of the variable is possible)
+    -   Can be added, subtracted, multiplied, and divided
+-   **Examples from our dataset**:
+    -   LoginCount
+    -   CompTime (assuming it's recorded in minutes)
+    -   EyeContact (assuming it's a continuous measure)
+
+::: notes
+Emphasize that ratio data allows for all arithmetic operations and comparisons.
+:::
+
+## Summary of Data Types
+
+| Data Type | Can Be Ordered? | Equal Intervals? | True Zero Point? | Example |
+|---------------|---------------|---------------|---------------|---------------|
+| Nominal | No | No | No | Gender, MBTI |
+| Ordinal | Yes | No | No | Scale measures, TIPI scores |
+| Interval | Yes | Yes | No | Temperature (°C) |
+| Ratio | Yes | Yes | Yes | LoginCount, CompTime |
+
+::: notes
+Review the key differences between the four levels of measurement.
+:::
+
+## Practical Application
+
+Let's look at some variables from our dataset:
 
 ```{webr-r}
-#| autorun: true
-barplot(table(mtcars$gear), col = "blue")
+# Load data (assuming it's available in the webr environment)
+data <- read.csv("materials/data/Y1W3_data.csv")
+
+# Display column names and data types
+str(data, give.attr = FALSE)
 ```
 
-## Header 2
+::: notes
+Explain how to identify the data type of each variable and why it matters for analysis.
+:::
+
+## Conclusion and Next Steps
+
+-   Understanding data types is crucial for proper statistical analysis
+-   In our dataset, we have a mix of nominal, ordinal, and ratio data
+-   Next, we'll explore how to summarize and visualize these different types of data
+
+::: notes
+Summarize the key points about data types and preview the next part of the lecture.
+:::
+
+## Introduction to Measures of Central Tendency
+
+Measures of central tendency help us understand the typical or central value in a dataset. The three main measures are:
+
+1.  Mean
+2.  Median
+3.  Mode
+
+Let's explore each of these using our dataset...
+
+::: notes
+Explain that these measures help summarize data and provide a "typical" value.
+:::
+
+## Mean
+
+-   **Definition**: The average of all values in a dataset
+-   **Formula**: $\bar{x} = \frac{\sum{X}}{N}$
+-   **Best for**: Interval and ratio data
+-   **Example**: Let's calculate the mean LoginCount
 
 ```{webr-r}
-
-plot(1:4, 1:4, col=1:4, pch=19, cex=3, xlab="", ylab="")
+data <- read.csv("Y1W3_data.csv")
+mean_login <- mean(data$LoginCount, na.rm = TRUE)
+cat("Mean LoginCount:", round(mean_login, 2))
 ```
 
-```{r}
+::: notes
+Explain that the mean is sensitive to outliers and works best with symmetric distributions.
+:::
 
-plot(1:4, 1:4, col=1:4, pch=19, cex=3, xlab="", ylab="",
-     main = "My Significance Plot",
-     sub = "Source: data source")
-abline(h=1:4, v=1:4, col = "lightgrey")
+## Median
+
+-   **Definition**: The middle value when data is ordered
+-   **Best for**: Ordinal, interval, and ratio data
+-   **Example**: Let's find the median LoginCount
+
+```{webr-r}
+median_login <- median(data$LoginCount, na.rm = TRUE)
+cat("Median LoginCount:", median_login)
 ```
 
-```{r}
+::: notes
+Highlight that the median is less affected by outliers than the mean.
+:::
+
+## Mode
+
+-   **Definition**: The most frequently occurring value
+-   **Best for**: Any type of data, especially nominal
+-   **Example**: Let's find the mode of DogCatBoth
+
+```{webr-r}
+mode_pets <- names(sort(table(data$DogCatBoth), decreasing = TRUE))[1]
+cat("Mode of DogCatBoth:", mode_pets)
+```
+
+::: notes
+Explain that mode is the only measure of central tendency for nominal data.
+:::
+
+## Comparing Measures of Central Tendency
+
+Let's compare these measures for LoginCount:
+
+```{webr-r}
+cat("Mean LoginCount:", round(mean_login, 2), "\n")
+cat("Median LoginCount:", median_login, "\n")
+cat("Mode LoginCount:", as.numeric(names(sort(table(data$LoginCount), decreasing = TRUE)[1])))
+```
+
+::: notes
+Discuss what these differences might tell us about the distribution of LoginCount.
+:::
+
+## Introduction to Measures of Variance
+
+Measures of variance help us understand the spread or dispersion of data. Key measures include:
+
+1.  Range
+2.  Interquartile Range (IQR)
+3.  Variance
+4.  Standard Deviation
+
+::: notes
+Explain that these measures complement central tendency by showing how spread out the data is.
+:::
+
+## Range and Interquartile Range (IQR)
+
+-   **Range**: Difference between the maximum and minimum values
+-   **IQR**: Range of the middle 50% of the data
+
+Let's calculate these for LoginCount:
+
+```{webr-r}
+login_range <- range(data$LoginCount, na.rm = TRUE)
+login_iqr <- IQR(data$LoginCount, na.rm = TRUE)
+
+cat("Range of LoginCount:", login_range[2] - login_range[1], "\n")
+cat("IQR of LoginCount:", login_iqr)
+```
+
+::: notes
+Explain that range is sensitive to outliers, while IQR is more robust.
+:::
+
+## Variance and Standard Deviation
+
+-   **Variance**: Average squared deviation from the mean
+-   **Standard Deviation**: Square root of the variance
+
+Let's calculate these for LoginCount:
+
+```{webr-r}
+login_var <- var(data$LoginCount, na.rm = TRUE)
+login_sd <- sd(data$LoginCount, na.rm = TRUE)
+
+cat("Variance of LoginCount:", round(login_var, 2), "\n")
+cat("Standard Deviation of LoginCount:", round(login_sd, 2))
+```
+
+::: notes
+Explain that standard deviation is in the same units as the original data, making it easier to interpret.
+:::
+
+## Interpreting Standard Deviation
+
+-   In a normal distribution:
+    -   About 68% of data falls within 1 SD of the mean
+    -   About 95% falls within 2 SD
+    -   About 99.7% falls within 3 SD
+
+Let's visualize this for LoginCount:
+
+```{webr-r}
 library(ggplot2)
-plot_df <- data.frame(x = LETTERS[1:4],
-                      y = 1:4)
 
-ggplot(data = plot_df,
-       mapping = aes(x = x, y = y)) +
-  geom_col(fill = "plum")
+ggplot(data, aes(x = LoginCount)) +
+  geom_histogram(binwidth = 5, fill = "skyblue", color = "black") +
+  geom_vline(xintercept = mean_login, color = "red", linetype = "dashed") +
+  geom_vline(xintercept = mean_login + c(-1, 1) * login_sd, color = "green", linetype = "dashed") +
+  geom_vline(xintercept = mean_login + c(-2, 2) * login_sd, color = "blue", linetype = "dashed") +
+  labs(title = "Distribution of LoginCount with SD", x = "LoginCount", y = "Frequency") +
+  theme_minimal()
 ```
 
-## Charts
+::: notes
+Explain how to interpret this visualization and what it tells us about the spread of LoginCount.
+:::
 
-```{r}
+## Application to Different Data Types
 
+Let's apply these concepts to different types of data in our dataset:
+
+```{webr-r}
+# For ratio data (LoginCount)
+cat("LoginCount (Ratio):\n")
+cat("Mean:", round(mean(data$LoginCount, na.rm = TRUE), 2), "\n")
+cat("SD:", round(sd(data$LoginCount, na.rm = TRUE), 2), "\n\n")
+
+# For ordinal data (Q_Scale)
+cat("Q_Scale (Ordinal):\n")
+cat("Median:", median(data$Q_Scale, na.rm = TRUE), "\n")
+cat("IQR:", IQR(data$Q_Scale, na.rm = TRUE), "\n\n")
+
+# For nominal data (DogCatBoth)
+cat("DogCatBoth (Nominal):\n")
+print(table(data$DogCatBoth))
 ```
 
-## A modern perspective
+::: notes
+Discuss how the choice of measure depends on the type of data, and how to interpret these results.
+:::
 
-Quarto
-
-R
-
-Website/portfolio
-
-Open Science
-
-Interactivity
-
-Communication
-
-## Uncovering Truths
-
--   Curiosity
--   Questions
--   Measurements
--   Data
--   Tools
--   Creativity
--   Hard-thinking
-
-------------------------------------------------------------------------
-
-## Welcome to University!
-
--   You've had an exciting first week.
--   The big question of Well-being:
-    -   What is it?
-    -   How do you measure it?
-    -   How do we increase it?
-
-------------------------------------------------------------------------
-
-## Positive Psychology
-
--   Using the power of your mind to achieve positive things.
--   And now, you've got me.
-
-------------------------------------------------------------------------
-
-## Introduction
-
--   I'll take these first two lectures, labs, and data skills sessions.
--   We'll explore life outcomes, well-being, success, happiness, and
-    Positive Psychology.
--   We'll dive into Positive Research Methods.
-
-------------------------------------------------------------------------
-
-## The Big Setup
-
--   One day, you'll want to change a mind, capture interest, persuade,
-    convince, or motivate.
--   It could be an idea, a product, a pitch, or even a truth.
--   I want you to be ready for that moment.
--   Practice now on ideas and data that aren't life-changing... yet.
-
-------------------------------------------------------------------------
-
-## A World of Ideas
-
--   The world is your repertoire.
--   This is a psychology module, but let's avoid talking about
-    psychology today.
--   Let's avoid numbers too!
--   And most importantly, let's avoid being boring.
-
-------------------------------------------------------------------------
-
-## Standing on the Shoulders of Giants
-
--   Who said that?\
--   \[Pause for class participation\]
-
-------------------------------------------------------------------------
-
-## Decision Making
-
--   What do I want to communicate?
--   What's the best way to communicate that?\
--   Is it risky?\
--   Should I talk, show, demonstrate?
--   Should I pretend to be an expert or show my failures?
-
-------------------------------------------------------------------------
-
-## This Week & Next: Data Visualisation
-
--   Data Visualisation I & II.
--   **Did I inspire wonder?**
-    -   What if I had chosen a different title?
-        -   Truth, Beauty, and Power
-        -   Seeing is Believing: The Power of Data Visualization in
-            Psychology
-        -   From Data to Drama: The Art of Psychological Storytelling
-
-------------------------------------------------------------------------
-
-## End Visualisation
-
--   People don't like to be shown where they are; they like to see the
-    destination.
--   Disneyland: "15 miles" vs "Only 15 minutes!"
--   Shampoo: "For Frizzy, Dry Hair" vs "Smooth n' Sleek"
--   Are you derivative, boring, 'grey' or will you **Think Different**?
-
-------------------------------------------------------------------------
-
-## Positive Research Methods
-
--   **Marcus Aurelius**: "Master your mind, accept your fate, and act
-    with virtue."
--   **Aristotle**: "Live a balanced life guided by reason, virtue, and
-    the pursuit of flourishing."
--   **Jagger**: "You can't always get what you want, but sometimes you
-    get what you need."
-
-------------------------------------------------------------------------
-
-## Dream Big
-
--   Do you have a dream?
--   Do you **need** a dream?
-
-## **Why Visualize Data?**
-
--   Visuals help us **perceive patterns** and **relationships** between
-    variables.
-
--   In psychology, this is critical when studying associations like:
-
-    -   Age and cognition
-
-    -   Stress and health
-
--   A well-designed graph can uncover insights missed by **numerical
-    summaries** alone.
-
-------------------------------------------------------------------------
-
-## **Cognitive Bias and Visualization**
-
--   Graphs tap into human **visual perception**: how we process shapes,
-    contrasts, and relationships.
-
--   But be cautious! Our perception can also **mislead**:
-
-    -   **Outliers** can skew interpretations.
-
-    -   Complex designs (like 3D graphs) can distort reality.
-
--   Example: Anscombe’s Quartet — same statistics, but radically
-    different scatterplots.
-
-------------------------------------------------------------------------
-
-## **Visual Tasks in Psychology**
-
--   In psychology, we often ask questions like:
-
-    -   **Is there a pattern?**
-
-    -   **Is there a correlation?**
-
--   Scatterplots, bar charts, and line graphs help us **visually
-    decode** relationships faster than raw data.
-
-------------------------------------------------------------------------
-
-## **Designing Honest Graphs**
-
--   The aim is to **present data truthfully**:
-
-    -   Avoid chartjunk or misleading embellishments.
-
-    -   Keep the focus on the **data**, not the decoration.
-
--   In psychology, we need clarity to avoid **misleading
-    conclusions** about human behavior and cognition.
-
-------------------------------------------------------------------------
-
-## **Perception and Human Cognition**
-
--   Our minds tend to **group visual data** (Gestalt principles).
-
-    -   This can help but also mislead.
-
--   Example: **Stacked bar charts** can obscure individual trends within
-    groups.
-
-    -   Be mindful of what you're trying to communicate.
-
-------------------------------------------------------------------------
+## Conclusion and Next Steps
+
+-   Measures of central tendency and variance provide crucial summaries of our data
+-   The choice of measure depends on the type of data and the shape of its distribution
+-   These measures form the basis for more advanced statistical analyses
+-   Next, we'll explore how to visualize these concepts and dive deeper into our dataset
+
+::: notes
+Summarize the key points about central tendency and variance, and preview the next part on data visualization.
+:::
+
+## Introduction to Data Exploration
+
+Data exploration involves:
+
+-   Visualizing data distributions
+-   Identifying patterns and relationships
+-   Detecting outliers and anomalies
+
+We'll use various chart types to explore our dataset.
+
+::: notes
+Explain the importance of data exploration in understanding the dataset before applying more advanced statistical techniques.
+:::
+
+## Histogram: Login Count Distribution
+
+```{webr-r}
+library(ggplot2)
+library(dplyr)
+
+data <- read.csv("Y1W3_data.csv")
+
+ggplot(data, aes(x = LoginCount)) +
+  geom_histogram(binwidth = 5, fill = "skyblue", color = "black") +
+  labs(title = "Distribution of Login Counts",
+       x = "Login Count",
+       y = "Frequency") +
+  theme_minimal()
+```
+
+::: notes
+Discuss the shape of the distribution, any skewness, and what it tells us about student engagement.
+:::
+
+## Bar Chart: Pet Preferences
+
+```{webr-r}
+ggplot(data, aes(x = DogCatBoth)) +
+  geom_bar(fill = "lightgreen") +
+  labs(title = "Preference for Dogs, Cats, or Both",
+       x = "Preference",
+       y = "Count") +
+  theme_minimal()
+```
+
+::: notes
+Interpret the bar chart, discussing the most common preference and potential implications for student engagement strategies.
+:::
+
+## Scatter Plot: Eye Contact vs Login Count
+
+```{webr-r}
+ggplot(data, aes(x = LoginCount, y = EyeContact)) +
+  geom_point(alpha = 0.7) +
+  labs(title = "Eye Contact Score vs Login Count",
+       x = "Login Count",
+       y = "Eye Contact Score") +
+  theme_minimal()
+```
+
+::: notes
+Discuss any visible patterns or correlations, and what they might imply about the relationship between online engagement and social comfort.
+:::
+
+## Box Plot: Completion Time by Conscientiousness
+
+```{webr-r}
+data$C_Group <- ifelse(data$C_TIPI > median(data$C_TIPI, na.rm = TRUE), "High", "Low")
+
+ggplot(data, aes(x = C_Group, y = as.numeric(as.period(hms(CompTime))) / 60)) +
+  geom_boxplot() +
+  labs(title = "Completion Time by Conscientiousness Level",
+       x = "Conscientiousness Level",
+       y = "Completion Time (minutes)") +
+  theme_minimal()
+```
+
+::: notes
+Interpret the box plot, discussing differences in completion time between high and low conscientiousness groups.
+:::
+
+## Radar Chart: TIPI Personality Traits
+
+```{webr-r}
+library(tidyr)
+
+tipi_data <- data %>%
+  select(E_TIPI, A_TIPI, C_TIPI, ES_TIPI, O_TIPI) %>%
+  summarise(across(everything(), mean, na.rm = TRUE)) %>%
+  pivot_longer(cols = everything(), names_to = "Trait", values_to = "Score")
+
+ggplot(tipi_data, aes(x = Trait, y = Score, group = 1)) +
+  geom_polygon(fill = "lightblue", alpha = 0.5) +
+  geom_line() +
+  geom_point() +
+  coord_polar() +
+  ylim(0, 5) +
+  labs(title = "Average TIPI Scores") +
+  theme_minimal()
+```
+
+::: notes
+Explain how to interpret the radar chart and discuss the overall personality profile of the class based on TIPI scores.
+:::
+
+## MBTI Distribution
+
+```{webr-r}
+mbti_data <- data %>%
+  filter(!is.na(MBTI)) %>%
+  count(MBTI) %>%
+  arrange(desc(n))
+
+ggplot(mbti_data, aes(x = reorder(MBTI, -n), y = n)) +
+  geom_bar(stat = "identity", fill = "coral") +
+  labs(title = "Distribution of MBTI Types",
+       x = "MBTI Type",
+       y = "Count") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+::: notes
+Discuss the distribution of MBTI types in the class and potential implications for teaching strategies.
+:::
+
+## Correlation Heatmap: TIPI Traits
+
+```{webr-r}
+library(reshape2)
+
+tipi_cor <- data %>%
+  select(E_TIPI, A_TIPI, C_TIPI, ES_TIPI, O_TIPI) %>%
+  cor(use = "pairwise.complete.obs")
+
+tipi_cor_melted <- melt(tipi_cor)
+
+ggplot(tipi_cor_melted, aes(x = Var1, y = Var2, fill = value)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "blue", high = "red", mid = "white", midpoint = 0) +
+  labs(title = "Correlation Heatmap of TIPI Traits") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+::: notes
+Interpret the correlation heatmap, discussing which personality traits tend to be related and which are more independent.
+:::
+
+## Exploring Relationships: LoginCount and TIPI Traits
+
+```{webr-r}
+tipi_login_cor <- data %>%
+  select(LoginCount, E_TIPI, A_TIPI, C_TIPI, ES_TIPI, O_TIPI) %>%
+  cor(use = "pairwise.complete.obs")
+
+tipi_login_cor_melted <- melt(tipi_login_cor)
+
+ggplot(tipi_login_cor_melted, aes(x = Var1, y = Var2, fill = value)) +
+  geom_tile() +
+  scale_fill_gradient2(low = "blue", high = "red", mid = "white", midpoint = 0) +
+  labs(title = "Correlation: LoginCount and TIPI Traits") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+::: notes
+Discuss any notable correlations between login count and personality traits, and what this might imply about online engagement.
+:::
+
+## Violin Plot: EyeContact by MBTI Extraversion/Introversion
+
+```{webr-r}
+data$IE <- substr(data$MBTI, 1, 1)
+
+ggplot(data, aes(x = IE, y = EyeContact, fill = IE)) +
+  geom_violin(trim = FALSE) +
+  geom_boxplot(width = 0.1, fill = "white") +
+  labs(title = "EyeContact Score by Extraversion/Introversion",
+       x = "MBTI Extraversion/Introversion",
+       y = "EyeContact Score") +
+  theme_minimal()
+```
+
+::: notes
+Interpret the violin plot, discussing differences in eye contact scores between extraverts and introverts.
+:::
+
+## Stacked Bar Chart: MBTI Types by Pet Preference
+
+```{webr-r}
+mbti_pet <- data %>%
+  filter(!is.na(MBTI) & !is.na(DogCatBoth)) %>%
+  count(MBTI, DogCatBoth) %>%
+  group_by(MBTI) %>%
+  mutate(prop = n / sum(n))
+
+ggplot(mbti_pet, aes(x = MBTI, y = prop, fill = DogCatBoth)) +
+  geom_bar(stat = "identity") +
+  labs(title = "MBTI Types by Pet Preference",
+       x = "MBTI Type",
+       y = "Proportion",
+       fill = "Pet Preference") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+::: notes
+Discuss any interesting patterns in pet preferences across MBTI types and potential implications for understanding student personalities.
+:::
+
+## Conclusion and Key Insights
+
+-   Recap the main findings from our data exploration
+-   Discuss how these insights can inform teaching strategies and student engagement
+-   Highlight the importance of data-driven decision making in education
+
+::: notes
+Summarize the key takeaways from the data exploration and how they can be applied in the educational context.
+:::
+
+## Next Steps
+
+-   Encourage further exploration of the dataset
+-   Discuss potential research questions that could be investigated
+-   Introduce more advanced statistical techniques for future analysis
+
+::: notes
+Provide direction for students to continue their statistical journey and apply these concepts to their own research interests.
+:::
 
 ## **Plato’s Triad: The True, The Good, and The Beautiful**
 
-Plato believed in the intrinsic connection between **truth**,
-**goodness**, and **beauty** — a concept that has influenced Western
-thought for centuries.
+Plato believed in the intrinsic connection between **truth**, **goodness**, and **beauty** — a concept that has influenced Western thought for centuries.
 
-For Plato, these three qualities are inseparable in the realm of
-**Forms**.
+For Plato, these three qualities are inseparable in the realm of **Forms**.
 
-The **truth** is inherently **good**, and what is **good** is also
-inherently **beautiful**.
+The **truth** is inherently **good**, and what is **good** is also inherently **beautiful**.
 
-Thus, if something is **false**, it cannot be truly **beautiful** or
-**good**.
+Thus, if something is **false**, it cannot be truly **beautiful** or **good**.
 
 ## Financial Times
 
-[Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/)
-is a site for stuff
-## Introduction
+[Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/) is a site for stuff \## Introduction
 
 > "Far better an approximate answer to the right question, which is often vague, than an exact answer to the wrong question, which can always be made precise." ---John W. Tukey
 
@@ -820,26 +598,23 @@ knitr::kable(matrix(round(happiness), ncol=10, nrow=5))
 
 **How do you write your essays or lab reports?**
 
-* Microsoft Word?
+-   Microsoft Word?
 
-* Google Docs?
+-   Google Docs?
 
-* Markdown?
+-   Markdown?
 
-::: {.fragment}
-
+::: fragment
 **How do you currently play with numbers?**
 
-* Excel?
+-   Excel?
 
-* SPSS?
+-   SPSS?
 
-* R?
+-   R?
 
-* Python?
-
+-   Python?
 :::
-
 
 ## What is Quarto?
 
@@ -855,61 +630,57 @@ Quarto is an open-source scientific and technical publishing system [that allows
 
 ## Why use Quarto? Why use R?
 
-* More journals require code to be submitted (for transparency and reproducibility). Keeping the code with the paper makes this easier.
+-   More journals require code to be submitted (for transparency and reproducibility). Keeping the code with the paper makes this easier.
 
-* Copying and pasting is tedious (and a great source of accidental errors).
+-   Copying and pasting is tedious (and a great source of accidental errors).
 
-* If you fix an error in code or data, the results and figures in the paper update automatically.
+-   If you fix an error in code or data, the results and figures in the paper update automatically.
 
-* Easy to share publicly. 
+-   Easy to share publicly.
 
-* Open source so anyone can use it.
+-   Open source so anyone can use it.
 
 ## What about R Markdown?
 
 R Markdown isn't going anywhere but...
 
-* Quarto has better multi-language support
+-   Quarto has better multi-language support
 
-* More user-friendly
+-   More user-friendly
 
-* Better control of the output layouts
+-   Better control of the output layouts
 
 # Your first Quarto document {background-color="#D9DBDB"}
 
 ## Creating a document
 
 <p style="text-align:center;">
-<img src="images/new_doc.gif" alt="Gif of creating a new quarto document" width="50%">
+
+<img src="images/new_doc.gif" alt="Gif of creating a new quarto document" width="50%"/>
+
 </p>
 
 ## Quarto in RStudio
 
-::: columns
-
-::: {.column}
-
+::::: columns
+::: column
 **Source editor**
 
 ![](images/source.png){fig-align="center" width="70%"}
-
 :::
 
-::: {.column}
-
+::: column
 **Visual editor**
 
 ![](images/visual.png){fig-align="center" width="70%"}
-
 :::
-
-:::
+:::::
 
 ## Rendering a document
 
 Within RStudio IDE: click **Render** (or Ctrl+Shift+K)
 
-. . . 
+. . .
 
 <br>
 
@@ -943,31 +714,28 @@ format: html
 ---
 ```
 
-. . . 
+. . .
 
 Content
 
-* Text, links, images
+-   Text, links, images
 
-* Code, tables, plots
+-   Code, tables, plots
 
-* Equations, references
-
+-   Equations, references
 
 ## Output types
 
-::: {.incremental}
+::: incremental
+-   Documents: HTML, PDF, MS Word, Markdown
 
-* Documents: HTML, PDF, MS Word, Markdown
+-   Presentations: Revealjs, PowerPoint, Beamer
 
-* Presentations: Revealjs, PowerPoint, Beamer
+-   Websites
 
-* Websites
+-   Books
 
-* Books
-
-* ...
-
+-   ...
 :::
 
 ## Looking at Data: Graphs

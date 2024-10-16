@@ -1,0 +1,18 @@
+---
+title: "Pokemon"
+---
+
+Radar Plots of Personality
+
+
+
+```{=html
+cat('
+<p>
+  <a href="Y1W3_data.csv" download="Y1W3_data.csv" class="btn btn-primary">
+    <i class="fas fa-download"></i> Download Y1W3_data.csv
+  </a>
+</p>
+')}
+
+```

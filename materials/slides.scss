@@ -13,7 +13,7 @@ $presentation-h1-font-size: 2.6em;
 $presentation-h2-font-size: 1.7em;
 $presentation-h3-font-size: 1.4em;
 $presentation-h4-font-size: 1.1em;
-$presentation-font-size-root: 40px;
+$presentation-font-size-root: 30px;
 $presentation-line-height: 1.5em;
 
 // font colour
@@ -53,6 +53,62 @@ $url-blue: #01BAEF;
 // }
 
 /*-- scss:rules --*/
+.reveal {
+  font-size: 24px; /* Adjusts the base font size */
+}
+
+.reveal .slides section {
+  padding: 0.5em; /* Reduces the padding inside the slides */
+}
+
+/* SCSS for a slide with smaller, more detailed text */
+.reveal .slides section.smaller-text {
+  font-size: 0.8em; /* Smaller font size */
+  line-height: 1.2em; /* Slightly tighter line spacing */
+  color: #333333; /* Darker gray for detailed text */
+}
+
+/* SCSS for Level 6 Heading (Section Change) */
+h6.section-change {
+  font-size: 1.4em; /* Slightly larger than default */
+  font-weight: bold;
+  background-color: #f4f3ee; /* Light background color */
+  border: 2px solid #000; /* Solid border to make it stand out */
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase; /* Make it all caps */
+  color: #000000; /* Black text */
+}
+
+/* SCSS for Level 5 Heading (Bold Red for Highlighting) */
+h5.highlight-info {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #b20e10; /* Bright red for emphasis */
+  text-align: left; /* Left-aligned */
+}
+
+.reveal h1 {
+  font-size: 2em; /* Adjusts the size of H1 headers */
+}
+
+.reveal h2 {
+  font-size: 1.8em; /* Adjusts the size of H2 headers */
+}
+
+.reveal p {
+  line-height: 1.2; /* Reduces line height for paragraphs */
+  font-size: 0.9em; /* Adjusts the paragraph font size */
+}
+
+.reveal ul, .reveal ol {
+  font-size: 0.9em; /* Adjusts the font size for lists */
+  line-height: 1.2; /* Adjusts the line height for lists */
+}
+
+.reveal .reveal-fig img {
+  max-width: 90%; /* Ensures that images fit better on the slide */
+}
 
 
 // Quick refs for core palette

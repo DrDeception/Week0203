@@ -137,6 +137,7 @@ library(tidyverse)
 library(hrbrthemes)
 library(viridis)
 
+
 # Load dataset from github
 data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/1_OneNum.csv", header=TRUE)
 
@@ -909,7 +910,7 @@ Word clouds, while visually appealing, are often criticized for their lack of ac
 library(ggplot2)
 
 # Load the dataset
-data <- read.csv("Y1W3_data.csv")
+data <- read.csv("materials/data/Y1W3_data.csv")
 
 # Remove all NA values
 data <- na.omit(data)
@@ -952,7 +953,7 @@ library(dplyr)
 library(fmsb)
 
 # Load the dataset
-data <- read.csv("Y1W3_data.csv")
+data <- read.csv("materials/data/Y1W3_data.csv")
 
 # Remove all NA values
 data <- na.omit(data)
@@ -1004,7 +1005,7 @@ library(tidyr)
 library(scales)
 
 # Read the data
-data <- read.csv("Y1W3_data.csv")
+data <- read.csv("materials/data/Y1W3_data.csv")
 
 # Select relevant columns and remove rows with NA
 tipi_data <- data %>%

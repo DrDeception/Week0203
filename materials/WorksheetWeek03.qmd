@@ -1,0 +1,136 @@
+---
+title: "Week 03 Worksheet - part 1"
+subtitle: "A first gentle introduction"
+author: "INSERT YOUR NAME HERE"
+format: 
+  html: default
+  pdf: default
+editor: visual
+---
+
+# Welcome to RStudio!
+
+This worksheet will introduce you to the RStudio interface and the concept of literate programming using R.
+
+## The RStudio Interface
+
+When you open RStudio, you'll see four main panes:
+
+1.  **Source Editor** (top-left): This is where you write and edit your code and text.
+2.  **Console** (bottom-left): This is where R commands are executed and where you see the output.
+3.  **Environment/History** (top-right): This shows the objects in your workspace and your command history.
+4.  **Files/Plots/Packages/Help** (bottom-right): This multi-purpose pane shows your files, plots, installed packages, and help documentation.
+
+## This is a .qmd file 
+
+It is markdown - a text only language that can be edited anywhere, even on your phone, because it uses commonly occurring symbols to do all the formatting. If you happen to know html, it's pretty similar. It's simple (once you get the idea), very small in terms of file-size, easily accessed, and versatile. 
+
+## Understanding Literate Programming
+
+Literate programming is a paradigm that combines explanatory text with executable code in a single document. This approach, pioneered by Donald Knuth in 1984, aims to make programming more accessible, understandable, and maintainable. When you learn about Open Science practices next week with Stacey, she will probably talk about sharing of data, replicability and other big issues. One way in which we can make Science more accessible and open is by using techniques like this.
+
+### Key Concepts
+
+1. **Integration of Code and Documentation**: In literate programming, the code is interspersed with narrative text that explains the purpose and functionality of the code.
+
+2. **Human-Oriented**: The primary focus is on making the program understandable to humans, rather than just computers.
+
+3. **Executable Documents**: The resulting document can be both read as a coherent explanation and executed as a functional program.
+
+### Benefits in Data Science and Research
+
+Literate programming is particularly valuable in data science and research for several reasons:
+
+1. **Reproducibility**: By combining code, results, and explanations, others can easily reproduce and verify your work.
+
+2. **Clear Communication**: It allows you to explain your thought process, methodology, and interpretation of results alongside the code that generates them.
+
+3. **Error Checking**: The close proximity of code and explanation makes it easier to spot inconsistencies or errors.
+
+4. **version Control**: Changes in both code and narrative can be tracked together, providing a comprehensive history of the project's evolution.
+
+### Example in R
+
+Here's a simple example of literate programming in R using a Quarto document:
+
+In this analysis, we'll explore the relationship between a car's horsepower and its fuel efficiency using the `mtcars` dataset (this is a commonly used dataset that comes installed in R).
+
+First, let's load the data and create a scatter plot (What Gordon did in the Lecture):
+
+```{r}
+# Load the mtcars dataset
+data(mtcars)
+
+# Create a scatter plot
+plot(mtcars$hp, mtcars$mpg, 
+     main="Horsepower vs. Fuel Efficiency",
+     xlab="Horsepower", 
+     ylab="Miles per Gallon",
+     pch=19, 
+     col="darkblue")
+```
+
+## The Visual Editor
+
+RStudio's visual editor provides a user-friendly interface for creating Quarto documents. It allows you to write text and code in a "What You See Is What You Get" (WYSIWYG) environment.
+
+To switch to the visual editor, click the "Visual" button at the top-left of the Source Editor.
+
+## Writing Narrative Text
+
+In the visual editor, you can simply type your text as you would in any word processor. You can use the formatting toolbar at the top to:
+
+-   Apply **bold** or *italic* formatting
+-   Create bullet or numbered lists
+-   Add headings
+-   Insert links or images
+
+Try writing a short paragraph about why you're studying Psychology below:
+
+\[Your text here\]
+
+## Adding Code Cells
+
+To add a code cell:
+
+1.  Click the "+C" button in the toolbar or use the keyboard shortcut Cmd+Option+I (Mac) or Ctrl+Alt+I (Windows/Linux)
+2.  You'll see a new code cell appear
+3.  Type your R code inside this cell
+
+Let's try a simple calculation. Add a code cell and type the following:
+
+```{r}
+2 + 2
+```
+
+## Running Code
+
+To run the code in a cell:
+
+Click the "Run" button (green play icon) at the top-right of the cell, or Use the keyboard shortcut: Cmd+Enter (Mac) or Ctrl+Enter (Windows/Linux)
+
+The output will appear directly below the code cell. Rendering Your Document To create the final document:
+
+Click the "Render" button at the top of the editor Choose your desired output format (HTML or PDF) RStudio will process your document and display the result
+
+## Exercise
+
+### My First Plot
+
+
+## Run the code cell
+
+Render your document to html (website) or pdf (document) and view the results!
+
+## Conclusion
+
+You've now learned the basics of:
+
+::: {.callout-note}
+- Navigating the RStudio interface Using the visual editor for Quarto documents 
+- Writing narrative text and adding formatted elements 
+- Inserting and running code cells to do sums and create graphs
+- Rendering your document
+:::
+
+Keep practicing these skills as you continue your journey with R and data analysis!

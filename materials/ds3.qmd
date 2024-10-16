@@ -1,0 +1,119 @@
+---
+title: "Descriptive Statistics 3"
+subtitle: "Hand Calculations"
+author: "Dr. Gordon Wright"
+format:
+  pdf:
+    header-includes:
+      - \usepackage{amsmath}
+  html:
+    math: true
+editor: visual
+---
+
+# Hand Calculations of Measures of Central Tendency and Variability
+
+## Part 1: Calculating the Mean and Standard Deviation of the data set {1, 2, 3, 4, 5}
+
+### Step 1: Calculate the Mean
+
+The formula for the mean ($\bar{x}̄$) is:
+
+$$
+\bar{x} = \frac{\sum{X}}{N}
+$$
+
+Where: - $𝑋$ represents each value in the dataset - $𝑁$ is the number of
+values
+
+**Data Set**: 1, 2, 3, 4, 5
+
+$$
+𝑥̄ = \frac{1 + 2 + 3 + 4 + 5}{5} = \frac{15}{5} = 3
+$$
+
+### Step 2: Calculate the Deviations from the Mean
+
+Subtract the mean from each value: - (1 - 3) = -2 - (2 - 3) = -1 - (3 -
+3) = 0 - (4 - 3) = 1 - (5 - 3) = 2
+
+### Step 3: Square the Deviations
+
+$$
+(-2)^2 = 4, \quad (-1)^2 = 1, \quad (0)^2 = 0, \quad 1^2 = 1, \quad 2^2 = 4
+$$
+
+### Step 4: Calculate the Variance
+
+The formula for variance ($𝑠²$) is:
+
+$$
+𝑠² = \frac{\sum{(X - 𝑥̄)^2}}{N}
+$$
+
+Sum of squared deviations:
+
+$$
+4 + 1 + 0 + 1 + 4 = 10
+$$
+
+$$
+𝑠² = \frac{10}{5} = 2
+$$
+
+### Step 5: Calculate the Standard Deviation
+
+The formula for the standard deviation ($𝑠$) is:
+
+$$
+𝑠 = \sqrt{𝑠²} = \sqrt{2} \approx 1.41
+$$
+
+------------------------------------------------------------------------
+
+## Part 2: Calculating the Mean and Standard Deviation of the data set {5, 4, 3, 4, 5}
+
+### Step 1: Calculate the Mean
+
+$$
+\bar{x} = \frac{5 + 4 + 3 + 4 + 5}{5} = \frac{21}{5} = 4.2
+$$
+
+### Step 2: Calculate the Deviations from the Mean
+
+-   (5 - 4.2) = 0.8
+-   (4 - 4.2) = -0.2
+-   (3 - 4.2) = -1.2
+-   (4 - 4.2) = -0.2
+-   (5 - 4.2) = 0.8
+
+### Step 3: Square the Deviations
+
+$$
+(0.8)^2 = 0.64, \quad (-0.2)^2 = 0.04, \quad (-1.2)^2 = 1.44, \quad (-0.2)^2 = 0.04, \quad (0.8)^2 = 0.64
+$$
+
+### Step 4: Calculate the Variance
+
+$$
+\sum = 0.64 + 0.04 + 1.44 + 0.04 + 0.64 = 2.8
+$$
+
+$$
+𝑠² = \frac{2.8}{5} = 0.56
+$$
+
+### Step 5: Calculate the Standard Deviation
+
+$$
+𝑠 = \sqrt{0.56} \approx 0.75
+$$
+
+------------------------------------------------------------------------
+
+## Summary:
+
+-   **Mean and Standard Deviation for {1, 2, 3, 4, 5}:**
+    -   Mean = 3, Standard Deviation ≈ 1.41
+-   **Mean and Standard Deviation for {5, 4, 3, 4, 5}:**
+    -   Mean = 4.2, Standard Deviation ≈ 0.75

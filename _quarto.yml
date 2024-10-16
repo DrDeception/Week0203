@@ -9,17 +9,17 @@ website:
     right:
       - text: "General Info"
         href: index.qmd
-      - text: "Instructors"
-        menu:
-          - text: "Gordon Wright"
-            href: https://www.littlemonkeylab.com/
+      # - text: "Instructors"
+      #   menu:
+      #     - text: "Gordon Wright"
+      #       href: https://www.littlemonkeylab.com/
   sidebar:
     style: "docked"
     alignment: left
     border: true
     collapse-level: 2
     contents:
-      - section: "Quarto Example"
+      - section: "Content"
         contents:
           - text: "Index"
             href: index.qmd
@@ -39,7 +39,7 @@ website:
         #     href: rubrics/rubric_github.qmd
         #   - text: "Function Tutorials"
         #     href: rubrics/rubric_tutorials.qmd
-      - section: "Course Content"
+      - section: "Week02"
         contents:
           - text: "Week 2 Content"
             href: materials/home_week02.qmd
@@ -49,8 +49,18 @@ website:
             href: materials/choicequestions.qmd
           - text: "Free Text"
             href: materials/freetextquestions.qmd
-          # - text: "Week 4 Content"
-          #   href: materials/home_week4.qmd
+      - section: "Week03"
+        contents:
+          - text: "Week 3 Content"
+            href: materials/home_week03.qmd
+          - text: "Types of Data"
+            href: materials/ds1.qmd
+          - text: "Measures of Central Tendency & Variability"
+            href: materials/ds2.qmd
+          - text: "Hand Calculations"
+            href: materials/ds3.qmd
+          - text: "Choosing the right chart"
+            href: materials/ds4.qmd
           # - text: "Week 5 Content"
           #   href: materials/home_week5.qmd
           # - text: "Week 6 Content"

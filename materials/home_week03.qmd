@@ -74,54 +74,59 @@ combined_plot
 
 ## Overview
 
-This week we'll be covering mostly big picture background content. We'll begin with background on data science generally then narrow to talking about why this course is taught in R (rather than some other coding language). I'll then give you some hard-won tips on problem solving so that you can begin to develop strategies for handling the errors and warnings that you'll inevitably encounter as you grow your competency in this arena. In lab, we'll discuss some crucial components of navigating and using RStudio as well as begin our conversation about R scripts and "base R"
+This week we'll be covering mostly big picture background content about
+the technical side of things. We'll begin with background on data
+science generally then narrow to talking about why this course is taught
+in R (rather than some other coding language). We will touch on how
+Excel will likely remain a valuable tool to teach yourself, and then
+I'll give you some hard-won tips on problem solving so that you can
+begin to develop strategies for handling the errors and warnings that
+you'll inevitably encounter as you grow your competency in this arena.
+In lab, we'll discuss some crucial components of navigating and using
+RStudio as well as a very gentle first foray into it's use.
 
 ## Lecture 3 - Data Visualisation
 
-```{=html}
-<iframe class="slide-deck" src="slides_1a.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
-```
+<iframe class="slide-deck" src="slides_3a.html" height="420" width="750" style="border: 1px solid #2e3846;">
+
+</iframe>
 
 [Lecture Slides -- Full Screen](slides_3a.qmd)
 
-## Lab 2 - RStudio & Base R
+## Lab 03 - Excel, RStudio & ggplot2
 
-```{=html}
-<iframe class="slide-deck" src="slides_3a.html" height="420" width="750" style="border: 1px solid #2e3846;"></iframe>
-```
+### Learning Objectives 
 
-[Lab Slides -- Full Screen](slides_3a.qmd)
+Upon completion of this lab, students will be able to:
 
-## DataSkills 3
+**Evaluate** your Excel proficiency and its relevance to potential
+career paths
 
-### Learning Objective(s)
+**Calculate** basic descriptive statistics (mean, count) using Excel
 
-Upon completion of these assignments, students will be able to:
+**Differentiate** between levels of measurement and types of data in
+research methods
 
-- **Describe** a real-world file path
-- **Demonstrate** comfortability with using comments in an R script 
-- **Explain** fundamental principles of R and RStudio
-- **Perform** arithmetic using objects in R
-- **Manipulate** and interpret vectors and objects of various classes and contents
+**Explain** measures of central tendency and variability
 
-### Assignment Due Date(s)
+**Familiarise** yourself with RStudio and perform basic operations
 
-Each homework is due at midnight the day before each lecture (i.e., Monday night) Late work will be accepted but will be subject to the late assignments policy outlined in this course's syllabus.
+<iframe class="slide-deck" src="slides_3b.html" height="420" width="750" style="border: 1px solid #2e3846;">
 
-### Assignment Description
+</iframe>
 
-This homework should be submitted as an R script with your last name and week 1 as the file name (e.g., "Lyon_week1.R"). Remember to include comments explaining what line(s) correspond to each of the following prompts.
+[Lab Slides -- Full Screen](slides_3b.qmd)
 
-1. As a comment, write the full file path on your computer to where you've saved this script. Folders should be separated by slashes. Include the name of the R script in the file path
+## DataSkills 03
 
-2. As a comment, explain the difference between the RStudio "Console" and "Source" panes
+Learning Objectives:
 
-3. As a comment, describe–in your own words–what is meant by the term "base R"
+**Start Literate Coding** by blending narrative and code chunks
 
-4. Create an object named "weight_kg" and assign the value 62 as a number
+**Copy** a simple document in R, incorporating data analysis and
+commentary
 
-5. Create a new object by multiplying the 'weight_kg' object by 2.2 and assign the result to an object called "weight_lb"
+**Render** documents into HTML or PDF formats
 
-6. As a comment, define both (A) the value of 'weight_lb' and (B) the class of 'weight_lb'
-
-7. Write the code necessary to access the help file for the function `floor`
+**Recognize** the role of tools like R and RStudio in Open Science
+practices

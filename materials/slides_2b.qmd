@@ -14,8 +14,6 @@ format:
     code-copy: true
     theme: [simple, slides.scss]
     reference-location: document
-  html: 
-    output-ext: .htm
 webr:
   packages: ['ggplot2', 'dplyr'] # Install R packages on document open
 # autoload-packages: false       # Disable automatic loading of packages

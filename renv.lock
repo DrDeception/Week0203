@@ -564,14 +564,14 @@
     },
     "data.table": {
       "Package": "data.table",
-      "Version": "1.16.0",
+      "Version": "1.16.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "methods"
       ],
-      "Hash": "fb24e05d4a91d8b1c7ff8e284bde834a"
+      "Hash": "2e00b378fc3be69c865120d9f313039a"
     },
     "dbplyr": {
       "Package": "dbplyr",
@@ -680,13 +680,13 @@
     },
     "evaluate": {
       "Package": "evaluate",
-      "Version": "1.0.0",
+      "Version": "1.0.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R"
       ],
-      "Hash": "6b567375113ceb7d9f800de4dd42218e"
+      "Hash": "3fd29944b231036ad67c3edb32e02201"
     },
     "extrafont": {
       "Package": "extrafont",
@@ -2071,14 +2071,14 @@
     },
     "slam": {
       "Package": "slam",
-      "Version": "0.1-53",
+      "Version": "0.1-54",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
         "R",
         "stats"
       ],
-      "Hash": "530404612c10533ff2deb1622c458b36"
+      "Hash": "ac3e35b2fb2c202ff6b222e4c39f7b43"
     },
     "sourcetools": {
       "Package": "sourcetools",

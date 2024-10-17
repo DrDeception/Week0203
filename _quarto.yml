@@ -60,7 +60,7 @@ website:
           - text: "Hand Calculations"
             href: materials/ds3.qmd
           - text: "Choosing the right chart"
-            href: materials/ds4.qmd
+            href: materials/ds5.qmd
           # - text: "Week 5 Content"
           #   href: materials/home_week5.qmd
           # - text: "Week 6 Content"
@@ -83,7 +83,7 @@ format:
   html:
     code-overflow: wrap
     code-line-numbers: true
-    code-copy: hover
+    code-copy: true
     theme: simplex
 
     mainfont: Atkinson Hyperlegible

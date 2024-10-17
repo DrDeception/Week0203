@@ -279,7 +279,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#my-first-plot" id="toc-my-first-plot" class="nav-link" data-scroll-target="#my-first-plot">My First Plot</a></li>
   </ul></li>
-  <li><a href="#run-the-code-cell" id="toc-run-the-code-cell" class="nav-link" data-scroll-target="#run-the-code-cell">Run the code cell</a></li>
+  <li><a href="#remember-to-run-the-code-cell" id="toc-remember-to-run-the-code-cell" class="nav-link" data-scroll-target="#remember-to-run-the-code-cell">Remember to Run the code cell</a></li>
+  <li><a href="#now-press-the-render-button-at-the-top-of-the-page-and-choose-either-html-for-a-website-or-pdf-for-a-nice-tidy-document." id="toc-now-press-the-render-button-at-the-top-of-the-page-and-choose-either-html-for-a-website-or-pdf-for-a-nice-tidy-document." class="nav-link" data-scroll-target="#now-press-the-render-button-at-the-top-of-the-page-and-choose-either-html-for-a-website-or-pdf-for-a-nice-tidy-document.">Now Press the Render Button at the top of the page and choose either html (for a website) or pdf (for a nice tidy document).</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul></li>
   </ul>
@@ -425,13 +426,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="exercise" class="level2">
 <h2 class="anchored" data-anchor-id="exercise">Exercise</h2>
-<p>Load the data Gordon has been using today. <a href="https://github.com/DrDeception/Week0203/blob/3276cb8fa56a466a3e25761523cea475ed4ee4bd/materials/data/Y1W3_data.csv" class="uri">https://github.com/DrDeception/Week0203/blob/3276cb8fa56a466a3e25761523cea475ed4ee4bd/materials/data/Y1W3_data.csv</a></p>
+<p>Load the data Gordon has been using today. It is on the VLE here https://learn.gold.ac.uk/pluginfile.php/2430939/mod_resource/content/1/Y1W3_data.csv?forcedownload=1</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># Welcome to R! This is a comment. R doesn't run anything on a line after a '#'.</span></span>
 <span id="cb4-2"><a href="#cb4-2"></a></span>
 <span id="cb4-3"><a href="#cb4-3"></a><span class="co"># Before we can read our data, we need a special tool called 'readr'.</span></span>
-<span id="cb4-4"><a href="#cb4-4"></a><span class="co"># Think of this like buying a book from a bookstore.</span></span>
-<span id="cb4-5"><a href="#cb4-5"></a><span class="co"># We only need to do this once, just like you only need to buy a book once.</span></span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="co"># Think of this like getting a special pair of glasses to read a book.</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a><span class="co"># We only need to do this once, just like you only need to buy glasses once.</span></span>
 <span id="cb4-6"><a href="#cb4-6"></a><span class="fu">install.packages</span>(<span class="st">"readr"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>The following package(s) will be installed:
@@ -440,237 +441,69 @@ These packages will be installed into "~/Week0203/renv/library/macos/R-4.4/x86_6
 
 # Installing packages --------------------------------------------------------
 - Installing readr ...                          OK [linked from cache]
-Successfully installed 1 package in 6.8 milliseconds.</code></pre>
+Successfully installed 1 package in 6.4 milliseconds.</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="co"># Now that we've bought the book (installed the package), we need to take it off our shelf to use it.</span></span>
-<span id="cb6-2"><a href="#cb6-2"></a><span class="co"># In R, we do this by 'loading' the library. We'll need to do this each time we start a new R session.</span></span>
-<span id="cb6-3"><a href="#cb6-3"></a><span class="co"># It's like taking the book off your shelf each time you want to read it.</span></span>
-<span id="cb6-4"><a href="#cb6-4"></a><span class="fu">library</span>(readr)  <span class="co"># This is like opening the book 'readr' to use its contents</span></span>
-<span id="cb6-5"><a href="#cb6-5"></a></span>
-<span id="cb6-6"><a href="#cb6-6"></a><span class="co"># Now let's specify where our data is located. This is like writing down the address of a library.</span></span>
-<span id="cb6-7"><a href="#cb6-7"></a>url <span class="ot">&lt;-</span> <span class="st">"https://raw.githubusercontent.com/DrDeception/Week0203/3276cb8fa56a466a3e25761523cea475ed4ee4bd/materials/data/Y1W3_data.csv"</span></span>
-<span id="cb6-8"><a href="#cb6-8"></a></span>
-<span id="cb6-9"><a href="#cb6-9"></a><span class="co"># We use the read_csv() function from our 'readr' book to load the data.</span></span>
-<span id="cb6-10"><a href="#cb6-10"></a><span class="co"># This is like using the skills we learned from the book to read a document in the library.</span></span>
-<span id="cb6-11"><a href="#cb6-11"></a>data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(url)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Rows: 109 Columns: 27
-── Column specification ────────────────────────────────────────────────────────
-Delimiter: ","
-chr  (13): PokeName, PokeImage, Q_Scale, Q_choice, Q_option, A-Level, Coin, ...
-dbl  (13): PokeNumber, LoginCount, EyeContact, Psy4me, DrWho, Maths, E_TIPI,...
-time  (1): CompTime
-
-ℹ Use `spec()` to retrieve the full column specification for this data.
-ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="co"># push the green play button</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a><span class="co"># Let's take a quick look at the first few rows of our data.</span></span>
-<span id="cb8-2"><a href="#cb8-2"></a><span class="co"># This is like skimming the first page of the document.</span></span>
-<span id="cb8-3"><a href="#cb8-3"></a><span class="fu">print</span>(<span class="fu">head</span>(data))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 6 × 27
-  PokeNumber PokeName   PokeImage  LoginCount Q_Scale Q_choice Q_option CompTime
-       &lt;dbl&gt; &lt;chr&gt;      &lt;chr&gt;           &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;    &lt;chr&gt;    &lt;time&gt;  
-1          1 bulbasaur  https://r…         NA &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;        NA   
-2          2 ivysaur    https://r…         NA &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;        NA   
-3          3 venusaur   https://r…         NA &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;        NA   
-4          4 charmander https://r…         NA &lt;NA&gt;    &lt;NA&gt;     &lt;NA&gt;        NA   
-5          5 charmeleon https://r…         61 Do you… How oft… Why did… 10'00"  
-6          6 charizard  https://r…         58 How of… What ty… Describ… 18'00"  
-# ℹ 19 more variables: `A-Level` &lt;chr&gt;, Coin &lt;chr&gt;, EyeContact &lt;dbl&gt;,
-#   Psy4me &lt;dbl&gt;, DrWho &lt;dbl&gt;, Maths &lt;dbl&gt;, InsectApocalypse &lt;chr&gt;,
-#   DogCatBoth &lt;chr&gt;, LarkorOwl &lt;chr&gt;, E_TIPI &lt;dbl&gt;, A_TIPI &lt;dbl&gt;,
-#   C_TIPI &lt;dbl&gt;, ES_TIPI &lt;dbl&gt;, O_TIPI &lt;dbl&gt;, MBTI &lt;chr&gt;, Image &lt;chr&gt;,
-#   Commentary &lt;chr&gt;, Row &lt;dbl&gt;, Column &lt;dbl&gt;</code></pre>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="co"># Now that we've got our special glasses (installed the package), we need to put them on to use them.</span></span>
+<span id="cb7-2"><a href="#cb7-2"></a><span class="co"># In R, we do this by 'loading' the library. We'll need to do this each time we start a new R session.</span></span>
+<span id="cb7-3"><a href="#cb7-3"></a><span class="co"># It's like putting on your glasses each time you want to read.</span></span>
+<span id="cb7-4"><a href="#cb7-4"></a><span class="fu">library</span>(readr)  <span class="co"># This is like putting on the 'readr' glasses to use its features</span></span>
+<span id="cb7-5"><a href="#cb7-5"></a></span>
+<span id="cb7-6"><a href="#cb7-6"></a><span class="co"># push the green play button</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a><span class="co"># Now let's read our uploaded data file. This is like opening a book that's right in front of you.</span></span>
+<span id="cb8-2"><a href="#cb8-2"></a><span class="co"># Make sure the CSV file is in your current working directory.</span></span>
+<span id="cb8-3"><a href="#cb8-3"></a><span class="co"># data &lt;- "Y1W3_data.csv" # Please DELETE the # just before `data` at the beginning of this line</span></span>
+<span id="cb8-4"><a href="#cb8-4"></a></span>
+<span id="cb8-5"><a href="#cb8-5"></a><span class="co"># Look to see `data` pop up in the Environment panel</span></span>
+<span id="cb8-6"><a href="#cb8-6"></a><span class="co"># push the green play button</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a><span class="co"># Let's take a quick look at the first few rows of our data.</span></span>
+<span id="cb9-2"><a href="#cb9-2"></a><span class="co"># This is like reading the first page of the book.</span></span>
+<span id="cb9-3"><a href="#cb9-3"></a><span class="co"># print(head(data)) # Please DELETE the # at the beginning of this line</span></span>
+<span id="cb9-4"><a href="#cb9-4"></a></span>
+<span id="cb9-5"><a href="#cb9-5"></a><span class="co"># ouch. Lots of info about the data - don't stress it now.</span></span>
+<span id="cb9-6"><a href="#cb9-6"></a><span class="co"># push the green play button</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a><span class="co"># Now, let's get a summary of our data. </span></span>
 <span id="cb10-2"><a href="#cb10-2"></a><span class="co"># This is like reading the table of contents and index to get an overview.</span></span>
-<span id="cb10-3"><a href="#cb10-3"></a><span class="fu">print</span>(<span class="fu">summary</span>(data))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>   PokeNumber    PokeName          PokeImage           LoginCount   
- Min.   :  1   Length:109         Length:109         Min.   : 1.00  
- 1st Qu.: 28   Class :character   Class :character   1st Qu.:10.00  
- Median : 55   Mode  :character   Mode  :character   Median :15.00  
- Mean   : 55                                         Mean   :19.43  
- 3rd Qu.: 82                                         3rd Qu.:25.00  
- Max.   :109                                         Max.   :61.00  
-                                                     NA's   :12     
-   Q_Scale            Q_choice           Q_option           CompTime       
- Length:109         Length:109         Length:109         Length:109       
- Class :character   Class :character   Class :character   Class1:hms       
- Mode  :character   Mode  :character   Mode  :character   Class2:difftime  
-                                                          Mode  :numeric   
-                                                                           
-                                                                           
-                                                                           
-   A-Level              Coin             EyeContact         Psy4me     
- Length:109         Length:109         Min.   : 1.000   Min.   :1.000  
- Class :character   Class :character   1st Qu.: 5.000   1st Qu.:4.000  
- Mode  :character   Mode  :character   Median : 7.000   Median :4.000  
-                                       Mean   : 6.314   Mean   :4.114  
-                                       3rd Qu.: 8.000   3rd Qu.:5.000  
-                                       Max.   :10.000   Max.   :5.000  
-                                       NA's   :39       NA's   :39     
-     DrWho            Maths       InsectApocalypse    DogCatBoth       
- Min.   : 0.000   Min.   :1.000   Length:109         Length:109        
- 1st Qu.: 1.000   1st Qu.:2.250   Class :character   Class :character  
- Median : 1.500   Median :3.000   Mode  :character   Mode  :character  
- Mean   : 3.471   Mean   :2.986                                        
- 3rd Qu.: 5.000   3rd Qu.:4.000                                        
- Max.   :10.000   Max.   :5.000                                        
- NA's   :39       NA's   :39                                           
-  LarkorOwl             E_TIPI          A_TIPI          C_TIPI     
- Length:109         Min.   :2.000   Min.   :2.000   Min.   :2.000  
- Class :character   1st Qu.:3.000   1st Qu.:3.500   1st Qu.:3.000  
- Mode  :character   Median :3.000   Median :4.000   Median :3.500  
-                    Mean   :3.179   Mean   :3.814   Mean   :3.221  
-                    3rd Qu.:3.500   3rd Qu.:4.500   3rd Qu.:3.500  
-                    Max.   :4.500   Max.   :5.500   Max.   :5.000  
-                    NA's   :39      NA's   :39      NA's   :39     
-    ES_TIPI          O_TIPI          MBTI              Image          
- Min.   :2.000   Min.   :2.000   Length:109         Length:109        
- 1st Qu.:2.500   1st Qu.:4.000   Class :character   Class :character  
- Median :3.000   Median :4.500   Mode  :character   Mode  :character  
- Mean   :2.993   Mean   :4.243                                        
- 3rd Qu.:3.500   3rd Qu.:5.000                                        
- Max.   :5.000   Max.   :5.500                                        
- NA's   :39      NA's   :39                                           
-  Commentary             Row             Column      
- Length:109         Min.   : 1.000   Min.   : 1.000  
- Class :character   1st Qu.: 4.000   1st Qu.: 3.000  
- Mode  :character   Median : 5.500   Median : 5.000  
-                    Mean   : 5.357   Mean   : 5.386  
-                    3rd Qu.: 7.000   3rd Qu.: 7.000  
-                    Max.   :10.000   Max.   :10.000  
-                    NA's   :39       NA's   :39      </code></pre>
+<span id="cb10-3"><a href="#cb10-3"></a><span class="co"># print(summary(data)) # Please DELETE the # just before `data` at the beginning of this line</span></span>
+<span id="cb10-4"><a href="#cb10-4"></a></span>
+<span id="cb10-5"><a href="#cb10-5"></a><span class="co"># Some Summary Stats! Yay!</span></span>
+<span id="cb10-6"><a href="#cb10-6"></a><span class="co"># push the green play button</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1"></a><span class="co"># We can check how big our dataset is.</span></span>
-<span id="cb12-2"><a href="#cb12-2"></a><span class="co"># This is like counting the pages and chapters in our document.</span></span>
-<span id="cb12-3"><a href="#cb12-3"></a><span class="fu">cat</span>(<span class="st">"Our dataset has"</span>, <span class="fu">dim</span>(data)[<span class="dv">1</span>], <span class="st">"rows (like pages) and"</span>, <span class="fu">dim</span>(data)[<span class="dv">2</span>], <span class="st">"columns (like chapters)</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Our dataset has 109 rows (like pages) and 27 columns (like chapters)</code></pre>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="co"># We can check how big our dataset is.</span></span>
+<span id="cb11-2"><a href="#cb11-2"></a><span class="co"># This is like counting the pages and chapters in our book.</span></span>
+<span id="cb11-3"><a href="#cb11-3"></a><span class="co"># cat("Our dataset has", dim(data)[1], "rows (like pages) and", dim(data)[2], "columns (like chapters)\n") # Please DELETE the # just before `data` at the beginning of this line</span></span>
+<span id="cb11-4"><a href="#cb11-4"></a></span>
+<span id="cb11-5"><a href="#cb11-5"></a><span class="co"># push the green play button</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a><span class="co"># Finally, let's see what information (columns) we have in our dataset.</span></span>
-<span id="cb14-2"><a href="#cb14-2"></a><span class="co"># This is like looking at the headings in our document.</span></span>
-<span id="cb14-3"><a href="#cb14-3"></a><span class="fu">cat</span>(<span class="st">"Our dataset contains information about:</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Our dataset contains information about:</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1"></a><span class="fu">print</span>(<span class="fu">colnames</span>(data))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code> [1] "PokeNumber"       "PokeName"         "PokeImage"        "LoginCount"      
- [5] "Q_Scale"          "Q_choice"         "Q_option"         "CompTime"        
- [9] "A-Level"          "Coin"             "EyeContact"       "Psy4me"          
-[13] "DrWho"            "Maths"            "InsectApocalypse" "DogCatBoth"      
-[17] "LarkorOwl"        "E_TIPI"           "A_TIPI"           "C_TIPI"          
-[21] "ES_TIPI"          "O_TIPI"           "MBTI"             "Image"           
-[25] "Commentary"       "Row"              "Column"          </code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a><span class="co"># Congratulations! You've just used R to bring in data from the internet and take a first look at it.</span></span>
-<span id="cb18-2"><a href="#cb18-2"></a><span class="co"># It's like you've gone to a digital library, found a document, and skimmed through its contents!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1"></a><span class="co"># Finally, let's see what information (columns) we have in our dataset.</span></span>
+<span id="cb12-2"><a href="#cb12-2"></a><span class="co"># This is like looking at the headings in our book.</span></span>
+<span id="cb12-3"><a href="#cb12-3"></a><span class="co"># cat("Our dataset contains information about:\n") # Please DELETE the # just before `data` at the beginning of this line</span></span>
+<span id="cb12-4"><a href="#cb12-4"></a><span class="co"># print(colnames(data)) # Please DELETE the # just before `data` at the beginning of this line too!</span></span>
+<span id="cb12-5"><a href="#cb12-5"></a></span>
+<span id="cb12-6"><a href="#cb12-6"></a><span class="co"># You did it!</span></span>
+<span id="cb12-7"><a href="#cb12-7"></a><span class="co"># Congratulations! You've just used R to read a data file and take a first look at it.</span></span>
+<span id="cb12-8"><a href="#cb12-8"></a><span class="co"># It's like you've opened a book, skimmed through its contents, and got an idea of what it's about!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="normally" class="level2">
 <h2 class="anchored" data-anchor-id="normally">Normally…</h2>
 <p>That code chunk would only be like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1"></a><span class="fu">install.packages</span>(<span class="st">"readr"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>The following package(s) will be installed:
-- readr [2.1.5]
-These packages will be installed into "~/Week0203/renv/library/macos/R-4.4/x86_64-apple-darwin20".
-
-# Installing packages --------------------------------------------------------
-- Installing readr ...                          OK [linked from cache]
-Successfully installed 1 package in 5.3 milliseconds.</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1"></a><span class="fu">library</span>(readr)</span>
-<span id="cb21-2"><a href="#cb21-2"></a>data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/DrDeception/Week0203/3276cb8fa56a466a3e25761523cea475ed4ee4bd/materials/data/Y1W3_data.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Rows: 109 Columns: 27
-── Column specification ────────────────────────────────────────────────────────
-Delimiter: ","
-chr  (13): PokeName, PokeImage, Q_Scale, Q_choice, Q_option, A-Level, Coin, ...
-dbl  (13): PokeNumber, LoginCount, EyeContact, Psy4me, DrWho, Maths, E_TIPI,...
-time  (1): CompTime
-
-ℹ Use `spec()` to retrieve the full column specification for this data.
-ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1"></a><span class="fu">summary</span>(data) <span class="co"># Even this isn't necessary if you know what the data includes already!</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>   PokeNumber    PokeName          PokeImage           LoginCount   
- Min.   :  1   Length:109         Length:109         Min.   : 1.00  
- 1st Qu.: 28   Class :character   Class :character   1st Qu.:10.00  
- Median : 55   Mode  :character   Mode  :character   Median :15.00  
- Mean   : 55                                         Mean   :19.43  
- 3rd Qu.: 82                                         3rd Qu.:25.00  
- Max.   :109                                         Max.   :61.00  
-                                                     NA's   :12     
-   Q_Scale            Q_choice           Q_option           CompTime       
- Length:109         Length:109         Length:109         Length:109       
- Class :character   Class :character   Class :character   Class1:hms       
- Mode  :character   Mode  :character   Mode  :character   Class2:difftime  
-                                                          Mode  :numeric   
-                                                                           
-                                                                           
-                                                                           
-   A-Level              Coin             EyeContact         Psy4me     
- Length:109         Length:109         Min.   : 1.000   Min.   :1.000  
- Class :character   Class :character   1st Qu.: 5.000   1st Qu.:4.000  
- Mode  :character   Mode  :character   Median : 7.000   Median :4.000  
-                                       Mean   : 6.314   Mean   :4.114  
-                                       3rd Qu.: 8.000   3rd Qu.:5.000  
-                                       Max.   :10.000   Max.   :5.000  
-                                       NA's   :39       NA's   :39     
-     DrWho            Maths       InsectApocalypse    DogCatBoth       
- Min.   : 0.000   Min.   :1.000   Length:109         Length:109        
- 1st Qu.: 1.000   1st Qu.:2.250   Class :character   Class :character  
- Median : 1.500   Median :3.000   Mode  :character   Mode  :character  
- Mean   : 3.471   Mean   :2.986                                        
- 3rd Qu.: 5.000   3rd Qu.:4.000                                        
- Max.   :10.000   Max.   :5.000                                        
- NA's   :39       NA's   :39                                           
-  LarkorOwl             E_TIPI          A_TIPI          C_TIPI     
- Length:109         Min.   :2.000   Min.   :2.000   Min.   :2.000  
- Class :character   1st Qu.:3.000   1st Qu.:3.500   1st Qu.:3.000  
- Mode  :character   Median :3.000   Median :4.000   Median :3.500  
-                    Mean   :3.179   Mean   :3.814   Mean   :3.221  
-                    3rd Qu.:3.500   3rd Qu.:4.500   3rd Qu.:3.500  
-                    Max.   :4.500   Max.   :5.500   Max.   :5.000  
-                    NA's   :39      NA's   :39      NA's   :39     
-    ES_TIPI          O_TIPI          MBTI              Image          
- Min.   :2.000   Min.   :2.000   Length:109         Length:109        
- 1st Qu.:2.500   1st Qu.:4.000   Class :character   Class :character  
- Median :3.000   Median :4.500   Mode  :character   Mode  :character  
- Mean   :2.993   Mean   :4.243                                        
- 3rd Qu.:3.500   3rd Qu.:5.000                                        
- Max.   :5.000   Max.   :5.500                                        
- NA's   :39      NA's   :39                                           
-  Commentary             Row             Column      
- Length:109         Min.   : 1.000   Min.   : 1.000  
- Class :character   1st Qu.: 4.000   1st Qu.: 3.000  
- Mode  :character   Median : 5.500   Median : 5.000  
-                    Mean   : 5.357   Mean   : 5.386  
-                    3rd Qu.: 7.000   3rd Qu.: 7.000  
-                    Max.   :10.000   Max.   :10.000  
-                    NA's   :39       NA's   :39      </code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1"></a><span class="fu">dim</span>(data) <span class="co"># or this</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 109  27</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1"></a><span class="fu">colnames</span>(data) <span class="co"># or this.</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code> [1] "PokeNumber"       "PokeName"         "PokeImage"        "LoginCount"      
- [5] "Q_Scale"          "Q_choice"         "Q_option"         "CompTime"        
- [9] "A-Level"          "Coin"             "EyeContact"       "Psy4me"          
-[13] "DrWho"            "Maths"            "InsectApocalypse" "DogCatBoth"      
-[17] "LarkorOwl"        "E_TIPI"           "A_TIPI"           "C_TIPI"          
-[21] "ES_TIPI"          "O_TIPI"           "MBTI"             "Image"           
-[25] "Commentary"       "Row"              "Column"          </code></pre>
-</div>
-</div>
+<pre><code>install.packages("readr")
+library(readr)
+data &lt;- read_csv("Y1W3_data.csv") # obviously this could be another file!
+summary(data) # Even this isn't necessary if you know what the data includes already!
+dim(data) # or this
+colnames(data) # or this.</code></pre>
 </section>
 <section id="data-viewer" class="level2">
 <h2 class="anchored" data-anchor-id="data-viewer">Data Viewer</h2>
@@ -678,12 +511,18 @@ time  (1): CompTime
 <section id="my-first-plot" class="level3">
 <h3 class="anchored" data-anchor-id="my-first-plot">My First Plot</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1"></a><span class="co"># COPY SOME CODE IN HERE from the slides from this morning - choose one of the early, simpler plots if possible</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a><span class="co"># COPY SOME CODE IN HERE from the slides from this morning - choose one of the early, simpler plots if possible</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>A super easy example is <code>plot(Y1W3_data$LoginCount)</code> which is just asking to plot the LoginCount column from the Y1W3_data dataset!</p>
+<p>To be honest, that would be enough for this first visit! Well done.</p>
 </section>
 </section>
-<section id="run-the-code-cell" class="level2">
-<h2 class="anchored" data-anchor-id="run-the-code-cell">Run the code cell</h2>
+<section id="remember-to-run-the-code-cell" class="level2">
+<h2 class="anchored" data-anchor-id="remember-to-run-the-code-cell">Remember to Run the code cell</h2>
+<p>Bingo!</p>
+</section>
+<section id="now-press-the-render-button-at-the-top-of-the-page-and-choose-either-html-for-a-website-or-pdf-for-a-nice-tidy-document." class="level2">
+<h2 class="anchored" data-anchor-id="now-press-the-render-button-at-the-top-of-the-page-and-choose-either-html-for-a-website-or-pdf-for-a-nice-tidy-document.">Now Press the Render Button at the top of the page and choose either html (for a website) or pdf (for a nice tidy document).</h2>
 <p>Render your document to html (website) or pdf (document) and view the results!</p>
 </section>
 <section id="conclusion" class="level2">

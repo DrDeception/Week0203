@@ -1440,193 +1440,74 @@
     "text": "Common mistakes\n\nRelying too heavily on word clouds for accurate data representation\nIgnoring the limitations of area as a metaphor for numeric values\nNot accounting for the bias created by longer words appearing larger\nUsing word clouds when more precise visualizations (like bar charts or lollipop plots) would be more appropriate\nCreating overly complex or cluttered word clouds that are difficult to read or interpret\n\nWord clouds, while visually appealing, are often criticized for their lack of accuracy in conveying information. Consider using them primarily for aesthetic purposes or in conjunction with more precise data visualization methods."
   },
   {
-    "objectID": "materials/slides_3b.html#a-guide-to-your-process",
-    "href": "materials/slides_3b.html#a-guide-to-your-process",
+    "objectID": "materials/slides_3b.html#self-assessment-and-employability",
+    "href": "materials/slides_3b.html#self-assessment-and-employability",
     "title": "Intro to Data Visualisation II",
-    "section": "A Guide to Your Process",
-    "text": "A Guide to Your Process\nScheduling\nLearning Objectives\nPractice\nSupporting Information\nClass Discussion"
+    "section": "Self-Assessment and Employability",
+    "text": "Self-Assessment and Employability\n\nAssess your Excel skills\nConsider technical proficiencies needed for your career path\nImportance of data skills for employability"
   },
   {
-    "objectID": "materials/slides_3b.html#todays-plan",
-    "href": "materials/slides_3b.html#todays-plan",
+    "objectID": "materials/slides_3b.html#data-analysis-exercise",
+    "href": "materials/slides_3b.html#data-analysis-exercise",
     "title": "Intro to Data Visualisation II",
-    "section": "Today’s Plan",
-    "text": "Today’s Plan\n\nIntroductions\nData Science Background\nWhy R?\nProblem Solving Tips (for Coding)\nComputer File Paths\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+    "section": "Data Analysis Exercise",
+    "text": "Data Analysis Exercise\n\nOpen the collected data in Excel\nCalculate the mean of variables x, y, and z\nPractice basic data manipulation skills"
   },
   {
-    "objectID": "materials/slides_3b.html#todays-learning-objectives",
-    "href": "materials/slides_3b.html#todays-learning-objectives",
+    "objectID": "materials/slides_3b.html#key-concepts-in-research-methods",
+    "href": "materials/slides_3b.html#key-concepts-in-research-methods",
     "title": "Intro to Data Visualisation II",
-    "section": "Today’s Learning Objectives",
-    "text": "Today’s Learning Objectives\nAfter today’s session you will be able to:\n\n\nDefine “data science”\nExplain why the course is taught in R\nIdentify useful code problem solving techniques\nDemonstrate comprehension of computer file paths"
+    "section": "Key Concepts in Research Methods",
+    "text": "Key Concepts in Research Methods\n\nLevels of measurement and types of data\nMeasures of Central Tendency\nMeasures of Variability\n\n\n\n\n\n\n\nNote\n\n\nThese concepts are crucial for understanding research methods, even without advanced math skills."
   },
   {
-    "objectID": "materials/slides_3b.html#about-me",
-    "href": "materials/slides_3b.html#about-me",
+    "objectID": "materials/slides_3b.html#dataskills-refreshers",
+    "href": "materials/slides_3b.html#dataskills-refreshers",
     "title": "Intro to Data Visualisation II",
-    "section": "About Me",
-    "text": "About Me\n\n\nGordon or Doctor Wright (he / him)\n\n\n\n\nEducation:\n\nB.Sc. Biology + M.Sc. Ecology & Evolutionary Biology\n\n\n\n\n\nCareer Goals:\n\nMarine Biologist Arrow Right College Faculty Arrow Right ??? Arrow Right Data Scientist\n\n\n\n\n\nHobbies:\n\nDungeons & Dragons; Reading; Hiking; Movies; Videogames"
+    "section": "DataSkills Refreshers",
+    "text": "DataSkills Refreshers\nAvailable resources:\n\nTypes of Data\nCentral Tendency and Variability\nCalculating measures by hand\nVisualization cheat sheet\n\n\n\n\n\n\n\nNote\n\n\nThese resources are designed to support you throughout your studies."
   },
   {
-    "objectID": "materials/slides_3b.html#introductions",
-    "href": "materials/slides_3b.html#introductions",
+    "objectID": "materials/slides_3b.html#introduction-to-r-rstudio-and-ggplot2",
+    "href": "materials/slides_3b.html#introduction-to-r-rstudio-and-ggplot2",
     "title": "Intro to Data Visualisation II",
-    "section": "Introductions",
-    "text": "Introductions\nTell me a bit about yourselves!\n\n\nWhat is your preferred name?\nWhat year are you in school?\nWhat’s one of your hobbies that brings you joy?"
+    "section": "Introduction to R, RStudio, and ggplot2",
+    "text": "Introduction to R, RStudio, and ggplot2\n\nPowerful tools for data visualization\nYou’ll become proficient with these tools over time"
   },
   {
-    "objectID": "materials/slides_3b.html#introductions-continued",
-    "href": "materials/slides_3b.html#introductions-continued",
+    "objectID": "materials/slides_3b.html#literate-coding",
+    "href": "materials/slides_3b.html#literate-coding",
     "title": "Intro to Data Visualisation II",
-    "section": "Introductions (Continued)",
-    "text": "Introductions (Continued)\n\nWhy did you sign up for the course?\nWhat skill(s) are you most excited to learn?\nWhat previous coding / data science experience do you have?\n\nAbsolutely fine if this is your first foray into data science!"
+    "section": "Literate Coding",
+    "text": "Literate Coding\n\nBlending narrative and code ‘chunks’\nCreating dynamic documents with:\n\nWords\nCalculations\nPictures\nAnd more!"
   },
   {
-    "objectID": "materials/slides_3b.html#my-goal-for-you",
-    "href": "materials/slides_3b.html#my-goal-for-you",
+    "objectID": "materials/slides_3b.html#rstudioserver",
+    "href": "materials/slides_3b.html#rstudioserver",
     "title": "Intro to Data Visualisation II",
-    "section": "My Goal for You",
-    "text": "My Goal for You"
+    "section": "RStudioServer",
+    "text": "RStudioServer\n\nAccess through your browser\nNo downloads required\nCapable of serious calculations"
   },
   {
-    "objectID": "materials/slides_3b.html#data-science-definition",
-    "href": "materials/slides_3b.html#data-science-definition",
+    "objectID": "materials/slides_3b.html#hands-on-exercise",
+    "href": "materials/slides_3b.html#hands-on-exercise",
     "title": "Intro to Data Visualisation II",
-    "section": "Data Science Definition",
-    "text": "Data Science Definition\n\n\n\nData science combines programming and statistics with subject matter expertise to identify patterns and insights hidden in data"
+    "section": "Hands-on Exercise",
+    "text": "Hands-on Exercise\n\nLog in to RStudioServer\nUpload the dataset\nLoad data into an active session\nUpload a template document\nAdd interesting content with commentary\nRender to HTML or PDF\nDownload and submit to DataSkills"
   },
   {
-    "objectID": "materials/slides_3b.html#why-is-this-course-taught-in-r",
-    "href": "materials/slides_3b.html#why-is-this-course-taught-in-r",
+    "objectID": "materials/slides_3b.html#looking-ahead",
+    "href": "materials/slides_3b.html#looking-ahead",
     "title": "Intro to Data Visualisation II",
-    "section": "Why is this Course Taught in R?",
-    "text": "Why is this Course Taught in R?\nR is a programming language that is awesome for environmental data scientists\n\n\n\nBenefits of R:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFree\nReproducible\nAccessible\nPopular\nVersatile\n\n\n\n\nPiggy Bank\nRepeat\nUniversal Access\nStar\nMasks Theater"
+    "section": "Looking Ahead",
+    "text": "Looking Ahead\n\nNext week: Open Science\nFollowing weeks: Mixed and Qualitative Research\nWe’ll return to R and RStudio later in the term"
   },
   {
-    "objectID": "materials/slides_3b.html#rs-popularity",
-    "href": "materials/slides_3b.html#rs-popularity",
+    "objectID": "materials/slides_3b.html#additional-resources",
+    "href": "materials/slides_3b.html#additional-resources",
     "title": "Intro to Data Visualisation II",
-    "section": "R’s Popularity",
-    "text": "R’s Popularity\n\n\n\n\n\n\n\n\n\n\n\nData from Lai et al. 2019"
-  },
-  {
-    "objectID": "materials/slides_3b.html#r-data-science-value",
-    "href": "materials/slides_3b.html#r-data-science-value",
-    "title": "Intro to Data Visualisation II",
-    "section": "R Data Science Value",
-    "text": "R Data Science Value\n\n\n\nArrows Left Right Reproducibility\n\nR is written in “scripts”\n\nScripts = step-by-step instructions\n\nScripts can be run by any R user\nAllows perfect replication of process\nPrograms that require clicking buttons are not (as) reproducible\n\nWould depend on accompanying written/verbal instructions\n\n\n\nCollaboration Handshake\n\nR scripts can be co-developed!\nThey can then be shared like a paper draft\nMany tools exist to formalize sharing\n\nWe’ll cover one in this course!\n\nUnscripted programs would again require written/verbal instructions\n\nThen hoping someone clicks the right buttons in the right way"
-  },
-  {
-    "objectID": "materials/slides_3b.html#temperature-check",
-    "href": "materials/slides_3b.html#temperature-check",
-    "title": "Intro to Data Visualisation II",
-    "section": "Temperature Check",
-    "text": "Temperature Check\nHow are you Feeling?"
-  },
-  {
-    "objectID": "materials/slides_3b.html#problem-solving-in-r",
-    "href": "materials/slides_3b.html#problem-solving-in-r",
-    "title": "Intro to Data Visualisation II",
-    "section": "Problem Solving in R",
-    "text": "Problem Solving in R"
-  },
-  {
-    "objectID": "materials/slides_3b.html#problem-solving-methods",
-    "href": "materials/slides_3b.html#problem-solving-methods",
-    "title": "Intro to Data Visualisation II",
-    "section": "Problem Solving Methods",
-    "text": "Problem Solving Methods\n\nProblem solving is an important life skill generally\n\nAlso useful for data science!\n\n\n\n\n\n\nI do not recommend using AI as a problem-solving method\n\n\n\n\n\n\nLet’s discuss some useful strategies:\n\n‘Rubber duck’ method\nGoogle (seriously!)\nTeamwork\nTake a break\nWhatever methods you use!"
-  },
-  {
-    "objectID": "materials/slides_3b.html#ai-aside",
-    "href": "materials/slides_3b.html#ai-aside",
-    "title": "Intro to Data Visualisation II",
-    "section": "“AI” Aside",
-    "text": "“AI” Aside\n\nI strongly discourage the use of AI tools in this class\n\nE.g., ChatGPT, GitHub CoPilot, etc.\n\n\n\n\n\n\nTwo primary reasons:\n\nIt undermines your learning\nThere is an ethical dimension we don’t have time to cover in this class\n\n\n\n\n\n\n\nHowever, I’m an educator not a cop\n\nI won’t be policing you in order to enforce my take on AI"
-  },
-  {
-    "objectID": "materials/slides_3b.html#method-1-rubber-duck",
-    "href": "materials/slides_3b.html#method-1-rubber-duck",
-    "title": "Intro to Data Visualisation II",
-    "section": "Method 1: Rubber Duck",
-    "text": "Method 1: Rubber Duck\n\n\n\n\nExplain each line of your code to the duck\n\nGo into as much detail as possible\nRe-read lines carefully as you explain\n\n\n\n\n\n\n\nYou’ll catch typos/errors that you had missed!\n\n\n\n\n\n\nWhy “rubber duck” instead of “friend”?\n\nBecause it would likely be a dull experience for your friend Face Smile"
-  },
-  {
-    "objectID": "materials/slides_3b.html#method-2-google",
-    "href": "materials/slides_3b.html#method-2-google",
-    "title": "Intro to Data Visualisation II",
-    "section": "Method 2: Google",
-    "text": "Method 2: Google\n\nThis is a serious suggestion!\n\nGoogle is truly an amazing resource for this\n\n\n\n\n\n\n\n\n\n\nIf you get an error:\n\nCopy the entire error message\nPaste it into Google\nCheck the first few links to see how others solved that issue"
-  },
-  {
-    "objectID": "materials/slides_3b.html#google-tips",
-    "href": "materials/slides_3b.html#google-tips",
-    "title": "Intro to Data Visualisation II",
-    "section": "Google Tips",
-    "text": "Google Tips\n\nIgnore the “AI Overview”\n\nThis is frequently wrong and/or misleading\nClick actual links!\n\n\n\n\n\n\nUse a plus sign (+) between search terms\n\nE.g., “R + &lt;error message text&gt;”\n\n\n\n\n\n\n\nWhen specific wording matters, use quotes!\n\nE.g., “I want results with exactly this phrase”"
-  },
-  {
-    "objectID": "materials/slides_3b.html#method-3-team-up",
-    "href": "materials/slides_3b.html#method-3-team-up",
-    "title": "Intro to Data Visualisation II",
-    "section": "Method 3: Team Up!",
-    "text": "Method 3: Team Up!\n\nGroup work is a classic method of problem solving\n\n\n\n\n\nEmail/text classmates about errors you’re encountering\n\nSet up a weekly time to meet and work together\n\n\n\n\n\n\n\nGroup work & assignments\n\nI really encourage you to work together to solve problems\nBUT assignments should be produced by you alone\nThere are no group assignments in this course!"
-  },
-  {
-    "objectID": "materials/slides_3b.html#method-4-take-a-break",
-    "href": "materials/slides_3b.html#method-4-take-a-break",
-    "title": "Intro to Data Visualisation II",
-    "section": "Method 4: Take a Break",
-    "text": "Method 4: Take a Break"
-  },
-  {
-    "objectID": "materials/slides_3b.html#method-4-take-a-break-1",
-    "href": "materials/slides_3b.html#method-4-take-a-break-1",
-    "title": "Intro to Data Visualisation II",
-    "section": "Method 4: Take a Break",
-    "text": "Method 4: Take a Break\n\nCoding issues can be super frustrating\n\nTotally normal to feel this way\n\n\n\n\n\n\nIf you are struggling to solve a problem, take a few minutes to step re-set\n\nPhysically step away and do something active\nDo one of your hobbies for a few minutes\nWork on something else\n\n\n\n\n\n\n\nReturn to the problem an hour or so later and try again!"
-  },
-  {
-    "objectID": "materials/slides_3b.html#method-5-yours",
-    "href": "materials/slides_3b.html#method-5-yours",
-    "title": "Intro to Data Visualisation II",
-    "section": "Method 5: Yours!",
-    "text": "Method 5: Yours!\n\nAs students, you’re experienced problem solvers already!\n\n\n\n\n\nCode problems can likely be solved by the strategies you already use!\n\n\n\n\n\n\nHow do you solve problems you encounter in other courses or at work?"
-  },
-  {
-    "objectID": "materials/slides_3b.html#temperature-check-1",
-    "href": "materials/slides_3b.html#temperature-check-1",
-    "title": "Intro to Data Visualisation II",
-    "section": "Temperature Check",
-    "text": "Temperature Check\nHow are you Feeling?"
-  },
-  {
-    "objectID": "materials/slides_3b.html#computer-file-paths",
-    "href": "materials/slides_3b.html#computer-file-paths",
-    "title": "Intro to Data Visualisation II",
-    "section": "Computer File Paths",
-    "text": "Computer File Paths\n\nComputers store files in “folders”\n\nFolders can be nested inside other folders\n\n\n\n\n\n\nThe name of all folders leading to a particular file is that file’s “file path”\n\nFile path starts at the biggest folder (“top” folder) and ends at the file\nEach folder name is separated by slashes (\\ or /)\n\n\n\n\n\n\n\nFor example: ~ / Downloads / BIO-316_syllabus.docx"
-  },
-  {
-    "objectID": "materials/slides_3b.html#file-path-example",
-    "href": "materials/slides_3b.html#file-path-example",
-    "title": "Intro to Data Visualisation II",
-    "section": "File Path Example",
-    "text": "File Path Example\nWhat is the file path for the notes document in this image?\n\n~ / Documents / BIO 316 / BIO316-Notes-Week 1.docx"
-  },
-  {
-    "objectID": "materials/slides_3b.html#practice-file-paths",
-    "href": "materials/slides_3b.html#practice-file-paths",
-    "title": "Intro to Data Visualisation II",
-    "section": "Practice: File Paths",
-    "text": "Practice: File Paths\n\nPick a file on your computer\n\nNot one in the “Downloads” folder (file paths are too short)\n\n\n\n\n\n\nWhat is that file’s path?\n\nHint: ~ / … / … / …\n\n\n\n\n\n\n\nWhen you have it, show me the file and tell me its path"
-  },
-  {
-    "objectID": "materials/slides_3b.html#upcoming-due-dates",
-    "href": "materials/slides_3b.html#upcoming-due-dates",
-    "title": "Intro to Data Visualisation II",
-    "section": "Upcoming Due Dates",
-    "text": "Upcoming Due Dates\n\n\nDue before lab\nDue ASAP\n\nInstall R (see here)\nInstall RStudio (see here)\nRead the syllabus (esp. point values + assignment descriptions)\n\nDue by midnight\n\nMuddiest Point #1\n\n\nDue before lecture\n(By midnight)\n\nRead the British Ecological Society’s Reproducible Code Guide (p.1-12)\n\n\n\n\n\n\nData Visualisation II"
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nIntroductory materials available for R and RStudio\nPractice using your RStudioServer login\n\n\nEncourage students to explore these resources at their own pace.\n\n\n\n\nData Visualisation II"
   },
   {
     "objectID": "materials/home_week03.html#overview",

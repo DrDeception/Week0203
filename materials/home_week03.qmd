@@ -3,7 +3,10 @@ title: "Week 3 Materials"
 format:
   html: default
 ---
-
+```{r setup, include=FALSE}
+# List of packages to install
+install.packages("tidyverse")
+```
 ```{r}
 #| echo: false
 #| warning: false
@@ -87,11 +90,11 @@ RStudio as well as a very gentle first foray into it's use.
 
 ## Lecture 3 - Data Visualisation
 
-<iframe class="slide-deck" src="slides_3a.html" height="420" width="750" style="border: 1px solid #2e3846;">
+<iframe class="slide-deck" src="test.html" height="420" width="750" style="border: 1px solid #2e3846;">
 
 </iframe>
 
-[Lecture Slides -- Full Screen](slides_3a.qmd)
+[Lecture Slides -- Full Screen](test.qmd)
 
 ## Lab 03 - Excel, RStudio & ggplot2
 

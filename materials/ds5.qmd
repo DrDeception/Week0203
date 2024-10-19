@@ -8,6 +8,7 @@ format:
       - \usepackage{amsmath}
   html:
     math: true
+    code-overflow: wrap
 editor: visual
 ---
 
@@ -105,9 +106,9 @@ for exploring central tendency, different measurement types, and
 relationships in their data. It also includes self-assessment questions
 to ensure you get a good grip of these concepts.
 
-## Definition
-
 ## Histogram
+
+### Definition
 
 A histogram is an accurate graphical representation of the distribution
 of a numeric variable. It takes as input numeric variables only. The
@@ -138,7 +139,7 @@ ggplot(filtered_data, aes(x = price)) +
 
 ```
 
-## What for
+### What for
 
 Histograms are used to study the distribution of one or a few variables.
 Checking the distribution of your variables one by one is probably the
@@ -146,7 +147,7 @@ first task you should do when you get a new dataset. It delivers a good
 quantity of information. Several distribution shapes exist, here is an
 illustration of the 6 most common ones:
 
-## Examples
+### Examples
 
 ```{r, fig.align="center", fig.width=10, warning=FALSE, message=FALSE}
 # Libraries
@@ -179,7 +180,7 @@ ggplot(data, aes(x = value)) +
 
 ```
 
-## Useful for:
+### Useful for:
 
 Checking this distribution also helps you discovering mistakes in the
 data. For example, the `comb` distribution can often denote a rounding
@@ -190,7 +191,7 @@ few** variables. Don't compare more than 3 or 4, it would make the
 figure cluttered and unreadable. This comparison can be done showing the
 2 variables on the same graphic and using transparency.
 
-## Example
+### Example
 
 ```{r, fig.align="center", fig.width=7, warning=FALSE, message=FALSE}
 # Libraries
@@ -211,7 +212,7 @@ ggplot(data, aes(x = value, fill = type)) +
 
 ```
 
-## Variation
+### Variation
 
 A common variation of the histogram is the mirror histogram: it puts
 face to face 2 histograms to compare their distribution.
@@ -244,7 +245,7 @@ ggplot(data) +
 
 ```
 
-## Common mistakes
+### Common mistakes
 
 -   Try several bin sizes, it can lead to very different conclusions.
 -   Don't use weird color sheme. It does not give any more insight.
@@ -256,10 +257,9 @@ ggplot(data) +
     violin plot, a boxplot, a ridgeline plot or use small multiple.
 -   Using unequal bin widths
 
-## Definition
+## Density Plot
 
-### Density Plot
-
+### Definition
 A density plot is a representation of the distribution of a numeric
 variable. It uses a kernel density estimate to show the probability
 density function of the variable. It is a smoothed version of the
@@ -285,7 +285,7 @@ ggplot(filtered_data, aes(x = price)) +
 
 ```
 
-## What for
+### What for
 
 Density plots are used to study the distribution of one or a few
 variables. Checking the distribution of your variables one by one is
@@ -293,7 +293,7 @@ probably the first task you should do when you get a new dataset. It
 delivers a good quantity of information. Several distribution shapes
 exist, here is an illustration of the 6 most common ones:
 
-## Examples
+### Examples
 
 ```{r, fig.align="center", fig.width=10, warning=FALSE, message=FALSE}
 # Libraries
@@ -326,7 +326,7 @@ ggplot(data, aes(x = value)) +
 
 ```
 
-## Useful for:
+### Useful for:
 
 Checking this distribution also helps you discovering mistakes in the
 data. For example, the `comb` distribution can often denote a rounding
@@ -337,7 +337,7 @@ few** variables. Don't compare more than 3 or 4, it would make the
 figure cluttered and unreadable. This comparison can be done showing the
 2 variables on the same graphic and using transparency.
 
-## Example
+### Example
 
 ```{r, fig.align="center", fig.width=7, warning=FALSE, message=FALSE}
 
@@ -360,7 +360,7 @@ ggplot(data, aes(x = value, fill = type)) +
 
 ```
 
-## Variation
+### Variation
 
 A common variation of the density plot is the mirror density plot: it
 puts face to face 2 density plots to compare their distribution.
@@ -393,7 +393,7 @@ ggplot(data) +
 
 ```
 
-## Common mistakes
+### Common mistakes
 
 -   Play with the bandwidth argument, it can lead to very different
     conclusions.
@@ -401,9 +401,9 @@ ggplot(data) +
     graphic gets cluttered and hardly understandable. Instead use a
     violin plot, a boxplot, a ridgeline plot or use small multiple.
 
-## Definition
+## Scatter Plot
 
-### Scatter Plot
+### Definition
 
 A scatterplot displays the relationship between 2 numeric variables. For
 each data point, the value of its first variable is represented on the X
@@ -416,6 +416,7 @@ competition.
 ```{r, warning=FALSE, message=FALSE, fig.align="center", fig.width=8, fig.height=5}
 # Libraries
 library(ggplot2)
+library(tidyverse)
 
 # Load dataset from github using base R
 data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/2_TwoNum.csv", 
@@ -434,7 +435,7 @@ ggplot(data, aes(x = GrLivArea, y = SalePrice / 1000)) +
 
 ```
 
-## What for
+### What for
 
 A scatterplot is made to study the relationship between 2 variables.
 Thus it is often accompanied by a correlation coefficient calculation,
@@ -444,7 +445,7 @@ However other types of relationship can be detected using scatterplots,
 and a common task consists to fit a model explaining Y in function of X.
 Here are a few patterns you can detect doing a scatterplot.
 
-## Examples
+### Examples
 
 ```{r, warning=FALSE, message=FALSE, fig.align="center", fig.width=10, fig.height=5}
 # Libraries
@@ -465,46 +466,14 @@ ggplot(don, aes(x = x, y = y)) +
 
 ```
 
-## Useful for:
+### Useful for:
 
 -   Detecting relationships between two variables
 -   Identifying patterns or trends in data
 -   Spotting outliers or unusual data points
 -   Comparing different groups or categories within the data
 
-## Variation
-
-Interactivity is a real plus for scatterplot. It allows to zoom on a
-specific part of the graphic to detect more precise patterns. It also
-allows to hover dots to get more information about them, like below:
-
-```{r, warning=FALSE, message=FALSE, fig.align="center", fig.width=8, fig.height=5}
-# Libraries
-library(ggplot2)
-library(plotly)
-
-# Load dataset from github using base R
-data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/2_TwoNum.csv", 
-                   header = TRUE, sep = ",")[, c("GrLivArea", "SalePrice")]
-
-# Create the interactive plot
-p <- data %>%
-  mutate(text = paste("Apartment Number: ", seq(1:nrow(data)), 
-                      "\nLocation: New York\nAny other information you need..", sep = "")) %>%
-  ggplot(aes(x = GrLivArea, y = SalePrice / 1000, text = text)) +
-  geom_point(color = "#69b3a2", alpha = 0.8) +
-  ggtitle("Ground living area partially explains sale price of apartments") +
-  theme_minimal() +  # Replacing hrbrthemes::theme_ipsum() with theme_minimal()
-  theme(
-    plot.title = element_text(size = 12)
-  ) +
-  ylab('Sale price (k$)') +
-  xlab('Ground living area')
-
-# Make the plot interactive with ggplotly
-ggplotly(p, tooltip = "text")
-
-```
+### Variation
 
 Scatterplots are sometimes supported by marginal distributions. It
 indeed adds insight to the graphic, revealing the distribution of both
@@ -514,6 +483,7 @@ variables:
 # Libraries
 library(ggplot2)
 library(ggExtra)
+library(tidyverse)
 
 # Load dataset from github using base R
 data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/2_TwoNum.csv", 
@@ -533,7 +503,7 @@ ggMarginal(p, type = "histogram", color = "grey")
 
 ```
 
-## Common mistakes
+### Common mistakes
 
 -   Overplotting is the most common mistake when sample size is high.
     There are about 10 different workarounds to fix this issue.
@@ -541,9 +511,10 @@ ggMarginal(p, type = "histogram", color = "grey")
     reveal important hidden patterns in your data, like in the case of
     the Simpson paradox.
 
-## Definition
 
-### Bar Plot
+## Histogram
+
+### Definition
 
 A barplot (or barchart) is one of the most common types of graphic. It
 shows the relationship between a numeric and a categoric variable. Each
@@ -581,7 +552,7 @@ data %>%
 
 ```
 
-## What for
+### What for
 
 A barplot shows the relationship between a numeric and a categoric
 variable. In the previous graphic, each country is a level of the
@@ -592,7 +563,7 @@ displays both the ranking of countries and their specific value.
 A barplot can also display values for several levels of grouping. Here's
 an example of a grouped barplot:
 
-## Examples
+### Examples
 
 ```{r, warning=FALSE, message=FALSE, fig.width=8, fig.align="center" }
 # Libraries
@@ -617,14 +588,14 @@ data %>%
 
 ```
 
-## Useful for:
+### Useful for:
 
 -   Comparing values across categories
 -   Showing the distribution of a numeric variable for different groups
 -   Displaying rankings or ordered data
 -   Visualizing part-to-whole relationships (in stacked bar charts)
 
-## Variation
+### Variation
 
 Lollipop plot: A variation that replaces bars with segments and dots,
 resulting in a less cluttered figure:
@@ -711,7 +682,7 @@ ggplot(tmp, aes(x = as.factor(id), y = Value)) +  # x is treated as a factor
 
 ```
 
-## Common mistakes
+### Common mistakes
 
 -   Do not confound barchart with histogram. A histogram has only a
     numeric variable as input and shows its distribution.
@@ -721,9 +692,10 @@ ggplot(tmp, aes(x = as.factor(id), y = Value)) +  # x is treated as a factor
     it hides information and other types of graphics like boxplot or
     violin are much more appropriate.
 
-## Definition
 
-### Line Chart
+## Line Chart
+
+### Definition
 
 A line chart or line graph displays the evolution of one or several
 numeric variables. Data points are connected by straight line segments.
@@ -757,7 +729,7 @@ ggplot(data, aes(x = date, y = value)) +
 
 ```
 
-## What for
+### What for
 
 Line charts can be used to show the evolution of one or several
 variables. Here is an example showing the evolution of three baby name
@@ -786,14 +758,14 @@ ggplot(don, aes(x = year, y = n, group = name, color = name)) +
 
 ```
 
-## Useful for:
+### Useful for:
 
 -   Visualizing trends over time
 -   Comparing multiple variables or categories over a continuous axis
 -   Showing the rate of change between data points
 -   Identifying patterns, cycles, or anomalies in data
 
-## Variation
+### Variation
 
 If the number of data points is low, it is advised to represent each
 individual observation with a dot:
@@ -831,7 +803,7 @@ ggplot(mpg, aes(displ, hwy)) +
 
 ```
 
-## Common caveats
+### Common caveats
 
 The line chart is subject to a lot of discussion concerning potential
 caveats:
@@ -841,11 +813,10 @@ caveats:
     line plots do not need to start at 0 since it allows observing
     patterns more efficiently.
 
-## Definition
 
-### Line Chart
+## Line Chart
 
-## Common caveats
+### Common caveats
 
 The line chart is subject to a lot of discussion concerning potential
 caveats:
@@ -899,9 +870,9 @@ p1 + p2
 -   Think about the aspect ratio of the graphic, extreme ratios make the
     chart unreadable.
 
-## Definition
+## Word Cloud
 
-### Word Cloud
+### Definition
 
 A word cloud (also called tag cloud or weighted list) is a visual
 representation of text data. Words are usually single words, and the
@@ -930,7 +901,7 @@ wordcloud(words = words, freq = frequencies, min.freq = 1,
 
 ```
 
-## What for
+### What for
 
 Word clouds are useful for:
 
@@ -940,14 +911,14 @@ Word clouds are useful for:
 
 They are widely used in media and well understood by the public.
 
-## Useful for:
+### Useful for:
 
 -   Summarizing large amounts of text data
 -   Highlighting key themes or topics in a dataset
 -   Creating engaging visuals for presentations or reports
 -   Comparing word frequencies across different texts or sources
 
-## Example
+### Example
 
 Here's an alternative representation using a lollipop plot, which
 addresses some of the limitations of word clouds:
@@ -985,7 +956,7 @@ word_data %>%
 
 ```
 
-## Variation
+### Variation
 
 Many variations exist for word clouds:
 
@@ -995,7 +966,7 @@ Many variations exist for word clouds:
 -   Interactive word clouds that change or provide additional
     information on hover
 
-## Common mistakes
+### Common mistakes
 
 -   Relying too heavily on word clouds for accurate data representation
 -   Ignoring the limitations of area as a metaphor for numeric values

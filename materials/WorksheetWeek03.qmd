@@ -3,8 +3,8 @@ title: "Week 03 Worksheet - part 1"
 subtitle: "A first gentle introduction"
 author: "INSERT YOUR NAME HERE"
 format: 
-  html: default
   pdf: default
+  html: default 
 editor: visual
 ---
 
@@ -173,61 +173,86 @@ display the result
 ## Exercise
 
 Load the data Gordon has been using today.
-<https://github.com/DrDeception/Week0203/blob/3276cb8fa56a466a3e25761523cea475ed4ee4bd/materials/data/Y1W3_data.csv>
+It is on the VLE here https://learn.gold.ac.uk/pluginfile.php/2430939/mod_resource/content/1/Y1W3_data.csv?forcedownload=1
 
 ```{r}
 # Welcome to R! This is a comment. R doesn't run anything on a line after a '#'.
 
 # Before we can read our data, we need a special tool called 'readr'.
-# Think of this like buying a book from a bookstore.
-# We only need to do this once, just like you only need to buy a book once.
+# Think of this like getting a special pair of glasses to read a book.
+# We only need to do this once, just like you only need to buy glasses once.
 install.packages("readr")
 
-# Now that we've bought the book (installed the package), we need to take it off our shelf to use it.
+# push the green play button
+```
+```{r}
+# Now that we've got our special glasses (installed the package), we need to put them on to use them.
 # In R, we do this by 'loading' the library. We'll need to do this each time we start a new R session.
-# It's like taking the book off your shelf each time you want to read it.
-library(readr)  # This is like opening the book 'readr' to use its contents
+# It's like putting on your glasses each time you want to read.
+library(readr)  # This is like putting on the 'readr' glasses to use its features
 
-# Now let's specify where our data is located. This is like writing down the address of a library.
-url <- "https://raw.githubusercontent.com/DrDeception/Week0203/3276cb8fa56a466a3e25761523cea475ed4ee4bd/materials/data/Y1W3_data.csv"
+# push the green play button
 
-# We use the read_csv() function from our 'readr' book to load the data.
-# This is like using the skills we learned from the book to read a document in the library.
-data <- read_csv(url)
+```
 
+```{r}
+# Now let's read our uploaded data file. This is like opening a book that's right in front of you.
+# Make sure the CSV file is in your current working directory.
+# data <- "Y1W3_data.csv" # Please DELETE the # just before `data` at the beginning of this line
+
+# Look to see `data` pop up in the Environment panel
+# push the green play button
+```
+
+```{r}
 # Let's take a quick look at the first few rows of our data.
-# This is like skimming the first page of the document.
-print(head(data))
+# This is like reading the first page of the book.
+# print(head(data)) # Please DELETE the # at the beginning of this line
 
+# ouch. Lots of info about the data - don't stress it now.
+# push the green play button
+```
+
+```{r}
 # Now, let's get a summary of our data. 
 # This is like reading the table of contents and index to get an overview.
-print(summary(data))
+# print(summary(data)) # Please DELETE the # just before `data` at the beginning of this line
 
+# Some Summary Stats! Yay!
+# push the green play button
+```
+
+```{r}
 # We can check how big our dataset is.
-# This is like counting the pages and chapters in our document.
-cat("Our dataset has", dim(data)[1], "rows (like pages) and", dim(data)[2], "columns (like chapters)\n")
+# This is like counting the pages and chapters in our book.
+# cat("Our dataset has", dim(data)[1], "rows (like pages) and", dim(data)[2], "columns (like chapters)\n") # Please DELETE the # just before `data` at the beginning of this line
 
+# push the green play button
+```
+
+```{r}
 # Finally, let's see what information (columns) we have in our dataset.
-# This is like looking at the headings in our document.
-cat("Our dataset contains information about:\n")
-print(colnames(data))
+# This is like looking at the headings in our book.
+# cat("Our dataset contains information about:\n") # Please DELETE the # just before `data` at the beginning of this line
+# print(colnames(data)) # Please DELETE the # just before `data` at the beginning of this line too!
 
-# Congratulations! You've just used R to bring in data from the internet and take a first look at it.
-# It's like you've gone to a digital library, found a document, and skimmed through its contents!
+# You did it!
+# Congratulations! You've just used R to read a data file and take a first look at it.
+# It's like you've opened a book, skimmed through its contents, and got an idea of what it's about!
 ```
 
 ## Normally... 
 
 That code chunk would only be like this:
 
-```{r}
+````
 install.packages("readr")
 library(readr)
-data <- read_csv("https://raw.githubusercontent.com/DrDeception/Week0203/3276cb8fa56a466a3e25761523cea475ed4ee4bd/materials/data/Y1W3_data.csv")
+data <- read_csv("Y1W3_data.csv") # obviously this could be another file!
 summary(data) # Even this isn't necessary if you know what the data includes already!
 dim(data) # or this
 colnames(data) # or this.
-```
+````
 
 ## Data Viewer
 
@@ -241,7 +266,14 @@ look at it like a spreadsheet!
 # COPY SOME CODE IN HERE from the slides from this morning - choose one of the early, simpler plots if possible
 ```
 
-## Run the code cell
+A super easy example is `plot(Y1W3_data$LoginCount)` which is just asking to plot the LoginCount column from the Y1W3_data dataset!
+
+To be honest, that would be enough for this first visit! Well done.
+
+## Remember to Run the code cell
+Bingo! 
+
+## Now Press the Render Button at the top of the page and choose either html (for a website) or pdf (for a nice tidy document).
 
 Render your document to html (website) or pdf (document) and view the
 results!

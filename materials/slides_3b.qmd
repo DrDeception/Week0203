@@ -1,6 +1,6 @@
 ---
 title: "Intro to Data Visualisation II"
-author: "Lab 3 - Rstudio"
+author: "Lab 3 - Excel & Rstudio"
 engine: knitr
 
 format: 
@@ -23,441 +23,100 @@ filters:
 - webr
 ---
 
-## A Guide to Your Process
 
-### [Scheduling]{.blue}
+## Self-Assessment and Employability
 
-### [Learning Objectives]{.purple}
+- Assess your Excel skills
+- Consider technical proficiencies needed for your career path
+- Importance of data skills for employability
 
-### [Practice]{.pink}
+---
 
-### [Supporting Information]{.orange}
+## Data Analysis Exercise
 
-### [Class Discussion]{.gold}
+- Open the collected data in Excel
+- Calculate the mean of variables x, y, and z
+- Practice basic data manipulation skills
 
-## [Today's Plan]{.blue}
+---
 
--   Introductions
--   Data Science Background
--   Why R?
--   Problem Solving Tips (for Coding)
--   Computer File Paths
+## Key Concepts in Research Methods
 
-```{webr-r}
-fit = lm(mpg ~ am, data = mtcars)
+- Levels of measurement and types of data
+- Measures of Central Tendency
+- Measures of Variability
 
-summary(fit)
-```
-
-## [Today's Learning Objectives]{.purple}
-
-After today's session you will be able to:
-
-. . .
-
--   Define "data science"
--   Explain why the course is taught in R
--   Identify useful code problem solving techniques
--   Demonstrate comprehension of computer file paths
-
-## [About Me]{.orange} {.smaller}
-
-![](/images/image1.png){.absolute top="50" left="800" width="30%"
-fig-alt="Photo of course instructor. A caucasian, male-presenting person with glasses in a dark jacket"}
-
--   Gordon or Doctor Wright ([*he*]{.purple} / [*him*]{.purple})
-
-\
-
--   Education:
-    -   B.Sc. Biology + M.Sc. Ecology & Evolutionary Biology
-
-\
-
--   Career Goals:
-    -   Marine Biologist
-        `r fontawesome::fa("arrow-right", a11y = "sem")` College Faculty
-        `r fontawesome::fa("arrow-right", a11y = "sem")` ***???***
-        `r fontawesome::fa("arrow-right", a11y = "sem")` Data Scientist
-
-\
-
--   Hobbies:
-    -   [Dungeons & Dragons]{.gold}; Reading; Hiking; Movies; Videogames
-
-## [Introductions]{.gold}
-
-Tell me a bit about yourselves!
-
-. . .
-
--   What is your preferred name?
-
--   What year are you in school?
-
--   What's one of your hobbies that brings you joy?
-
-## [Introductions (Continued)]{.gold}
-
--   Why did you sign up for the course?
-
--   What skill(s) are you most excited to learn?
-
--   What previous coding / data science experience do you have?
-
-    -   Absolutely fine if this is your first foray into data science!
-
-## [My Goal for You]{.purple}
-
-<p align="center">
-
-<img src="/images/image1.png" alt="Comic-style graph depicting someone&apos;s confidence with R changing over time"/>
-
-</p>
-
-## [Data Science Definition]{.orange}
-
-\
-\
-
-Data science combines [*programming*]{.purple} and statistics with
-[*subject matter expertise*]{.purple} to identify patterns and insights
-hidden in data
-
-## [Why is this Course Taught in R?]{.orange}
-
-R is a programming language that is *awesome* for environmental data
-scientists
-
-\
-
-. . .
-
-Benefits of R:
-
-\
-
-. . .
-
-| Free | Reproducible | Accessible | Popular | Versatile |
-|:--:|:--:|:--:|:--:|:--:|
-| `r fontawesome::fa(name = "piggy-bank", a11y = "sem")` | `r fontawesome::fa(name = "repeat", a11y = "sem")` | `r fontawesome::fa(name = "universal-access", a11y = "sem")` | `r fontawesome::fa(name = "star", a11y = "sem")` | `r fontawesome::fa(name = "masks-theater", a11y = "sem")` |
-
-## [R's Popularity]{.orange}
-
-```{r popularity-ggplot}
-#| echo: false
-
-# Read in data
-pop_df <- read.csv(file = file.path("materials", "data", "r-popularity.csv"))
-
-# Load ggplot2
-library(ggplot2)
-
-# Make graph
-ggplot(pop_df, aes(x = year, y = percent_papers)) +
-  geom_smooth(method = "lm", formula = "y ~ x", se = F, color = "black") +
-  geom_point(aes(fill = 'x'), size = 5, pch = 21) +
-  labs(x = "Year", y = "Papers Using R (%)") +
-  # Tweak X-axis
-  scale_x_continuous(breaks = round(pop_df$year)) +
-  # Custom color
-  scale_fill_manual(values = "#ffc300") +
-  # Custom theming
-  theme(legend.position = "none",
-        panel.background = element_blank(),
-        panel.grid = element_blank(),
-        axis.line = element_line(color = "black"),
-        axis.text = element_text(size = 15),
-        # axis.text.x = element_text(angle = 35, hjust = 1),
-        axis.title = element_text(size = 18),
-        axis.title.x = element_blank())
-```
-
-::: aside
-Data from [Lai *et al.*
-2019](https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.2567)
+::: {.callout-note}
+These concepts are crucial for understanding research methods, even without advanced math skills.
 :::
 
-## [R Data Science Value]{.orange} {.smaller}
+---
 
-:::::: incremental
-::::: columns
-::: {.column width="50%"}
-### `r fontawesome::fa(name = "arrows-left-right", a11y = "sem")` Reproducibility
+## DataSkills Refreshers
 
--   R is written in "[scripts]{.orange}"
-    -   Scripts = step-by-step instructions
--   Scripts can be run by *any* R user
--   Allows perfect replication of process
--   Programs that require clicking buttons are not (as) reproducible
-    -   Would depend on accompanying written/verbal instructions
+Available resources on the VLE in the DataSkills Week 03 section:
+
+1. Types of Data
+2. Central Tendency and Variability
+3. Calculating measures by hand
+4. Visualization cheat sheet
+
+::: {.callout-note}
+These resources are designed to support you throughout your studies.
 :::
 
-::: {.column width="50%"}
-### Collaboration `r fontawesome::fa(name = "handshake", a11y = "sem")`
+---
 
--   R scripts can be co-developed!
--   They can then be shared like a paper draft
--   Many tools exist to formalize sharing
-    -   We'll cover one in this course!
--   Unscripted programs would again require written/verbal instructions
-    -   Then hoping someone clicks the right buttons in the right way
+## Introduction to R, RStudio, and ggplot2
+
+- Powerful tools for data visualization
+- You'll become proficient with these tools over time
+
+---
+
+## Literate Coding
+
+- Blending narrative and code 'chunks'
+- Creating dynamic documents with:
+  - Words
+  - Calculations
+  - Pictures
+  - And more!
+
+---
+
+## RStudioServer
+
+- Access through your browser
+- No downloads required
+- Capable of serious calculations
+
+---
+
+## Hands-on Exercise
+
+1. Log in to RStudioServer
+2. Upload the template .qmd document
+3. Upload the dataset
+4. Add interesting content with commentary
+5. Render to PDF
+6. Download and submit to DataSkills
+
+---
+
+## Looking Ahead
+
+- Next week: Open Science
+- Following weeks: Mixed and Qualitative Research
+- We'll return to R and RStudio later in the term
+
+---
+
+## Additional Resources
+
+- Introductory materials available for R and RStudio
+- Practice using your RStudioServer login
+
+::: {.notes}
+Encourage students to explore these resources at their own pace.
 :::
-:::::
-::::::
-
-## [Temperature Check]{.purple}
-
-#### How are you Feeling?
-
-## [Problem Solving in R]{.orange}
-
-## [Problem Solving Methods]{.orange} {.smaller}
-
--   Problem solving is an important life skill generally
-    -   Also useful for data science!
-
-\
-
-. . .
-
--   I *do not* recommend using AI as a problem-solving method
-
-\
-
-. . .
-
--   Let's discuss some useful strategies:
-    1.  'Rubber duck' method
-    2.  Google (seriously!)
-    3.  Teamwork
-    4.  Take a break
-    5.  Whatever methods *you* use!
-
-## ["AI" Aside]{.gold} {.smaller}
-
--   I *strongly* discourage the use of AI tools in this class
-    -   E.g., ChatGPT, GitHub CoPilot, etc.
-
-\
-
-. . .
-
--   Two primary reasons:
-    1.  It undermines your learning
-    2.  There is an ethical dimension we don't have time to cover in
-        this class
-
-\
-
-. . .
-
--   However, I'm an educator not a cop
-    -   I won't be policing you in order to enforce my take on AI
-
-## [Method 1: Rubber Duck]{.orange} {.smaller}
-
-\
-
-. . .
-
--   Explain each line of your code to the duck
-    -   Go into as much detail as possible
-    -   Re-read lines *carefully* as you explain
-
-\
-
-. . .
-
--   You'll catch typos/errors that you had missed!
-
-\
-
-. . .
-
--   Why "rubber duck" instead of "friend"?
-    -   Because it would likely be a dull experience for your friend
-        `r fontawesome::fa(name = "smile", a11y = "sem")`
-
-## [Method 2: Google]{.orange} {.smaller}
-
--   This is a serious suggestion!
-    -   Google is truly an *amazing* resource for this
-
-\
-
-. . .
-
-\
-
-. . .
-
--   If you get an error:
-    1.  Copy the entire error message
-    2.  Paste it into Google
-    3.  Check the first few links to see how others solved that issue
-
-## [Google Tips]{.orange} {.smaller}
-
--   **Ignore** the "AI Overview"
-    -   This is frequently wrong and/or misleading
-    -   Click actual links!
-
-\
-
-. . .
-
--   Use a plus sign (`+`) between search terms
-    -   E.g., "R + \<error message text\>"
-
-\
-
-. . .
-
--   When specific wording matters, use quotes!
-    -   E.g., "I want results with *exactly* this phrase"
-
-## [Method 3: Team Up!]{.orange} {.smaller}
-
--   Group work is a classic method of problem solving
-
-\
-
-. . .
-
--   Email/text classmates about errors you're encountering
-    -   Set up a weekly time to meet and work together
-
-\
-
-. . .
-
--   Group work & assignments
-    -   I really encourage you to work together to [solve
-        problems]{.blue}
-    -   *BUT* assignments should be produced by you alone
-    -   There are **no group assignments** in this course!
-
-## [Method 4: Take a Break]{.orange}
-
-## [Method 4: Take a Break]{.orange} {.smaller}
-
--   Coding issues can be super frustrating
-    -   Totally **normal** to feel this way
-
-\
-
-. . .
-
--   If you are struggling to solve a problem, take a few minutes to step
-    re-set
-    -   Physically step away and do something active
-    -   Do one of your hobbies for a few minutes
-    -   Work on something else
-
-\
-
-. . .
-
--   Return to the problem an hour or so later and try again!
-
-## [Method 5: Yours!]{.gold}
-
--   As students, you're experienced problem solvers already!
-
-\
-
-. . .
-
--   Code problems can likely be solved by the strategies you already
-    use!
-
-\
-
-. . .
-
--   How do you solve problems you encounter in other courses or at work?
-
-## [Temperature Check]{.purple}
-
-#### How are you Feeling?
-
-## [Computer File Paths]{.orange} {.smaller}
-
--   Computers store files in "[folders]{.orange}"
-    -   Folders can be *nested* inside other folders
-
-\
-
-. . .
-
--   The name of all folders leading to a particular file is that file's
-    "[file path]{.purple}"
-    -   File path starts at the biggest folder ("top" folder) and ends
-        at the file
-    -   Each folder name is separated by slashes (`\` or `/`)
-
-\
-
-. . .
-
--   For example: [*\~*]{.blue} *[/]{.orange} Downloads [/]{.orange}
-    BIO-316_syllabus.docx*
-
-## [File Path Example]{.gold} {.smaller}
-
-What is the file path for the **notes** document in this image?
-
-. . .
-
-[*\~*]{.blue} *[/]{.orange} Documents [/]{.orange} BIO 316 [/]{.orange}
-BIO316-Notes-Week 1.docx*
-
-## [Practice: File Paths]{.pink} {.smaller}
-
--   Pick a file on your computer
-    -   *Not* one in the "Downloads" folder (file paths are too short)
-
-\
-
-. . .
-
--   What is that file's path?
-    -   Hint: [*\~*]{.blue} *[/]{.orange} ... [/]{.orange} ...
-        [/]{.orange} ...*
-
-\
-
-. . .
-
--   When you have it, show me the file and tell me its path
-
-## [Upcoming Due Dates]{.blue} {.smaller}
-
-::::: columns
-::: {.column width="50%"}
-### Due before lab
-
-#### Due ASAP
-
--   Install R (see [here](https://cran.r-project.org/))
--   Install RStudio (see
-    [here](https://posit.co/download/rstudio-desktop/))
--   Read the syllabus (esp. point values + assignment descriptions)
-
-#### Due by midnight
-
--   Muddiest Point #1
-:::
-
-::: {.column width="50%"}
-### Due before lecture
-
-#### (By midnight)
-
--   Read the British Ecological Society's [Reproducible Code
-    Guide](https://www.britishecologicalsociety.org/publications/better-science/)
-    (p.1-12)
-:::
-:::::

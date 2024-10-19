@@ -1,0 +1,17 @@
+{
+  "hash": "7f2ea6ab70043d56fba149b8d7e65c03",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Week 3 Materials\"\nformat:\n  html: default\n---\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](home_week03_files/figure-html/unnamed-chunk-1-1.png){width=1152}\n:::\n:::\n\n\n\n\n## Overview\n\nThis week we'll be covering mostly big picture background content about\nthe technical side of things. We'll begin with background on data\nscience generally then narrow to talking about why this course is taught\nin R (rather than some other coding language). We will touch on how\nExcel will likely remain a valuable tool to teach yourself, and then\nI'll give you some hard-won tips on problem solving so that you can\nbegin to develop strategies for handling the errors and warnings that\nyou'll inevitably encounter as you grow your competency in this arena.\nIn lab, we'll discuss some crucial components of navigating and using\nRStudio as well as a very gentle first foray into it's use.\n\n## Lecture 3 - Data Visualisation\n\n<iframe class=\"slide-deck\" src=\"test.html\" height=\"420\" width=\"750\" style=\"border: 1px solid #2e3846;\">\n\n</iframe>\n\n[Lecture Slides -- Full Screen](test.qmd)\n\n## Lab 03 - Excel, RStudio & ggplot2\n\n### Learning Objectives \n\nUpon completion of this lab, students will be able to:\n\n**Evaluate** your Excel proficiency and its relevance to potential\ncareer paths\n\n**Calculate** basic descriptive statistics (mean, count) using Excel\n\n**Differentiate** between levels of measurement and types of data in\nresearch methods\n\n**Explain** measures of central tendency and variability\n\n**Familiarise** yourself with RStudio and perform basic operations\n\n<iframe class=\"slide-deck\" src=\"slides_3b.html\" height=\"420\" width=\"750\" style=\"border: 1px solid #2e3846;\">\n\n</iframe>\n\n[Lab Slides -- Full Screen](slides_3b.qmd)\n\n## DataSkills 03\n\nLearning Objectives:\n\n**Start Literate Coding** by blending narrative and code chunks\n\n**Copy** a simple document in R, incorporating data analysis and\ncommentary\n\n**Render** documents into HTML or PDF formats\n\n**Recognize** the role of tools like R and RStudio in Open Science\npractices\n",
+    "supporting": [
+      "home_week03_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
